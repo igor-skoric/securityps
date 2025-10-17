@@ -1,0 +1,98 @@
+{% load static %}
+
+<div id="app-header" class="fixed top-0 left-0 right-0 z-50">
+  <!-- Top Header -->
+  <div
+    class="bg-gray-800 text-white text-sm transition-transform duration-500 ease-in-out p-1"
+    :class="{ '-translate-y-full': scrolled, 'translate-y-0': !scrolled }"
+    ref="topHeader"
+  >
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-1">
+      <div class="flex space-x-4">
+        <span><i class="fa-solid fa-mobile-screen"></i> +381 11 123 456</span>
+        <span><i class="fa-solid fa-mobile-screen"></i> +381 11 654 321</span>
+      </div>
+      <div class="space-x-3 hidden md:flex">
+        <a href="#"><img src="{% static 'img/icons/instagram.png' %}" class="w-5" /></a>
+        <a href="#"><img src="{% static 'img/icons/facebook.png' %}" class="w-5" /></a>
+        <a href="#"><img src="{% static 'img/icons/viber.png' %}" class="w-5" /></a>
+        <a href="#"><img src="{% static 'img/icons/whatsapp.png' %}" class="w-5" /></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <div class=" text-white shadow-md transition-all duration-500 ease-in-out " :class="{'bg-gray-900 py-2': scrolled, 'bg-transparent py-4': !scrolled }" :style="{ transform: `translateY(${scrolled ? -topHeight + 'px' : '0'})` }">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4">
+      <a href="{% url 'home' %}" class="flex items-center space-x-2">
+        <img src="{% static 'img/logo-png.png' %}" alt="Logo"
+             class="transition-all duration-500"
+             :class="{ 'h-10': scrolled, 'h-16': !scrolled }" />
+        <span class="font-bold transition-all duration-500"
+              :class="{ 'text-lg': scrolled, 'text-xl': !scrolled }">
+          Smart P&S
+        </span>
+      </a>
+
+      <nav class="hidden md:flex space-x-6 items-center text-white">
+        <a href="{% url 'home' %}" class="hover:text-orange-500 transition-colors duration-300">Početna</a>
+        <a href="{% url 'services' %}" class="hover:text-orange-500 transition-colors duration-300">Usluge</a>
+        <a href="{% url 'contact' %}" class="hover:text-orange-500 transition-colors duration-300">Kontakt</a>
+      </nav>
+
+      <button @click="toggleMenu" class="text-white md:hidden focus:outline-none cursor-pointer">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <transition name="slide">
+      <div v-if="menuOpen" class="fixed inset-0 bg-white z-50 flex flex-col p-6 w-full shadow-xl">
+
+        <!-- Header -->
+        <div class="flex items-center justify-between mb-8">
+
+          <!-- Logo -->
+          <a href="{% url 'home' %}" @click="toggleMenu" class="flex items-center space-x-2">
+            <img src="{% static 'img/logo-png.png' %}" alt="Logo" class="w-24 object-contain">
+          </a>
+
+          <!-- Close button -->
+          <button @click="toggleMenu" class="text-2xl text-gray-700 hover:text-gray-900 focus:outline-none cursor-pointer">
+            ✕
+          </button>
+        </div>
+
+        <!-- Navigacija -->
+        <nav class="flex flex-col justify-center items-center space-y-6 text-xl font-medium text-gray-700 mt-10">
+          <a href="{% url 'home' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Početna</a>
+          <a href="{% url 'services' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Usluge</a>
+          <a href="{% url 'contact' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Kontakt</a>
+        </nav>
+
+        <div class="mt-20">
+          <div class="flex justify-center gap-5">
+            <a href="#"><img src="{% static 'img/icons/instagram.png' %}" class="w-10" /></a>
+            <a href="#"><img src="{% static 'img/icons/facebook.png' %}" class="w-10" /></a>
+            <a href="#"><img src="{% static 'img/icons/viber.png' %}" class="w-10" /></a>
+            <a href="#"><img src="{% static 'img/icons/whatsapp.png' %}" class="w-10" /></a>
+          </div>
+        </div>
+      </div>
+    </transition>
+</div>
+
+<style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+</style>

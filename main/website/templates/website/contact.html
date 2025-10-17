@@ -1,0 +1,179 @@
+{% extends "base.html" %}
+
+{% block title %} Kontakt {% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+<div id="app-contact">
+    <!--  Hero -->
+    <section id="hero" class="relative w-full overflow-hidden">
+
+      <!-- Slides -->
+      <div class="relative w-full h-[400px]">
+        <div v-for="(slide, index) in slides" :key="index"
+             class="absolute inset-0 transition-all duration-1000 ease-in-out"
+             :class="{
+               'opacity-100 z-10 translate-x-0': index === currentIndex,
+               'opacity-0 z-0 -translate-x-full': index !== currentIndex
+             }">
+
+          <!-- Image -->
+          <img src="{% static 'img/icons/connections.jpg' %}" class="w-full h-full object-cover">
+
+          <!-- Overlay sa tekstom -->
+          <div class="absolute inset-0 bg-black/40 flex items-center">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+
+              <!-- Tekst (desktop levo, mobile centar) -->
+              <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">Kontakt</h1>
+                <p class="mb-6 text-lg md:text-xl"></p>
+              </div>
+
+              <!-- Prazno desno za desktop ili dodatni element -->
+              <div class="md:w-1/2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Form -->
+    <section class="bg-gray-100 py-32">
+      <div class="max-w-6xl mx-auto px-6">
+        <!-- Naslov -->
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Kontaktirajte nas</h2>
+          <p class="text-gray-600">Ispunite formu ili nas kontaktirajte putem navedenih podataka.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 ">
+          <!-- Kontakt forma -->
+          <form class="order-2 md:order-1 bg-gray-800 shadow-md rounded-2xl p-8 space-y-6 border-l-5 border-gray-200 ">
+            <div>
+              <label for="name" class="block text-gray-100 font-semibold mb-2">Ime i prezime</label>
+              <input type="text" id="name" placeholder="Vaše ime"
+                     class="bg-gray-100 text-gray-800 w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-none">
+            </div>
+
+            <div>
+              <label for="email" class="block text-gray-100 font-semibold mb-2">Email</label>
+              <input type="email" id="email" placeholder="Vaš email"
+                     class="bg-gray-100 text-gray-800 w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-none focus:ring-blue-500">
+            </div>
+
+            <div>
+              <label for="message" class="block text-gray-100 font-semibold mb-2">Poruka</label>
+              <textarea id="message" rows="4" placeholder="Vaša poruka..."
+                        class="bg-gray-100 text-gray-800 w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-none "></textarea>
+            </div>
+
+            <button type="submit" class="bg-gray-400 text-gray-100 w-full bg-gray-200 py-3 rounded-xl font-semibold focus:outline-none focus:ring-none hover:bg-gray-700 transition cursor-pointer">
+              Pošalji poruku
+            </button>
+          </form>
+
+          <!-- Kontakt informacije -->
+          <div class="order-1 md:order-2 flex flex-col justify-center space-y-4 bg-white shadow-md rounded-2xl border-r-5 border-gray-200">
+            <div class="relative group px-5 py-2 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              <!-- Ikonica -->
+              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
+                <img src="{% static 'img/icons/ic_baseline-phone.png' %}" class="w-10" alt="Phone Icon"/>
+              </div>
+
+              <!-- Tekst -->
+              <div>
+                <h4 class="text-lg font-semibold text-gray-800  transition-colors">Telefon 1</h4>
+                <p class="text-gray-600  transition-colors">+381 64 222 3333</p>
+              </div>
+
+              <!-- Linija ispod (pseudo-element) -->
+  <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-300 transition-all duration-500 group-hover:w-full"></span>-->
+            </div>
+
+            <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              <!-- Ikonica -->
+              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
+                <img src="{% static 'img/icons/ic_baseline-phone.png' %}" class="w-10" alt="Phone Icon"/>
+              </div>
+
+              <!-- Tekst -->
+              <div>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Telefon 2</h4>
+                <p class="text-gray-600 transition-colors">+381 64 222 3333</p>
+              </div>
+
+              <!-- Linija ispod (pseudo-element) -->
+  <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
+            </div>
+
+            <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              <!-- Ikonica -->
+              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
+                <img src="{% static 'img/icons/logos_whatsapp-icon.png' %}" class="w-10" alt="Whatsapp Icon"/>
+              </div>
+
+              <!-- Tekst -->
+              <div>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">WhatsApp</h4>
+                <p class="text-gray-600 transition-colors">+381 64 222 3333</p>
+              </div>
+
+              <!-- Linija ispod (pseudo-element) -->
+  <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
+            </div>
+
+            <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              <!-- Ikonica -->
+              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
+                <img src="{% static 'img/icons/cib_viber.png' %}" class="w-10" alt="Viber Icon"/>
+              </div>
+
+              <!-- Tekst -->
+              <div>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Viber</h4>
+                <p class="text-gray-600 transition-colors">+381 64 222 3333</p>
+              </div>
+
+              <!-- Linija ispod (pseudo-element) -->
+  <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
+            </div>
+
+            <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              <!-- Ikonica -->
+              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
+                <img src="{% static 'img/icons/fontisto_email.png' %}" class="w-10" alt="Email Icon"/>
+              </div>
+
+              <!-- Tekst -->
+              <div>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Email</h4>
+                <p class="text-gray-600 transition-colors">info@gmail.com</p>
+              </div>
+
+              <!-- Linija ispod (pseudo-element) -->
+  <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Google maps-->
+    <div class="relative w-full overflow-hidden rounded-lg shadow-lg w-full h-[600px]">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1055.180072585977!2d20.37636798677558!3d44.81387199767476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDQ4JzQ5LjkiTiAyMMKwMjInMzcuNiJF!5e1!3m2!1sen!2srs!4v1760369065023!5m2!1sen!2srs"
+        class="absolute top-0 left-0 border-0 w-full h-[600px]"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+
+</div>
+
+{% endblock %}
