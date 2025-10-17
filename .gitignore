@@ -1,3 +1,4 @@
 /main/db.sqlite3
 /.venv
 /Procfile.tailwind
+/main/Procfile.tailwind
