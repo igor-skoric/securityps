@@ -252,3 +252,4 @@ INFO 2025-10-22 13:49:47,431 autoreload Watching for file changes with StatReloa
 INFO 2025-10-22 13:49:47,814 basehttp "GET / HTTP/1.1" 200 2991
 INFO 2025-10-22 13:49:47,855 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 304 0
 INFO 2025-10-22 13:49:53,894 basehttp "GET / HTTP/1.1" 200 2991
+INFO 2025-10-22 13:51:22,546 autoreload D:\projects\security\main\main\settings.py changed, reloading.

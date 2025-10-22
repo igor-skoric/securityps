@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="commit collect static">
-      <change afterPath="$PROJECT_DIR$/main/templates/coming_soon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/Procfile.tailwind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760701081524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit collect static">
+      <option name="closed" value="true" />
+      <created>1761133861041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761133861041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
