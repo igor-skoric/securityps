@@ -1,0 +1,76 @@
+{% load static %}
+
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sajt u izradi • uskoro</title>
+  <meta name="description" content="Sajt je trenutno u izradi. Vratite se uskoro!" />
+  <!-- Tailwind CDN za brzo testiranje / razvoj -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Male prilagodbe animacije */
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+    .float { animation: float 3s ease-in-out infinite; }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-100 flex items-center justify-center p-6">
+  <div class="max-w-4xl w-full bg-white/80 backdrop-blur-md rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-8 items-center">
+      <!-- Lijeva strana: poruka i akcije -->
+      <div class="space-y-6">
+        <div class="flex items-center gap-4">
+
+          <div>
+            <h1 class="text-2xl md:text-3xl font-extrabold text-slate-800">Sajt je trenutno u izradi</h1>
+            <p class="text-sm text-slate-500">Radimo na poboljšanjima. Hvala na strpljenju — uskoro se vraćamo!</p>
+          </div>
+        </div>
+
+        <!-- Status / progres bar -->
+        <div>
+          <p class="text-sm text-slate-600 mb-2">Stanje izrade</p>
+          <div class="w-full bg-blue-100 rounded-full h-3 overflow-hidden border border-blue-200">
+            <div class="h-3 rounded-full bg-gradient-to-r from-blue-400 to-teal-500" style="width: 58%"></div>
+          </div>
+          <div class="mt-2 text-xs text-slate-500">58% dovršeno</div>
+        </div>
+
+
+
+        <p class="text-sm text-slate-400">Ili nas kontaktirajte: <a href="mailto:officesmartps@gmail.com" class="text-blue-600 underline">officesmartps@gmail.com</a></p>
+
+      </div>
+
+      <!-- Desna strana: ilustracija / ukras -->
+      <div class="flex items-center justify-center p-6">
+        <div class="w-full max-w-md text-center">
+          <!-- Simple SVG illustration -->
+          <div class="mb-6">
+          <!-- Logo placeholder -->
+          <a href="{% url 'home' %}" @click="toggleMenu" class="flex items-center space-x-2">
+            <img src="{% static 'img/smart_ps_logo.png' %}" alt="Logo" >
+          </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer small -->
+    <div class="w-full border-t border-slate-100 p-4 text-center text-xs text-slate-400">
+      &copy; <span id="year"></span> Smart P&S
+    </div>
+  </div>
+
+  <script>
+    // Dinamički postavi godinu
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

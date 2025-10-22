@@ -1,0 +1,254 @@
+INFO 2025-10-22 13:30:39,060 autoreload Watching for file changes with StatReloader
+INFO 2025-10-22 13:30:55,734 basehttp "GET / HTTP/1.1" 200 21129
+INFO 2025-10-22 13:30:56,239 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2025-10-22 13:30:56,241 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2025-10-22 13:30:56,252 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2025-10-22 13:30:56,256 basehttp "GET /static/img/icons/viber.png HTTP/1.1" 200 30434
+INFO 2025-10-22 13:30:56,272 basehttp "GET /static/css/dist/styles.css?v=1761132655 HTTP/1.1" 200 104171
+INFO 2025-10-22 13:30:56,276 basehttp "GET /static/img/icons/whatsapp.png HTTP/1.1" 200 27018
+INFO 2025-10-22 13:30:56,277 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2025-10-22 13:30:56,286 basehttp "GET /static/img/icons/3.png HTTP/1.1" 200 87354
+INFO 2025-10-22 13:30:56,292 basehttp "GET /static/img/icons/4.png HTTP/1.1" 200 158672
+INFO 2025-10-22 13:30:56,296 basehttp "GET /static/img/icons/certificate.png HTTP/1.1" 200 11000
+INFO 2025-10-22 13:30:56,296 basehttp "GET /static/img/icons/flexibility.png HTTP/1.1" 200 18223
+INFO 2025-10-22 13:30:56,298 basehttp "GET /static/js/main.js HTTP/1.1" 200 5106
+INFO 2025-10-22 13:30:56,301 basehttp "GET /static/img/icons/man-in-suit-and-tie.png HTTP/1.1" 200 8210
+INFO 2025-10-22 13:30:56,307 basehttp "GET /static/img/icons/building.png HTTP/1.1" 200 3604
+INFO 2025-10-22 13:30:56,311 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+INFO 2025-10-22 13:30:56,312 basehttp "GET /static/img/icons/group.png HTTP/1.1" 200 13403
+INFO 2025-10-22 13:30:56,312 basehttp "GET /static/img/icons/appointment.png HTTP/1.1" 200 12112
+INFO 2025-10-22 13:30:56,333 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-10-22 13:30:56,452 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-10-22 13:30:56,483 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+WARNING 2025-10-22 13:30:56,536 log Not Found: /favicon.ico
+WARNING 2025-10-22 13:30:56,536 basehttp "GET /favicon.ico HTTP/1.1" 404 3765
+INFO 2025-10-22 13:31:34,683 basehttp "GET / HTTP/1.1" 200 21129
+INFO 2025-10-22 13:31:34,733 basehttp "GET /static/css/dist/styles.css?v=1761132694 HTTP/1.1" 200 104171
+INFO 2025-10-22 13:32:17,513 basehttp "GET / HTTP/1.1" 200 21134
+INFO 2025-10-22 13:32:17,561 basehttp "GET /static/css/dist/styles.css?v=1761132737 HTTP/1.1" 200 104171
+INFO 2025-10-22 13:32:17,696 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 200 657987
+INFO 2025-10-22 13:32:22,628 basehttp "GET / HTTP/1.1" 200 21139
+INFO 2025-10-22 13:32:22,678 basehttp "GET /static/css/dist/styles.css?v=1761132742 HTTP/1.1" 200 104171
+INFO 2025-10-22 13:32:35,839 basehttp "GET / HTTP/1.1" 200 21144
+INFO 2025-10-22 13:32:35,879 basehttp "GET /static/css/dist/styles.css?v=1761132755 HTTP/1.1" 200 104171
+WARNING 2025-10-22 13:33:31,763 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-10-22 13:33:31,763 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3876
+INFO 2025-10-22 13:33:34,793 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 304 0
+INFO 2025-10-22 13:34:21,253 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-22 13:34:22,456 autoreload Watching for file changes with StatReloader
+INFO 2025-10-22 13:34:22,772 basehttp "GET / HTTP/1.1" 200 21144
+INFO 2025-10-22 13:34:22,963 basehttp "GET /static/css/dist/styles.css?v=1761132862 HTTP/1.1" 200 104171
+INFO 2025-10-22 13:34:29,356 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-22 13:34:30,502 autoreload Watching for file changes with StatReloader
+INFO 2025-10-22 13:34:31,002 basehttp "GET / HTTP/1.1" 200 21144
+INFO 2025-10-22 13:34:31,157 basehttp "GET /static/css/dist/styles.css?v=1761132870 HTTP/1.1" 200 104171
+ERROR 2025-10-22 13:37:50,954 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 199, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\engine.py", line 204, in select_template
+    raise TemplateDoesNotExist("No template names provided")
+django.template.exceptions.TemplateDoesNotExist: No template names provided
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 13, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: No template names provided
+ERROR 2025-10-22 13:37:50,963 basehttp "GET / HTTP/1.1" 500 142419
+ERROR 2025-10-22 13:38:10,187 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 199, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\engine.py", line 214, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: website_is
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 13, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: website_is
+ERROR 2025-10-22 13:38:10,192 basehttp "GET / HTTP/1.1" 500 141633
+INFO 2025-10-22 13:38:48,107 basehttp "GET / HTTP/1.1" 200 25385
+INFO 2025-10-22 13:38:48,146 basehttp "GET /static/css/dist/styles.css?v=1761133128 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:38:48,216 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 304 0
+INFO 2025-10-22 13:39:00,431 basehttp "GET / HTTP/1.1" 200 5032
+INFO 2025-10-22 13:39:00,474 basehttp "GET /static/css/dist/styles.css?v=1761133140 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:39:21,204 basehttp "GET / HTTP/1.1" 200 25404
+INFO 2025-10-22 13:39:21,223 basehttp "GET /static/css/dist/styles.css?v=1761133161 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:39:29,438 basehttp "GET / HTTP/1.1" 200 25411
+INFO 2025-10-22 13:39:29,548 basehttp "GET /static/css/dist/styles.css?v=1761133169 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:39:34,562 basehttp "GET / HTTP/1.1" 200 5039
+INFO 2025-10-22 13:39:34,606 basehttp "GET /static/css/dist/styles.css?v=1761133174 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:39:40,705 basehttp "GET / HTTP/1.1" 200 25413
+INFO 2025-10-22 13:39:40,742 basehttp "GET /static/css/dist/styles.css?v=1761133180 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:39:45,835 basehttp "GET / HTTP/1.1" 200 21182
+INFO 2025-10-22 13:39:45,902 basehttp "GET /static/css/dist/styles.css?v=1761133185 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:39:49,941 basehttp "GET / HTTP/1.1" 200 18970
+INFO 2025-10-22 13:39:49,987 basehttp "GET /static/css/dist/styles.css?v=1761133189 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:39:53,025 basehttp "GET / HTTP/1.1" 200 5040
+INFO 2025-10-22 13:39:53,046 basehttp "GET /static/css/dist/styles.css?v=1761133193 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:40:05,292 basehttp "GET / HTTP/1.1" 200 25411
+INFO 2025-10-22 13:40:05,334 basehttp "GET /static/css/dist/styles.css?v=1761133205 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:40:16,437 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-22 13:40:17,357 autoreload Watching for file changes with StatReloader
+INFO 2025-10-22 13:40:17,748 basehttp "GET / HTTP/1.1" 200 25411
+INFO 2025-10-22 13:40:17,921 basehttp "GET /static/css/dist/styles.css?v=1761133217 HTTP/1.1" 200 112636
+INFO 2025-10-22 13:40:19,674 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-22 13:40:20,773 autoreload Watching for file changes with StatReloader
+ERROR 2025-10-22 13:40:21,296 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 8, in home
+    return render(request, 'website/coming_soon.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: website/coming_soon.html
+ERROR 2025-10-22 13:40:21,321 basehttp "GET / HTTP/1.1" 500 86099
+INFO 2025-10-22 13:40:34,969 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-22 13:40:36,120 autoreload Watching for file changes with StatReloader
+INFO 2025-10-22 13:40:36,532 basehttp "GET / HTTP/1.1" 200 4429
+INFO 2025-10-22 13:40:52,389 basehttp "GET / HTTP/1.1" 200 5740
+WARNING 2025-10-22 13:41:19,340 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-10-22 13:41:19,340 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3876
+INFO 2025-10-22 13:42:12,507 basehttp "GET / HTTP/1.1" 200 5368
+INFO 2025-10-22 13:42:35,047 basehttp "GET / HTTP/1.1" 200 5369
+INFO 2025-10-22 13:42:39,087 basehttp "GET / HTTP/1.1" 200 5370
+INFO 2025-10-22 13:43:06,627 basehttp "GET / HTTP/1.1" 200 5554
+INFO 2025-10-22 13:43:06,671 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 304 0
+INFO 2025-10-22 13:43:13,787 basehttp "GET / HTTP/1.1" 200 5365
+INFO 2025-10-22 13:43:33,322 basehttp "GET / HTTP/1.1" 200 5364
+INFO 2025-10-22 13:43:39,545 basehttp "GET / HTTP/1.1" 200 5363
+INFO 2025-10-22 13:43:41,105 basehttp "GET / HTTP/1.1" 200 5363
+INFO 2025-10-22 13:43:42,627 basehttp "GET / HTTP/1.1" 200 5363
+INFO 2025-10-22 13:43:49,727 basehttp "GET / HTTP/1.1" 200 5360
+INFO 2025-10-22 13:43:51,799 basehttp "GET / HTTP/1.1" 200 5360
+INFO 2025-10-22 13:44:04,120 basehttp "GET / HTTP/1.1" 200 4825
+INFO 2025-10-22 13:44:12,319 basehttp "GET / HTTP/1.1" 200 4822
+WARNING 2025-10-22 13:44:25,976 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-10-22 13:44:25,976 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3876
+INFO 2025-10-22 13:47:18,730 basehttp "GET / HTTP/1.1" 200 4624
+INFO 2025-10-22 13:47:18,749 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 304 0
+WARNING 2025-10-22 13:47:18,989 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-10-22 13:47:18,989 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3876
+INFO 2025-10-22 13:47:23,591 basehttp "GET / HTTP/1.1" 200 4624
+INFO 2025-10-22 13:48:07,841 basehttp "GET / HTTP/1.1" 200 4630
+INFO 2025-10-22 13:48:32,381 basehttp "GET / HTTP/1.1" 200 4806
+INFO 2025-10-22 13:48:40,634 basehttp "GET / HTTP/1.1" 200 3801
+WARNING 2025-10-22 13:48:43,805 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-10-22 13:48:43,805 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3876
+INFO 2025-10-22 13:48:54,138 basehttp "GET / HTTP/1.1" 200 3579
+INFO 2025-10-22 13:48:59,276 basehttp "GET / HTTP/1.1" 200 3036
+INFO 2025-10-22 13:49:04,441 basehttp "GET / HTTP/1.1" 200 3009
+INFO 2025-10-22 13:49:28,157 basehttp "GET / HTTP/1.1" 200 3005
+INFO 2025-10-22 13:49:32,205 basehttp "GET / HTTP/1.1" 200 2991
+INFO 2025-10-22 13:49:46,532 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-22 13:49:47,431 autoreload Watching for file changes with StatReloader
+INFO 2025-10-22 13:49:47,814 basehttp "GET / HTTP/1.1" 200 2991
+INFO 2025-10-22 13:49:47,855 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 304 0
+INFO 2025-10-22 13:49:53,894 basehttp "GET / HTTP/1.1" 200 2991

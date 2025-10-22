@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k$h07@h%7j)=xc(y5-#2e0gk_7xn$&!7$)f-(nbl_vxf3y3zi1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -141,3 +141,51 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 TAILWIND_APP_NAME = 'theme'
 
 NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+
+
+LOGGING_DIR = os.path.join(BASE_DIR, "logs")  # Kreiraj folder za logove
+if not os.path.exists(LOGGING_DIR):
+    os.makedirs(LOGGING_DIR)
+
+# LOGOVI
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {
+            "format": "{levelname} {asctime} {module} {message}",
+            "style": "{",
+        },
+        "error": {
+            "format": "{levelname} {asctime} {pathname}:{lineno} {message}",
+            "style": "{",
+        },
+    },
+    "handlers": {
+        # Handler za ERROR logove
+        "error_file": {
+            "level": "ERROR",
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": os.path.join(LOGGING_DIR, "errors.log"),
+            "maxBytes": 5 * 1024 * 1024,  # 5MB po fajlu
+            "backupCount": 3,  # Čuva poslednja 3 log fajla
+            "formatter": "error",
+        },
+        # Handler za INFO logove
+        "info_file": {
+            "level": "INFO",
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": os.path.join(LOGGING_DIR, "info.log"),
+            "maxBytes": 5 * 1024 * 1024,
+            "backupCount": 3,
+            "formatter": "verbose",
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["error_file", "info_file"],
+            "level": "INFO",  # Hvatamo i INFO i ERROR logove
+            "propagate": True,
+        },
+    },
+}

@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 def home(request):
     context = {}
-    return render(request, 'website/index.html', context)
+    return render(request, 'coming_soon.html', context)
 
 
 def contact(request):
