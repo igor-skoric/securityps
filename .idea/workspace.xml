@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="commit collect static">
+      <change afterPath="$PROJECT_DIR$/main/website/services_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/single_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/single_service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -157,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761133861041</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit collect static">
+      <option name="closed" value="true" />
+      <created>1761133911516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761133911516</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

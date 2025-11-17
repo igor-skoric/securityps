@@ -253,3 +253,968 @@ INFO 2025-10-22 13:49:47,814 basehttp "GET / HTTP/1.1" 200 2991
 INFO 2025-10-22 13:49:47,855 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 304 0
 INFO 2025-10-22 13:49:53,894 basehttp "GET / HTTP/1.1" 200 2991
 INFO 2025-10-22 13:51:22,546 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-10-29 14:13:36,675 autoreload Watching for file changes with StatReloader
+ERROR 2025-10-29 14:13:58,708 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:13:58,886 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-10-29 14:13:59,084 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:13:59,088 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-10-29 14:20:40,944 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:20:40,946 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-10-29 14:20:41,185 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:20:41,191 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-10-29 14:20:50,680 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:20:50,682 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-10-29 14:20:50,888 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:20:50,894 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2025-10-29 14:23:52,465 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-10-29 14:23:53,018 autoreload Watching for file changes with StatReloader
+ERROR 2025-10-29 14:24:10,967 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:24:10,971 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-10-29 14:24:11,098 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:24:11,100 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-10-29 14:28:42,752 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:28:42,754 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-10-29 14:28:42,894 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:28:42,896 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-10-29 14:28:43,869 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:28:43,871 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-10-29 14:28:43,919 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-10-29 14:28:43,921 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2025-10-29 14:28:57,577 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-10-29 14:28:59,332 autoreload Watching for file changes with StatReloader
+INFO 2025-10-29 14:29:00,066 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:29:00,140 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+WARNING 2025-10-29 14:29:00,579 log Not Found: /favicon.ico
+WARNING 2025-10-29 14:29:00,579 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-10-29 14:29:43,900 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-29 14:29:44,505 autoreload Watching for file changes with StatReloader
+INFO 2025-10-29 14:29:44,661 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:29:47,990 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-29 14:29:48,526 autoreload Watching for file changes with StatReloader
+INFO 2025-10-29 14:29:49,681 basehttp "GET / HTTP/1.1" 200 21307
+INFO 2025-10-29 14:29:49,733 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-10-29 14:29:49,777 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-10-29 14:29:49,782 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-10-29 14:29:49,788 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-10-29 14:29:49,849 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-10-29 14:29:49,853 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-10-29 14:29:49,882 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-10-29 14:29:49,925 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-10-29 14:29:49,945 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-10-29 14:29:49,978 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-10-29 14:29:50,018 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-10-29 14:29:50,035 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-10-29 14:29:50,082 basehttp "GET /static/img/icons/building.29a3a07572cf.png HTTP/1.1" 200 3604
+INFO 2025-10-29 14:29:50,083 basehttp "GET /static/img/icons/man-in-suit-and-tie.dbb4f6a59b02.png HTTP/1.1" 200 8210
+INFO 2025-10-29 14:29:50,087 basehttp "GET /static/img/icons/group.e62c0311eca2.png HTTP/1.1" 200 13403
+INFO 2025-10-29 14:29:50,091 basehttp "GET /static/img/icons/appointment.ed3bd9744d17.png HTTP/1.1" 200 12112
+INFO 2025-10-29 14:29:50,235 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-10-29 14:29:50,247 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+INFO 2025-10-29 14:30:12,750 basehttp "GET / HTTP/1.1" 200 21736
+INFO 2025-10-29 14:30:17,507 basehttp "GET /single_service/1 HTTP/1.1" 200 10819
+INFO 2025-10-29 14:30:17,617 basehttp "GET /static/img/icons/services2.25684660433e.jpg HTTP/1.1" 200 19817
+INFO 2025-10-29 14:30:17,654 basehttp "GET /static/img/private.3df68c30cde0.png HTTP/1.1" 200 193414
+INFO 2025-10-29 14:30:22,043 basehttp "GET /contact HTTP/1.1" 200 15465
+INFO 2025-10-29 14:30:22,142 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-10-29 14:30:22,173 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-10-29 14:30:22,207 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+INFO 2025-10-29 14:30:22,216 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-10-29 14:30:22,223 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+INFO 2025-10-29 14:30:24,966 basehttp "GET /contact? HTTP/1.1" 200 15465
+INFO 2025-10-29 14:30:56,984 autoreload D:\projects\security\main\website\urls.py changed, reloading.
+INFO 2025-10-29 14:30:57,615 autoreload Watching for file changes with StatReloader
+INFO 2025-10-29 14:30:59,191 basehttp "GET / HTTP/1.1" 200 21736
+INFO 2025-10-29 14:30:59,388 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-10-29 14:30:59,390 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-10-29 14:31:09,350 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-29 14:31:10,245 autoreload Watching for file changes with StatReloader
+INFO 2025-10-29 14:31:10,562 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:31:13,243 basehttp "GET /test HTTP/1.1" 200 2814
+INFO 2025-10-29 14:31:18,941 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-10-29 14:31:19,713 autoreload Watching for file changes with StatReloader
+INFO 2025-10-29 14:31:26,253 autoreload D:\projects\security\main\website\urls.py changed, reloading.
+INFO 2025-10-29 14:31:27,200 autoreload Watching for file changes with StatReloader
+INFO 2025-10-29 14:31:27,338 basehttp "GET /test HTTP/1.1" 200 21736
+INFO 2025-10-29 14:31:30,015 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:31:32,222 basehttp "GET /services HTTP/1.1" 200 11908
+INFO 2025-10-29 14:31:33,378 basehttp "GET /contact HTTP/1.1" 200 15465
+INFO 2025-10-29 14:31:34,233 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:32:20,319 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:32:23,709 basehttp "GET /test HTTP/1.1" 200 21752
+INFO 2025-10-29 14:32:23,972 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-10-29 14:32:23,973 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-10-29 14:32:25,440 basehttp "GET /test HTTP/1.1" 200 21752
+INFO 2025-10-29 14:32:26,838 basehttp "GET /services HTTP/1.1" 200 11924
+INFO 2025-10-29 14:32:27,388 basehttp "GET /contact HTTP/1.1" 200 15481
+INFO 2025-10-29 14:32:27,825 basehttp "GET /services HTTP/1.1" 200 11924
+INFO 2025-10-29 14:32:28,197 basehttp "GET /test HTTP/1.1" 200 21752
+INFO 2025-10-29 14:32:30,399 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:32:49,189 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-29 14:32:51,242 basehttp "GET /test HTTP/1.1" 200 21756
+INFO 2025-10-29 14:32:57,216 basehttp "GET /services HTTP/1.1" 200 11928
+INFO 2025-10-29 14:32:58,002 basehttp "GET /contact HTTP/1.1" 200 15485
+INFO 2025-10-29 14:32:58,728 basehttp "GET /test HTTP/1.1" 200 21756
+INFO 2025-10-30 16:24:34,194 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-30 16:24:34,201 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-10-30 16:24:34,386 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+WARNING 2025-10-30 16:24:34,979 log Not Found: /favicon.ico
+WARNING 2025-10-30 16:24:34,980 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-10-30 16:24:34,981 log Not Found: /favicon.ico
+WARNING 2025-10-30 16:24:34,981 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-10 13:22:41,088 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:22:47,051 basehttp "GET / HTTP/1.1" 200 2814
+INFO 2025-11-10 13:22:47,190 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+WARNING 2025-11-10 13:23:22,544 log Not Found: /favicon.ico
+WARNING 2025-11-10 13:23:22,544 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-10 13:23:55,084 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 13:23:55,665 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:23:59,966 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 13:24:01,215 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:24:01,744 basehttp "GET / HTTP/1.1" 200 21756
+INFO 2025-11-10 13:24:01,803 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-10 13:24:01,833 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-10 13:24:01,857 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-10 13:24:01,857 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-10 13:24:01,920 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-10 13:24:01,921 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-10 13:24:01,983 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-10 13:24:09,243 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-10 13:24:09,248 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-10 13:24:09,253 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-10 13:24:09,254 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-10 13:24:09,258 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-10 13:24:19,012 basehttp "GET / HTTP/1.1" 200 21756
+WARNING 2025-11-10 13:24:29,869 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-10 13:24:29,870 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-10 13:24:35,244 basehttp "GET / HTTP/1.1" 200 21756
+WARNING 2025-11-10 13:24:35,329 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-10 13:24:35,331 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-10 13:24:36,724 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-10 13:24:36,729 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+INFO 2025-11-10 13:24:50,356 basehttp "GET / HTTP/1.1" 200 21756
+INFO 2025-11-10 13:27:29,039 basehttp "GET / HTTP/1.1" 200 21694
+INFO 2025-11-10 13:27:29,464 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:27:29,464 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:28:51,231 basehttp "GET / HTTP/1.1" 200 21774
+INFO 2025-11-10 13:28:51,463 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:28:51,464 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:29:24,262 basehttp "GET / HTTP/1.1" 200 21759
+INFO 2025-11-10 13:29:32,758 basehttp "GET / HTTP/1.1" 200 21751
+INFO 2025-11-10 13:29:48,953 basehttp "GET / HTTP/1.1" 200 21782
+INFO 2025-11-10 13:29:54,123 basehttp "GET / HTTP/1.1" 200 21782
+INFO 2025-11-10 13:29:54,343 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:29:54,343 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:29:55,246 basehttp "GET / HTTP/1.1" 200 21792
+INFO 2025-11-10 13:30:02,610 basehttp "GET / HTTP/1.1" 200 21792
+INFO 2025-11-10 13:30:20,591 basehttp "GET / HTTP/1.1" 200 21840
+WARNING 2025-11-10 13:31:07,736 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-10 13:31:07,736 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-10 13:31:22,575 basehttp "GET / HTTP/1.1" 200 21923
+WARNING 2025-11-10 13:31:22,637 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-10 13:31:22,639 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-10 13:31:22,880 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:31:22,881 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:34:22,249 basehttp "GET / HTTP/1.1" 200 21923
+INFO 2025-11-10 13:34:22,542 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:34:22,543 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:34:30,715 basehttp "GET /single_service/2 HTTP/1.1" 200 11006
+INFO 2025-11-10 13:34:30,767 basehttp "GET /static/img/icons/services2.25684660433e.jpg HTTP/1.1" 200 19817
+INFO 2025-11-10 13:34:30,790 basehttp "GET /static/img/private.3df68c30cde0.png HTTP/1.1" 200 193414
+INFO 2025-11-10 13:35:28,051 basehttp "GET / HTTP/1.1" 200 22603
+INFO 2025-11-10 13:35:28,370 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:35:28,370 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:36:10,689 basehttp "GET / HTTP/1.1" 200 22747
+INFO 2025-11-10 13:36:15,972 basehttp "GET / HTTP/1.1" 200 22792
+INFO 2025-11-10 13:36:32,738 basehttp "GET /services HTTP/1.1" 200 12095
+INFO 2025-11-10 13:36:35,236 basehttp "GET /test HTTP/1.1" 200 2814
+INFO 2025-11-10 13:36:38,714 basehttp "GET / HTTP/1.1" 200 22792
+INFO 2025-11-10 13:36:38,841 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:36:38,841 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:37:38,858 basehttp "GET / HTTP/1.1" 200 23383
+INFO 2025-11-10 13:37:39,073 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:37:39,075 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:38:05,430 basehttp "GET / HTTP/1.1" 200 23368
+INFO 2025-11-10 13:38:37,666 basehttp "GET / HTTP/1.1" 200 23405
+INFO 2025-11-10 13:38:38,742 basehttp "GET / HTTP/1.1" 200 23405
+INFO 2025-11-10 13:38:52,021 basehttp "GET / HTTP/1.1" 200 23423
+INFO 2025-11-10 13:38:52,184 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:38:52,185 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:41:08,435 basehttp "GET / HTTP/1.1" 200 23423
+INFO 2025-11-10 13:41:08,728 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:41:08,729 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:41:11,308 basehttp "GET / HTTP/1.1" 200 23423
+INFO 2025-11-10 13:41:17,076 basehttp "GET / HTTP/1.1" 200 23423
+INFO 2025-11-10 13:41:51,775 basehttp "GET / HTTP/1.1" 200 24666
+INFO 2025-11-10 13:44:19,830 basehttp "GET / HTTP/1.1" 200 24647
+INFO 2025-11-10 13:44:20,092 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:44:20,093 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+WARNING 2025-11-10 13:44:24,784 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-10 13:44:24,785 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-10 13:45:24,804 basehttp "GET / HTTP/1.1" 200 24639
+INFO 2025-11-10 13:45:25,115 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:45:25,115 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:45:26,499 basehttp "GET / HTTP/1.1" 200 24639
+INFO 2025-11-10 13:45:33,292 basehttp "GET / HTTP/1.1" 200 24647
+INFO 2025-11-10 13:46:08,331 basehttp "GET / HTTP/1.1" 200 24636
+INFO 2025-11-10 13:46:19,059 basehttp "GET / HTTP/1.1" 200 24641
+INFO 2025-11-10 13:46:22,457 basehttp "GET / HTTP/1.1" 200 24642
+INFO 2025-11-10 13:46:42,724 basehttp "GET / HTTP/1.1" 200 24642
+INFO 2025-11-10 13:46:42,934 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:46:42,935 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:46:45,377 basehttp "GET / HTTP/1.1" 200 24642
+INFO 2025-11-10 13:46:46,479 basehttp "GET / HTTP/1.1" 200 24637
+INFO 2025-11-10 13:46:52,818 basehttp "GET / HTTP/1.1" 200 24636
+INFO 2025-11-10 13:46:53,948 basehttp "GET / HTTP/1.1" 200 24636
+INFO 2025-11-10 13:46:57,103 basehttp "GET / HTTP/1.1" 200 24637
+INFO 2025-11-10 13:47:59,585 basehttp "GET / HTTP/1.1" 200 24707
+INFO 2025-11-10 13:47:59,817 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:47:59,817 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:51:17,739 basehttp "GET / HTTP/1.1" 200 28695
+INFO 2025-11-10 13:51:18,097 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:51:18,098 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:51:39,577 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:52:51,088 basehttp "GET /single_service/7 HTTP/1.1" 200 11637
+INFO 2025-11-10 13:53:07,927 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:08,056 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:53:08,058 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:53:19,195 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:25,567 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:29,529 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:30,812 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:33,948 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:42,414 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:47,347 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:50,357 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:53:58,018 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:54:03,897 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:54:29,299 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:54:29,394 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:54:29,396 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:55:26,637 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:55:28,082 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:55:28,105 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-10 13:55:28,112 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-10 13:55:28,114 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-10 13:55:28,114 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-10 13:55:28,126 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-10 13:55:28,126 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-10 13:55:28,145 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-10 13:55:28,155 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-10 13:55:28,353 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-10 13:55:28,355 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-10 13:55:28,357 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-10 13:55:28,362 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-10 13:55:28,363 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-10 13:55:28,419 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-10 13:55:28,429 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+WARNING 2025-11-10 13:55:28,831 log Not Found: /favicon.ico
+WARNING 2025-11-10 13:55:28,832 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-10 13:55:48,707 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 13:55:54,200 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:55:55,494 basehttp "GET / HTTP/1.1" 200 29251
+INFO 2025-11-10 13:55:55,527 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-10 13:55:55,545 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-10 13:55:55,547 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-10 13:55:55,550 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-10 13:55:55,626 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-10 13:55:55,626 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-10 13:55:55,734 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-10 13:55:55,745 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-10 13:55:55,880 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-10 13:55:55,881 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-10 13:55:55,882 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-10 13:55:55,887 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-10 13:55:55,888 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-10 13:55:55,931 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-10 13:55:55,933 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+WARNING 2025-11-10 13:55:56,254 log Not Found: /favicon.ico
+WARNING 2025-11-10 13:55:56,257 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-10 13:56:07,680 basehttp "GET / HTTP/1.1" 200 29236
+INFO 2025-11-10 13:56:39,057 basehttp "GET / HTTP/1.1" 200 29291
+INFO 2025-11-10 13:56:50,788 basehttp "GET / HTTP/1.1" 200 29291
+INFO 2025-11-10 13:56:59,726 basehttp "GET / HTTP/1.1" 200 29291
+INFO 2025-11-10 13:56:59,985 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 13:56:59,985 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 13:57:19,070 basehttp "GET / HTTP/1.1" 200 29305
+INFO 2025-11-10 13:57:21,232 basehttp "GET / HTTP/1.1" 200 29305
+INFO 2025-11-10 13:57:22,475 basehttp "GET / HTTP/1.1" 200 29305
+INFO 2025-11-10 13:57:22,502 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-10 13:57:22,508 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-10 13:57:22,511 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-10 13:57:22,511 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-10 13:57:22,517 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-10 13:57:22,517 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-10 13:57:22,527 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-10 13:57:22,539 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-10 13:57:22,797 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-10 13:57:22,799 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-10 13:57:22,801 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-10 13:57:22,805 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-10 13:57:22,805 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-10 13:57:22,829 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-10 13:57:22,831 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+WARNING 2025-11-10 13:57:23,391 log Not Found: /favicon.ico
+WARNING 2025-11-10 13:57:23,392 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-10 13:57:38,512 basehttp "GET / HTTP/1.1" 200 29302
+WARNING 2025-11-10 13:57:42,138 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-10 13:57:42,139 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-10 14:00:48,219 basehttp "GET / HTTP/1.1" 200 25438
+INFO 2025-11-10 14:00:48,521 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:00:48,521 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:01:25,028 basehttp "GET / HTTP/1.1" 200 25792
+INFO 2025-11-10 14:01:54,370 basehttp "GET / HTTP/1.1" 200 25440
+INFO 2025-11-10 14:01:54,592 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:01:54,593 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:02:24,847 basehttp "GET / HTTP/1.1" 200 25442
+INFO 2025-11-10 14:02:54,370 basehttp "GET / HTTP/1.1" 200 25515
+INFO 2025-11-10 14:02:54,591 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:02:54,591 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:02:55,620 basehttp "GET /single_service/1 HTTP/1.1" 200 11637
+INFO 2025-11-10 14:03:13,015 basehttp "GET / HTTP/1.1" 200 25518
+INFO 2025-11-10 14:04:34,663 basehttp "GET / HTTP/1.1" 200 25591
+INFO 2025-11-10 14:04:34,962 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:04:34,962 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:04:51,453 basehttp "GET / HTTP/1.1" 200 25907
+INFO 2025-11-10 14:05:54,564 basehttp "GET / HTTP/1.1" 200 25811
+INFO 2025-11-10 14:05:54,803 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:05:54,803 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:06:04,250 basehttp "GET /single_service/1 HTTP/1.1" 200 11637
+INFO 2025-11-10 14:06:06,332 basehttp "GET /single_service/2 HTTP/1.1" 200 11637
+INFO 2025-11-10 14:06:33,151 basehttp "GET /services HTTP/1.1" 200 12726
+INFO 2025-11-10 14:06:37,659 basehttp "GET /test HTTP/1.1" 200 2814
+INFO 2025-11-10 14:06:40,572 basehttp "GET / HTTP/1.1" 200 25811
+INFO 2025-11-10 14:07:34,692 basehttp "GET /services HTTP/1.1" 200 12726
+INFO 2025-11-10 14:07:36,774 basehttp "GET /test HTTP/1.1" 200 2814
+INFO 2025-11-10 14:07:40,164 basehttp "GET / HTTP/1.1" 200 26127
+INFO 2025-11-10 14:07:40,298 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:07:40,299 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:07:59,760 basehttp "GET /services HTTP/1.1" 200 14133
+INFO 2025-11-10 14:08:12,194 basehttp "GET /services HTTP/1.1" 200 13863
+INFO 2025-11-10 14:08:17,717 basehttp "GET /test HTTP/1.1" 200 2814
+INFO 2025-11-10 14:08:20,200 basehttp "GET / HTTP/1.1" 200 26127
+ERROR 2025-11-10 14:08:45,283 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 12, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 210, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+ERROR 2025-11-10 14:08:45,610 basehttp "GET / HTTP/1.1" 500 145
+INFO 2025-11-10 14:09:10,835 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:09:11,120 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:09:11,121 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:09:14,630 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:09:15,065 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:09:15,626 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:09:16,379 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:09:18,644 basehttp "GET /contact HTTP/1.1" 200 16263
+INFO 2025-11-10 14:09:18,709 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-11-10 14:09:18,710 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-11-10 14:09:18,767 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-11-10 14:09:18,776 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+INFO 2025-11-10 14:09:18,777 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+INFO 2025-11-10 14:09:25,216 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:10:29,060 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:10:29,062 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:10:29,850 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:10:29,876 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:10:40,280 basehttp "GET /single_service/1 HTTP/1.1" 200 11617
+INFO 2025-11-10 14:15:19,443 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:15:19,792 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:15:20,648 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:15:21,165 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:15:30,216 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:15:30,251 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:15:30,765 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:15:30,852 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:15:39,626 basehttp "GET /single_service/1 HTTP/1.1" 200 11617
+INFO 2025-11-10 14:15:41,824 basehttp "GET /single_service/2 HTTP/1.1" 200 11617
+INFO 2025-11-10 14:20:35,836 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:20:36,218 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:20:36,218 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:20:38,499 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:20:39,528 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:20:44,005 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:20:45,200 basehttp "GET /single_service/2 HTTP/1.1" 200 11617
+INFO 2025-11-10 14:20:47,678 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:20:48,868 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:20:49,556 basehttp "GET /single_service/4 HTTP/1.1" 200 11617
+INFO 2025-11-10 14:20:51,598 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:20:52,499 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:20:53,432 basehttp "GET /single_service/6 HTTP/1.1" 200 11617
+INFO 2025-11-10 14:22:00,579 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:22:01,342 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:22:02,184 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:22:02,611 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:22:13,995 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:22:14,130 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:22:14,619 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:22:14,699 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:22:45,532 basehttp "GET /single_service/6 HTTP/1.1" 200 11640
+INFO 2025-11-10 14:22:47,186 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:22:48,224 basehttp "GET /single_service/1 HTTP/1.1" 200 11716
+INFO 2025-11-10 14:22:50,354 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:22:50,966 basehttp "GET /single_service/2 HTTP/1.1" 200 11653
+INFO 2025-11-10 14:23:06,330 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:23:06,432 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:23:06,433 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:23:10,398 basehttp "GET /single_service/1 HTTP/1.1" 200 11716
+INFO 2025-11-10 14:23:16,087 basehttp "GET /single_service/2 HTTP/1.1" 200 11653
+INFO 2025-11-10 14:23:18,681 basehttp "GET /single_service/1 HTTP/1.1" 200 11716
+INFO 2025-11-10 14:23:53,991 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:23:54,395 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:23:55,749 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:23:55,828 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:27:55,096 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:27:55,167 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:27:57,027 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:27:57,032 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:03,531 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:28:03,914 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:28:04,292 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:04,542 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:11,464 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:11,904 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:12,113 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:12,586 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:16,060 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:16,294 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:17,918 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:18,113 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:46,458 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:47,006 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:47,572 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:47,757 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:51,082 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:51,844 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:51,963 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:52,579 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:54,253 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:54,740 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:28:55,537 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:28:55,861 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:29:04,310 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:29:04,496 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-10 14:29:05,838 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:29:05,995 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:29:06,525 basehttp "GET /single_service/1 HTTP/1.1" 200 11716
+INFO 2025-11-10 14:29:07,367 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:29:07,468 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:29:07,468 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:29:25,553 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:29:26,592 basehttp "GET /services HTTP/1.1" 200 13770
+INFO 2025-11-10 14:31:07,321 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:31:08,277 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:31:08,977 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:31:09,607 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:31:32,766 basehttp "GET /services HTTP/1.1" 200 13843
+INFO 2025-11-10 14:32:00,899 basehttp "GET /services HTTP/1.1" 200 10049
+INFO 2025-11-10 14:33:14,616 basehttp "GET /services HTTP/1.1" 200 13971
+INFO 2025-11-10 14:33:42,765 basehttp "GET /services HTTP/1.1" 200 14082
+INFO 2025-11-10 14:33:47,142 basehttp "GET /services HTTP/1.1" 200 14082
+INFO 2025-11-10 14:33:48,044 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:33:50,851 basehttp "GET /single_service/1 HTTP/1.1" 200 11716
+INFO 2025-11-10 14:34:16,346 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:34:17,121 basehttp "GET /single_service/1 HTTP/1.1" 200 11712
+ERROR 2025-11-10 14:34:45,654 log Internal Server Error: /single_service/1
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 38, in single_service
+    return render(request, 'website/single_service.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\templatetags\static.py", line 116, in render
+    url = self.url(context)
+          ^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\templatetags\static.py", line 113, in url
+    return self.handle_simple(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\templatetags\static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\contrib\staticfiles\storage.py", line 204, in url
+    return self._url(self.stored_name, name, force)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\contrib\staticfiles\storage.py", line 183, in _url
+    hashed_name = hashed_name_func(*args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\contrib\staticfiles\storage.py", line 518, in stored_name
+    raise ValueError(
+ValueError: Missing staticfiles manifest entry for 'service.url'
+ERROR 2025-11-10 14:34:45,746 basehttp "GET /single_service/1 HTTP/1.1" 500 145
+INFO 2025-11-10 14:34:56,904 basehttp "GET /single_service/1 HTTP/1.1" 200 11806
+INFO 2025-11-10 14:35:01,020 basehttp "GET / HTTP/1.1" 200 26107
+INFO 2025-11-10 14:35:01,121 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:35:01,121 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:35:01,654 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:35:02,724 basehttp "GET /single_service/3 HTTP/1.1" 200 11755
+INFO 2025-11-10 14:35:18,341 basehttp "GET /single_service/3 HTTP/1.1" 200 11661
+INFO 2025-11-10 14:35:21,679 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:35:22,831 basehttp "GET /single_service/8 HTTP/1.1" 200 11637
+INFO 2025-11-10 14:36:02,896 basehttp "GET /single_service/8 HTTP/1.1" 200 11637
+INFO 2025-11-10 14:36:03,593 basehttp "GET / HTTP/1.1" 200 26695
+INFO 2025-11-10 14:36:03,720 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-10 14:36:03,721 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-10 14:36:42,250 basehttp "GET / HTTP/1.1" 200 26546
+WARNING 2025-11-10 14:36:50,318 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-10 14:36:50,319 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-10 14:39:00,490 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:39:01,918 basehttp "GET /single_service/10 HTTP/1.1" 200 11635
+INFO 2025-11-10 14:39:05,829 basehttp "GET /single_service/9 HTTP/1.1" 200 11582
+INFO 2025-11-10 14:39:07,771 basehttp "GET /single_service/8 HTTP/1.1" 200 11637
+INFO 2025-11-10 14:40:42,627 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:40:42,654 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:40:44,274 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:40:44,277 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:29,201 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:41:29,773 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:41:30,505 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:31,438 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:32,505 basehttp "GET /single_service/1 HTTP/1.1" 200 11967
+INFO 2025-11-10 14:41:46,354 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:41:46,743 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:41:47,465 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:41:47,973 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:42:21,421 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:42:21,446 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:42:22,882 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:42:23,081 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:42:23,589 basehttp "GET /single_service/1 HTTP/1.1" 200 11967
+INFO 2025-11-10 14:42:24,887 basehttp "GET /single_service/2 HTTP/1.1" 200 12114
+INFO 2025-11-10 14:42:56,036 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:43:36,974 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:43:37,180 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:43:37,850 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:43:37,961 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:43:44,091 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:43:45,264 basehttp "GET /single_service/3 HTTP/1.1" 200 12232
+INFO 2025-11-10 14:43:59,771 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:44:45,350 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:44:45,629 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:44:47,137 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:44:47,472 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:45:06,304 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:45:06,758 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:45:06,940 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:45:07,432 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:45:37,547 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:45:38,337 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:45:38,465 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:45:39,054 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:46:20,516 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:46:20,562 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:46:21,639 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:46:21,668 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:47:47,094 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:47:47,478 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:47:48,829 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:47:49,136 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:48:07,776 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:48:08,141 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:48:08,877 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:48:09,514 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:48:46,693 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:48:46,915 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:48:47,879 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:48:48,327 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:48:54,023 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:48:54,890 basehttp "GET /single_service/10 HTTP/1.1" 200 11863
+INFO 2025-11-10 14:50:47,776 basehttp "GET /single_service/10 HTTP/1.1" 200 11857
+INFO 2025-11-10 14:51:52,174 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:51:52,314 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:51:54,093 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:51:54,095 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:52:11,694 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:52:12,968 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:52:35,809 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:52:37,107 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:52:37,465 basehttp "GET /single_service/10 HTTP/1.1" 200 13272
+INFO 2025-11-10 14:53:47,982 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:53:49,512 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:53:50,627 basehttp "GET /single_service/10 HTTP/1.1" 200 11821
+INFO 2025-11-10 14:54:06,905 basehttp "GET /single_service/10 HTTP/1.1" 200 13372
+INFO 2025-11-10 14:54:13,945 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:54:14,612 basehttp "GET /single_service/2 HTTP/1.1" 200 12210
+INFO 2025-11-10 14:54:18,009 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:54:19,174 basehttp "GET /single_service/7 HTTP/1.1" 200 11989
+INFO 2025-11-10 14:55:06,058 basehttp "GET /single_service/7 HTTP/1.1" 200 12117
+INFO 2025-11-10 14:55:07,400 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-10 14:55:08,387 basehttp "GET /single_service/10 HTTP/1.1" 200 13500
+INFO 2025-11-10 14:55:21,915 basehttp "GET /single_service/10 HTTP/1.1" 200 13489
+INFO 2025-11-10 14:55:42,686 basehttp "GET /single_service/10 HTTP/1.1" 200 13489
+INFO 2025-11-10 14:55:42,832 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:55:44,682 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:55:45,058 basehttp "GET /single_service/10 HTTP/1.1" 200 13499
+INFO 2025-11-10 14:56:19,918 basehttp "GET /single_service/10 HTTP/1.1" 200 13396
+INFO 2025-11-10 14:56:33,839 basehttp "GET /single_service/10 HTTP/1.1" 200 13464
+INFO 2025-11-10 14:57:02,055 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-10 14:57:03,883 autoreload Watching for file changes with StatReloader
+INFO 2025-11-10 14:57:04,483 basehttp "GET /single_service/10 HTTP/1.1" 200 13481
+INFO 2025-11-17 11:46:11,422 autoreload Watching for file changes with StatReloader
+INFO 2025-11-17 11:46:12,569 basehttp "GET / HTTP/1.1" 200 26546
+INFO 2025-11-17 11:46:12,608 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-17 11:46:12,618 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-17 11:46:12,638 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-17 11:46:12,639 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-17 11:46:12,713 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-17 11:46:12,714 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-17 11:46:12,736 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-17 11:46:12,743 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-17 11:46:12,775 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-17 11:46:12,799 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-17 11:46:12,801 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-17 11:46:12,812 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-17 11:46:12,812 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-17 11:46:12,942 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-17 11:46:12,943 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+WARNING 2025-11-17 11:46:13,262 log Not Found: /favicon.ico
+WARNING 2025-11-17 11:46:13,262 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-17 11:46:40,812 basehttp "GET / HTTP/1.1" 200 26546
+INFO 2025-11-17 11:46:41,911 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-17 11:46:41,962 basehttp "GET /static/img/icons/services2.25684660433e.jpg HTTP/1.1" 200 19817
+INFO 2025-11-17 11:46:45,168 basehttp "GET /contact HTTP/1.1" 200 16263
+INFO 2025-11-17 11:46:45,219 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-11-17 11:46:45,219 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-11-17 11:46:45,230 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+INFO 2025-11-17 11:46:45,231 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-11-17 11:46:45,233 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+INFO 2025-11-17 11:46:50,848 basehttp "GET /contact? HTTP/1.1" 200 16263
+INFO 2025-11-17 11:47:32,905 basehttp "GET /contact HTTP/1.1" 200 16263
+INFO 2025-11-17 11:48:43,575 basehttp "GET /contact HTTP/1.1" 200 16124
+INFO 2025-11-17 11:49:05,652 basehttp "GET /contact HTTP/1.1" 200 15574
+INFO 2025-11-17 11:49:31,666 basehttp "GET /contact HTTP/1.1" 200 15568
+INFO 2025-11-17 11:50:09,041 basehttp "GET /contact HTTP/1.1" 200 17284
+INFO 2025-11-17 11:51:45,374 basehttp "GET /contact HTTP/1.1" 200 17147
+INFO 2025-11-17 11:51:50,060 basehttp "GET /contact HTTP/1.1" 200 17147
+INFO 2025-11-17 11:51:57,808 basehttp "GET /contact HTTP/1.1" 200 17147
+INFO 2025-11-17 11:51:57,855 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-17 11:51:57,861 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-17 11:51:57,866 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-17 11:51:57,868 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-17 11:51:57,898 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-17 11:51:57,898 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-17 11:51:57,931 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-17 11:51:58,011 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-17 11:51:58,016 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-11-17 11:51:58,021 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-11-17 11:51:58,028 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+INFO 2025-11-17 11:51:58,033 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-11-17 11:51:58,038 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+WARNING 2025-11-17 11:51:58,983 log Not Found: /favicon.ico
+WARNING 2025-11-17 11:51:58,985 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-17 11:52:05,170 basehttp "GET /contact HTTP/1.1" 200 17148
+WARNING 2025-11-17 11:52:20,729 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 11:52:20,729 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 11:52:21,455 basehttp "GET /contact HTTP/1.1" 200 17147
+WARNING 2025-11-17 11:52:21,509 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 11:52:21,510 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 11:52:47,156 basehttp "GET /contact HTTP/1.1" 200 17148
+INFO 2025-11-17 11:54:37,401 basehttp "GET /contact HTTP/1.1" 200 17300
+INFO 2025-11-17 11:54:46,200 basehttp "GET /contact HTTP/1.1" 200 17321
+INFO 2025-11-17 11:54:48,189 basehttp "GET /contact HTTP/1.1" 200 17321
+INFO 2025-11-17 11:54:48,238 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-17 11:54:48,274 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-17 11:54:48,276 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-17 11:54:48,280 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-17 11:54:48,319 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-17 11:54:48,322 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-17 11:54:48,423 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-17 11:54:48,438 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-17 11:54:48,465 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-11-17 11:54:48,471 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-11-17 11:54:48,500 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+INFO 2025-11-17 11:54:48,527 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-11-17 11:54:48,538 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+WARNING 2025-11-17 11:54:49,201 log Not Found: /favicon.ico
+WARNING 2025-11-17 11:54:49,203 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-17 11:55:10,647 basehttp "GET /contact HTTP/1.1" 200 17270
+WARNING 2025-11-17 11:55:13,658 log Not Found: /prodaja@smartps.rs
+WARNING 2025-11-17 11:55:13,658 basehttp "GET /prodaja@smartps.rs HTTP/1.1" 404 179
+WARNING 2025-11-17 11:55:20,063 log Not Found: /prodaja@smartps.rs
+WARNING 2025-11-17 11:55:20,065 basehttp "GET /prodaja@smartps.rs HTTP/1.1" 404 179
+INFO 2025-11-17 11:55:38,326 basehttp "GET /contact HTTP/1.1" 200 17277
+INFO 2025-11-17 11:55:52,917 basehttp "GET /contact HTTP/1.1" 200 17277
+INFO 2025-11-17 11:55:54,009 basehttp "GET /contact HTTP/1.1" 200 17277
+INFO 2025-11-17 11:55:54,052 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-17 11:55:54,061 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-17 11:55:54,070 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-17 11:55:54,070 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-17 11:55:54,095 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-17 11:55:54,096 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-17 11:55:54,123 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-17 11:55:54,129 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-17 11:55:54,251 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-11-17 11:55:54,253 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-11-17 11:55:54,270 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+INFO 2025-11-17 11:55:54,272 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-11-17 11:55:54,277 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+WARNING 2025-11-17 11:55:55,113 log Not Found: /favicon.ico
+WARNING 2025-11-17 11:55:55,114 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-11-17 11:55:58,977 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 11:55:58,978 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 11:57:07,006 basehttp "GET /contact HTTP/1.1" 200 17414
+WARNING 2025-11-17 11:57:07,052 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 11:57:07,053 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179

@@ -78,22 +78,7 @@
 
           <!-- Kontakt informacije -->
           <div class="order-1 md:order-2 flex flex-col justify-center space-y-4 bg-white shadow-md rounded-2xl border-r-5 border-gray-200">
-            <div class="relative group px-5 py-2 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
-              <!-- Ikonica -->
-              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
-                <img src="{% static 'img/icons/ic_baseline-phone.png' %}" class="w-10" alt="Phone Icon"/>
-              </div>
-
-              <!-- Tekst -->
-              <div>
-                <h4 class="text-lg font-semibold text-gray-800  transition-colors">Telefon 1</h4>
-                <p class="text-gray-600  transition-colors">+381 64 222 3333</p>
-              </div>
-
-              <!-- Linija ispod (pseudo-element) -->
-  <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-300 transition-all duration-500 group-hover:w-full"></span>-->
-            </div>
-
+            <!--Phone-->
             <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
               <!-- Ikonica -->
               <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
@@ -102,14 +87,17 @@
 
               <!-- Tekst -->
               <div>
-                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Telefon 2</h4>
-                <p class="text-gray-600 transition-colors">+381 64 222 3333</p>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Telefon</h4>
+                <a href="tel:+381692090716" class="cursor-pointer" style="text-decoration: none; color: inherit;">
+                  <p class="text-gray-600 transition-colors">+381692090716</p>
+                </a>
+
               </div>
 
               <!-- Linija ispod (pseudo-element) -->
   <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
             </div>
-
+            <!--Whatsapp-->
             <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
               <!-- Ikonica -->
               <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
@@ -119,30 +107,45 @@
               <!-- Tekst -->
               <div>
                 <h4 class="text-lg font-semibold text-gray-800 transition-colors">WhatsApp</h4>
-                <p class="text-gray-600 transition-colors">+381 64 222 3333</p>
+                <p class="text-gray-600 transition-colors">+381692090716</p>
               </div>
 
               <!-- Linija ispod (pseudo-element) -->
   <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
             </div>
-
+            <!--Viber-->
             <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
               <!-- Ikonica -->
               <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
                 <img src="{% static 'img/icons/cib_viber.png' %}" class="w-10" alt="Viber Icon"/>
               </div>
-
               <!-- Tekst -->
               <div>
                 <h4 class="text-lg font-semibold text-gray-800 transition-colors">Viber</h4>
-                <p class="text-gray-600 transition-colors">+381 64 222 3333</p>
+                <p class="text-gray-600 transition-colors">+381692090716</p>
+              </div>
+            </div>
+            <!--EMAIL prodaja@smartps.rs-->
+            <a href="mailto:prodaja@smartps.rs" >
+              <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              <!-- Ikonica -->
+              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
+                <img src="{% static 'img/icons/fontisto_email.png' %}" class="w-10" alt="Email Icon"/>
+              </div>
+
+              <!-- Tekst -->
+              <div>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Email</h4>
+                <p class="text-gray-600 transition-colors">prodaja@smartps.rs</p>
               </div>
 
               <!-- Linija ispod (pseudo-element) -->
   <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
             </div>
-
-            <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              </a>
+            <!--EMAIL info@smartps.rs-->
+            <a href="mailto:info@smartps.rs" >
+              <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
               <!-- Ikonica -->
               <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
                 <img src="{% static 'img/icons/fontisto_email.png' %}" class="w-10" alt="Email Icon"/>
@@ -157,6 +160,25 @@
               <!-- Linija ispod (pseudo-element) -->
   <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
             </div>
+            </a>
+              <!--EMAIL kontakt@smartps.rs-->
+            <a href="mailto:kontakt@smartps.rs" >
+              <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
+              <!-- Ikonica -->
+              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
+                <img src="{% static 'img/icons/fontisto_email.png' %}" class="w-10" alt="Email Icon"/>
+              </div>
+
+              <!-- Tekst -->
+              <div>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Email</h4>
+                <p class="text-gray-600 transition-colors">kontakt@smartps.rs</p>
+              </div>
+
+              <!-- Linija ispod (pseudo-element) -->
+  <!--            <span class="absolute left-1 bottom-0 w-0 h-[2px] bg-blue-500 transition-all duration-500 group-hover:w-full"></span>-->
+            </div>
+            </a>
           </div>
         </div>
       </div>

@@ -90,9 +90,23 @@
         <p class="text-sm font-bold text-gray-900 mb-4">O nama</p>
         <h2 class="text-4xl font-bold text-gray-900 mb-4">Ponosni na vašu zaštitu</h2>
         <p class="text-gray-700 text-lg mb-6 leading-relaxed">
-          Mi smo posvećen tim koji veruje u kvalitet i inovacije. Naša misija je da pružimo nezaboravno iskustvo
-          našim klijentima, kombinujući tradiciju i moderne tehnologije. Gradimo dugoročne odnose sa klijentima
-          zasnovane na poverenju i rezultatima.
+          Smart P&S je privatno obezbeđenje,registrovano u Beogradu,a licencirano za obavljanje poslova
+          fizičko-tehničkog obezbeđenja i zaštite lica ,imovine i događaja na teritoriji Republike Srbije.
+          <br>
+          <br>
+          Smart P&S pruža stručne i prilagođene usluge iz oblasti bezbednosti ,u skladu sa zahtevima
+          klijenata,a prema propisima države i Zakonu o privatnom obezbeđenju.Naš Smart P&S tim je
+          posvećen pružanju pouzdanih i ekonomski isplativih bezbedonosnih rešenja ,tako da klijenti
+          dobiju uslugu,zaštitu i vrednost koju zaslužuju za svoj novac.
+          <br>
+          <br>
+          Smart P&S nudi kompletan spektar bezbedonosnih rešenja koja odgovaraju vašim potrebama.
+          <br>
+          <br>
+          Svaki aspekt našeg posla shvatamo ozbiljno,od izgleda naših čuvara do vrste odnosa koji imamo
+          sa našim klijentima.Mi cenimo našu bazu klijenata.Ako imate bilo kakva pitanja u vezi naših
+          bezbedonosnih rešenja ili Vam je potrebna pomoć da obezbedite vašu
+          zgradu,ljude,imovinu,vrednosti,obratite nas se danas.
         </p>
         <a href="#kontakt"
            class="self-center md:self-start bg-gray-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
@@ -103,75 +117,39 @@
     </div>
     </section>
 
-    <!--  Services  -->
-    <section class="py-30 bg-gray-100">
+
+    <!-- Services Grid Section -->
+    <section class="py-20 bg-gray-100">
       <div class="max-w-7xl mx-auto px-6 text-center mb-12">
         <h2 class="text-4xl font-bold mb-4 text-gray-900">Naše usluge</h2>
         <p class="text-gray-700 text-lg">Pružamo profesionalne sigurnosne usluge za privatne i poslovne klijente.</p>
       </div>
 
-      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-
-        <!-- Kartica 1: Lično obezbeđenje -->
-        <a href="{% url 'single_service' 1 %}">
-                  <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-                <img src="https://plus.unsplash.com/premium_photo-1674582744373-c0805c281744?q=80&w=1781&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                     alt="Lično obezbeđenje" class="w-full h-48 object-cover">
-                <div class="flex items-start p-6 space-x-4">
-                  <!-- Ikonica -->
-          <!--        <img src="{% static 'img/icons/guard.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>-->
-                  <div>
-                    <h3 class="text-2xl font-semibold mb-2">Lično obezbeđenje</h3>
-                    <p class="text-gray-700">Profesionalna zaštita za vas i vašu porodicu, 24/7, diskretno i sigurno.</p>
-                  </div>
-                </div>
+        <section class="py-20 bg-gray-100">
+          <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            {% for id, service in services.items %}
+            <!-- 1 -->
+            <a href="{% url 'single_service' id %}" class="h-full">
+              <div class="bg-white rounded-xl shadow-md flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow h-full">
+                <i class=" {{ service.icon }} text-4xl text-blue-600 mb-4"></i>
+                <h3 class="text-lg font-semibold text-gray-800 text-center"> {{ service.short_title }}</h3>
               </div>
-        </a>
-
-        <!-- Kartica 2: Obezbeđenje događaja -->
-        <a href="{% url 'single_service' 2 %}">
-          <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
-               alt="Obezbeđenje događaja" class="w-full h-48 object-cover">
-          <div class="flex items-start p-6 space-x-4">
-            <!-- Ikonica -->
-    <!--        <img src="{% static 'img/icons/shield.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>-->
-            <div>
-              <h3 class="text-2xl font-semibold mb-2">Obezbeđenje događaja</h3>
-              <p class="text-gray-700">Profesionalno obezbeđenje koncerata, korporativnih događaja i privatnih proslava.</p>
-            </div>
+            </a>
+            {% endfor %}
           </div>
-        </div>
-        </a>
-
-        <!-- Kartica 3: Obezbeđenje objekata -->
-        <a href="{% url 'single_service' 3 %}">
-          <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
-          <img src="https://plus.unsplash.com/premium_photo-1682125948844-e2dc8996b0f0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-               alt="Obezbeđenje objekata" class="w-full h-48 object-cover">
-          <div class="flex items-start p-6 space-x-4">
-            <!-- Ikonica -->
-    <!--        <img src="{% static 'img/icons/building-secure.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>-->
-            <div>
-              <h3 class="text-2xl font-semibold mb-2">Obezbeđenje objekata</h3>
-              <p class="text-gray-700">Zaštita poslovnih i stambenih objekata pomoću obučenog osoblja i savremenih sistema.</p>
-            </div>
-          </div>
-        </div>
-        </a>
-
-      </div>
+        </section>
     </section>
+
 
     <!--  Hero -->
     <section class="py-30 bg-gray-800 ">
-      <div class="max-w-7xl mx-auto flex flex-col lg:flex-row">
+      <div class="max-w-7xl mx-auto flex flex-col gap-10">
         <div class="px-6 flex text-center flex-col justify-center items-center mb-12 gap-5">
           <img src="{% static 'img/icons/question.png' %}" alt="Vacancy Icon" class="w-48 "/>
-          <h2 class="text-4xl font-bold text-gray-100 mb-4">Zašto nas odabrati</h2>
+          <h2 class="text-4xl font-bold text-gray-100">Zašto nas odabrati</h2>
           <p class="text-gray-400 text-lg">Pružamo profesionalne i pouzdane sigurnosne usluge sa fokusom na kvalitet i poverenje.</p>
         </div>
-        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 relative">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-12 relative">
 
           <!-- Kartica 1 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
@@ -179,8 +157,8 @@
             <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
               <img src="{% static 'img/icons/3.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
             </div>
-            <h3 class="text-xl font-semibold mb-2 mt-4">Iskustvo i stručnost</h3>
-            <p class="text-gray-700">Naš tim čine iskusni stručnjaci sa višegodišnjim iskustvom u zaštiti i obezbeđenju.</p>
+            <h3 class="text-xl font-semibold mb-2 mt-4">Dobro obučeno profesionalno osoblje</h3>
+            <p class="text-gray-700">Naš tim stručnjaka obezbeđuje vrhunsku uslugu i potpunu pouzdanost.</p>
           </div>
 
           <!-- Kartica 2 -->
@@ -188,8 +166,8 @@
             <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
               <img src="{% static 'img/icons/4.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
             </div>
-            <h3 class="text-xl font-semibold mb-2 mt-4">Pouzdanost</h3>
-            <p class="text-gray-700">Uvijek možete računati na našu diskreciju, brzinu reagovanja i profesionalizam.</p>
+            <h3 class="text-xl font-semibold mb-2 mt-4">Fleksibilna usluga, usluga po meri klijenta</h3>
+            <p class="text-gray-700">Prilagođavamo svako rešenje vašim specifičnim potrebama i zahtevima.</p>
           </div>
 
           <!-- Kartica 3 -->
@@ -197,8 +175,8 @@
             <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
               <img src="{% static 'img/icons/certificate.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
             </div>
-            <h3 class="text-xl font-semibold mb-2 mt-4">Moderni sistemi</h3>
-            <p class="text-gray-700">Koristimo savremene tehnologije i opremu za maksimalnu sigurnost i efikasnost.</p>
+            <h3 class="text-xl font-semibold mb-2 mt-4">24/7 dostupnost i brz odgovor</h3>
+            <p class="text-gray-700">Uvek smo tu za vas, bez obzira na vreme i dan. Na svaki poziv reagujemo brzo kako biste uvek imali potpunu podršku.</p>
           </div>
 
           <!-- Kartica 4 -->
@@ -206,9 +184,28 @@
             <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
               <img src="{% static 'img/icons/flexibility.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
             </div>
-            <h3 class="text-xl font-semibold mb-2 mt-4">Fleksibilnost</h3>
-            <p class="text-gray-700">Prilagođavamo usluge potrebama klijenata, od privatne zaštite do kompleksnih događaja.</p>
+            <h3 class="text-xl font-semibold mb-2 mt-4">Sveobuhvatna bezbednosna rešenja</h3>
+            <p class="text-gray-700">Nudimo kompletna rešenja koja štite vaše objekte i imovinu.</p>
           </div>
+
+          <!-- Kartica 5 -->
+          <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
+            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
+              <img src="{% static 'img/icons/flexibility.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 mt-4">Besplatna konsultacija i procena pozicija</h3>
+            <p class="text-gray-700">Naši stručnjaci besplatno izlaze na teren i daju najbolju ponudu.</p>
+          </div>
+
+          <!-- Kartica 6 -->
+          <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
+            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
+              <img src="{% static 'img/icons/flexibility.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            </div>
+            <h3 class="text-xl font-semibold mb-2 mt-4">Konkurentna i pristupačna cena usluge</h3>
+            <p class="text-gray-700">Kvalitetna usluga po ceni koja odgovara svakom budžetu.</p>
+          </div>
+
 
         </div>
       </div>
@@ -216,55 +213,55 @@
     </section>
 
     <!--  Hero -->
-    <section class="py-30 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-6 text-center mb-12">
-      <p class="text-gray-700 text-lg">Ponosni smo na postignute rezultate i poverenje naših klijenata.</p>
-    </div>
+<!--    <section class="py-30 bg-gray-50">-->
+<!--    <div class="max-w-7xl mx-auto px-6 text-center mb-12">-->
+<!--      <p class="text-gray-700 text-lg">Ponosni smo na postignute rezultate i poverenje naših klijenata.</p>-->
+<!--    </div>-->
 
-    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+<!--    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">-->
 
-      <!-- Zadovoljni klijenti -->
-      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">
-        <div class="text-blue-600 mb-4">
-          <!-- Ikonica korisnika -->
-          <img src="{% static 'img/icons/man-in-suit-and-tie.png' %}" alt="" class="w-14">
-        </div>
-        <div class="text-orange-400 text-5xl font-bold mb-2">120+</div>
-        <p class="text-gray-700 font-medium">Zadovoljnih korisnika</p>
-      </div>
+<!--      &lt;!&ndash; Zadovoljni klijenti &ndash;&gt;-->
+<!--      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">-->
+<!--        <div class="text-blue-600 mb-4">-->
+<!--          &lt;!&ndash; Ikonica korisnika &ndash;&gt;-->
+<!--          <img src="{% static 'img/icons/man-in-suit-and-tie.png' %}" alt="" class="w-14">-->
+<!--        </div>-->
+<!--        <div class="text-orange-400 text-5xl font-bold mb-2">120+</div>-->
+<!--        <p class="text-gray-700 font-medium">Zadovoljnih korisnika</p>-->
+<!--      </div>-->
 
-      <!-- Obezbeđeni objekti -->
-      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">
-        <div class="text-green-600 mb-4">
-          <!-- Ikonica zgrade -->
-          <img src="{% static 'img/icons/building.png' %}" alt="" class="w-14">
-        </div>
-        <div class="text-orange-400 text-5xl font-bold mb-2">85</div>
-        <p class="text-gray-700 font-medium">Obezbeđenih objekata</p>
-      </div>
+<!--      &lt;!&ndash; Obezbeđeni objekti &ndash;&gt;-->
+<!--      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">-->
+<!--        <div class="text-green-600 mb-4">-->
+<!--          &lt;!&ndash; Ikonica zgrade &ndash;&gt;-->
+<!--          <img src="{% static 'img/icons/building.png' %}" alt="" class="w-14">-->
+<!--        </div>-->
+<!--        <div class="text-orange-400 text-5xl font-bold mb-2">85</div>-->
+<!--        <p class="text-gray-700 font-medium">Obezbeđenih objekata</p>-->
+<!--      </div>-->
 
-      <!-- Zaštićene osobe -->
-      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">
-        <div class="text-blue-400 mb-4">
-          <!-- Ikonica štita -->
-          <img src="{% static 'img/icons/group.png' %}" alt="" class="w-14">
-        </div>
-        <div class="text-orange-400 text-5xl font-bold mb-2">250+</div>
-        <p class="text-gray-700 font-medium">Zaštićenih osoba</p>
-      </div>
+<!--      &lt;!&ndash; Zaštićene osobe &ndash;&gt;-->
+<!--      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">-->
+<!--        <div class="text-blue-400 mb-4">-->
+<!--          &lt;!&ndash; Ikonica štita &ndash;&gt;-->
+<!--          <img src="{% static 'img/icons/group.png' %}" alt="" class="w-14">-->
+<!--        </div>-->
+<!--        <div class="text-orange-400 text-5xl font-bold mb-2">250+</div>-->
+<!--        <p class="text-gray-700 font-medium">Zaštićenih osoba</p>-->
+<!--      </div>-->
 
-      <!-- Održani događaji -->
-      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">
-        <div class="text-red-600 mb-4">
-          <!-- Ikonica kalendara -->
-          <img src="{% static 'img/icons/appointment.png' %}" alt="" class="w-14">
-        </div>
-        <div class="text-orange-400 text-5xl font-bold mb-2">15</div>
-        <p class="text-gray-700 font-medium">Obezbeđenih događaja</p>
-      </div>
+<!--      &lt;!&ndash; Održani događaji &ndash;&gt;-->
+<!--      <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center">-->
+<!--        <div class="text-red-600 mb-4">-->
+<!--          &lt;!&ndash; Ikonica kalendara &ndash;&gt;-->
+<!--          <img src="{% static 'img/icons/appointment.png' %}" alt="" class="w-14">-->
+<!--        </div>-->
+<!--        <div class="text-orange-400 text-5xl font-bold mb-2">15</div>-->
+<!--        <p class="text-gray-700 font-medium">Obezbeđenih događaja</p>-->
+<!--      </div>-->
 
-    </div>
-  </section>
+<!--    </div>-->
+<!--  </section>-->
 
 </div>
 
