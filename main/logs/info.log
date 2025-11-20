@@ -2472,3 +2472,13 @@ INFO 2025-11-20 14:17:06,349 basehttp "GET /activities/3 HTTP/1.1" 200 12228
 INFO 2025-11-20 14:17:06,418 basehttp "GET /static/css/dist/styles.css?v=1763644626 HTTP/1.1" 200 112024
 INFO 2025-11-20 14:17:07,362 basehttp "GET /activities/3 HTTP/1.1" 200 12228
 INFO 2025-11-20 14:17:07,433 basehttp "GET /static/css/dist/styles.css?v=1763644627 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:17:19,769 basehttp "GET /activities/3 HTTP/1.1" 200 12228
+INFO 2025-11-20 14:17:19,796 basehttp "GET /static/css/dist/styles.css?v=1763644639 HTTP/1.1" 200 0
+INFO 2025-11-20 14:17:20,781 basehttp "GET /activities/3 HTTP/1.1" 200 12228
+INFO 2025-11-20 14:17:20,807 basehttp "GET /static/css/dist/styles.css?v=1763644640 HTTP/1.1" 200 0
+INFO 2025-11-20 14:17:21,801 basehttp "GET /activities/3 HTTP/1.1" 200 12228
+INFO 2025-11-20 14:17:21,844 basehttp "GET /static/css/dist/styles.css?v=1763644641 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:17:23,757 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 14:17:24,469 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 14:17:25,293 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:17:25,611 autoreload Watching for file changes with StatReloader
