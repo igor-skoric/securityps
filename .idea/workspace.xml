@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="commit collect static">
-      <change afterPath="$PROJECT_DIR$/main/website/services_data.py" afterDir="false" />
+    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="new update">
+      <change afterPath="$PROJECT_DIR$/main/website/templates/website/extended_services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/website/templates/website/single_service_extended.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/templates/website/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/services_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/services_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/templates/website/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/templates/website/single_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/single_service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/views.py" afterDir="false" />
@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -177,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761133911516</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new update">
+      <option name="closed" value="true" />
+      <created>1763377106501</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763377106501</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit collect static" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit collect static" />
+    <MESSAGE value="new update" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update" />
   </component>
 </project>

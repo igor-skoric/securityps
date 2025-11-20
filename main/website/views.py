@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .services_data import SERVICES
+from .services_data import SERVICES, SERVICES_EXTENDED
 
 
 def test(request):
@@ -9,7 +9,8 @@ def test(request):
 
 def home(request):
     context = {
-        "services": SERVICES
+        "services": SERVICES,
+        "extended_services": SERVICES_EXTENDED
     }
     return render(request, 'website/index.html', context)
 
@@ -36,3 +37,19 @@ def single_service(request, pk):
         "service": service
     }
     return render(request, 'website/single_service.html', context)
+
+
+def single_service_extended(request, pk):
+
+    print(request)
+    print(pk)
+    service = SERVICES_EXTENDED.get(pk)
+
+    if not service:
+        from django.http import Http404
+        raise Http404("Service not found")
+
+    context = {
+        "service": service
+    }
+    return render(request, 'website/single_service_extended.html', context)

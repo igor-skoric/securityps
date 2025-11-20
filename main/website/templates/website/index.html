@@ -9,6 +9,7 @@
 <div id="app-home">
     <!--  Hero -->
     <section id="hero" class="relative w-full overflow-hidden">
+
       <!-- Slides -->
       <div class="relative w-full h-screen">
         <div v-for="(slide, index) in slides" :key="index"
@@ -19,7 +20,7 @@
              }">
 
           <!-- Image -->
-          <img :src="slide.image" class="w-full h-full object-cover">
+          <img src="{% static 'img/security1.jpg' %}" class="w-full h-full object-cover">
 
           <!-- Overlay sa tekstom -->
           <div class="absolute inset-0 bg-black/40 flex items-center">
@@ -27,11 +28,11 @@
 
               <!-- Tekst (desktop levo, mobile centar) -->
               <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-16 md:px-8">
-                <h1 class="text-3xl md:text-5xl font-bold mb-4">[[ slide.title ]]</h1>
-                <p class="mb-6 text-lg md:text-xl">[[ slide.subtitle ]]</p>
-                <a :href="slide.link" class="bg-gray-700 hover:bg-blue-700 px-6 py-3 rounded text-white font-semibold  transition duration-300">
-                  Saznaj više
-                </a>
+                <h1 class="text-yellow-400 text-3xl md:text-5xl font-bold mb-4">Obezbedite svoje poslovanje</h1>
+<!--                <p class="mb-6 text-lg md:text-xl">[[ slide.subtitle ]]</p>-->
+<!--                <a :href="slide.link" class="bg-gray-700 hover:bg-blue-700 px-6 py-3 rounded text-white font-semibold  transition duration-300">-->
+<!--                  Saznaj više-->
+<!--                </a>-->
               </div>
 
               <!-- Prazno desno za desktop ili dodatni element -->
@@ -42,34 +43,34 @@
       </div>
 
       <!-- Buttons -->
-      <button @click="prevSlide" class="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-bg-500 p-3 rounded-full z-20 cursor-pointer">
-        <svg
-          class="w-4 md:w-8 text-white hover:text-blue-500 transition-colors duration-300"
-          viewBox="0 0 47 75"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M46.7031 9.31835V1.76952C46.7031 1.11523 45.9512 0.753899 45.4434 1.15429L1.41994 35.5391C1.0459 35.8299 0.74324 36.2024 0.535047 36.6281C0.326853 37.0537 0.218628 37.5213 0.218628 37.9951C0.218628 38.4689 0.326853 38.9365 0.535047 39.3622C0.74324 39.7878 1.0459 40.1603 1.41994 40.4512L45.4434 74.8359C45.961 75.2363 46.7031 74.875 46.7031 74.2207V66.6719C46.7031 66.1934 46.4785 65.7344 46.1074 65.4414L10.9512 38L46.1074 10.5488C46.4785 10.2559 46.7031 9.79687 46.7031 9.31835Z"
-            fill="currentColor"
-          />
-        </svg>
-      </button>
-      <button @click="nextSlide" class="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-bg-500 p-3 rounded-full z-20 cursor-pointer">
-        <svg class="w-4 md:w-8 text-white hover:text-blue-500 transition-colors duration-300" viewBox="0 0 47 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M45.7754 35.5391L1.75196 1.1543C1.63693 1.06373 1.49868 1.00745 1.3531 0.991913C1.20752 0.976377 1.06051 1.00222 0.928952 1.06647C0.797396 1.13071 0.68663 1.23077 0.609373 1.35513C0.532116 1.47949 0.491502 1.62313 0.492196 1.76953V9.31836C0.492196 9.79687 0.716806 10.2559 1.0879 10.5488L36.2441 38L1.0879 65.4512C0.707041 65.7441 0.492196 66.2031 0.492196 66.6816V74.2305C0.492196 74.8848 1.24415 75.2461 1.75196 74.8457L45.7754 40.4609C46.1496 40.1691 46.4523 39.7957 46.6605 39.3693C46.8686 38.9428 46.9769 38.4745 46.9769 38C46.9769 37.5255 46.8686 37.0572 46.6605 36.6307C46.4523 36.2043 46.1496 35.8309 45.7754 35.5391Z"
-            fill="currentColor"/>
-          </svg>
-      </button>
+<!--      <button @click="prevSlide" class="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-bg-500 p-3 rounded-full z-20 cursor-pointer">-->
+<!--        <svg-->
+<!--          class="w-4 md:w-8 text-white hover:text-blue-500 transition-colors duration-300"-->
+<!--          viewBox="0 0 47 75"-->
+<!--          fill="none"-->
+<!--          xmlns="http://www.w3.org/2000/svg"-->
+<!--        >-->
+<!--          <path-->
+<!--            d="M46.7031 9.31835V1.76952C46.7031 1.11523 45.9512 0.753899 45.4434 1.15429L1.41994 35.5391C1.0459 35.8299 0.74324 36.2024 0.535047 36.6281C0.326853 37.0537 0.218628 37.5213 0.218628 37.9951C0.218628 38.4689 0.326853 38.9365 0.535047 39.3622C0.74324 39.7878 1.0459 40.1603 1.41994 40.4512L45.4434 74.8359C45.961 75.2363 46.7031 74.875 46.7031 74.2207V66.6719C46.7031 66.1934 46.4785 65.7344 46.1074 65.4414L10.9512 38L46.1074 10.5488C46.4785 10.2559 46.7031 9.79687 46.7031 9.31835Z"-->
+<!--            fill="currentColor"-->
+<!--          />-->
+<!--        </svg>-->
+<!--      </button>-->
+<!--      <button @click="nextSlide" class="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-bg-500 p-3 rounded-full z-20 cursor-pointer">-->
+<!--        <svg class="w-4 md:w-8 text-white hover:text-blue-500 transition-colors duration-300" viewBox="0 0 47 76" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--          <path-->
+<!--            d="M45.7754 35.5391L1.75196 1.1543C1.63693 1.06373 1.49868 1.00745 1.3531 0.991913C1.20752 0.976377 1.06051 1.00222 0.928952 1.06647C0.797396 1.13071 0.68663 1.23077 0.609373 1.35513C0.532116 1.47949 0.491502 1.62313 0.492196 1.76953V9.31836C0.492196 9.79687 0.716806 10.2559 1.0879 10.5488L36.2441 38L1.0879 65.4512C0.707041 65.7441 0.492196 66.2031 0.492196 66.6816V74.2305C0.492196 74.8848 1.24415 75.2461 1.75196 74.8457L45.7754 40.4609C46.1496 40.1691 46.4523 39.7957 46.6605 39.3693C46.8686 38.9428 46.9769 38.4745 46.9769 38C46.9769 37.5255 46.8686 37.0572 46.6605 36.6307C46.4523 36.2043 46.1496 35.8309 45.7754 35.5391Z"-->
+<!--            fill="currentColor"/>-->
+<!--          </svg>-->
+<!--      </button>-->
 
       <!-- Dots -->
-      <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
-        <span v-for="(slide, index) in slides" :key="index"
-              @click="goToSlide(index)"
-              :class="{'bg-white': index === currentIndex, 'bg-gray-500': index !== currentIndex}"
-              class="w-3 h-3 rounded-full cursor-pointer"></span>
-      </div>
+<!--      <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 z-20">-->
+<!--        <span v-for="(slide, index) in slides" :key="index"-->
+<!--              @click="goToSlide(index)"-->
+<!--              :class="{'bg-white': index === currentIndex, 'bg-gray-500': index !== currentIndex}"-->
+<!--              class="w-3 h-3 rounded-full cursor-pointer"></span>-->
+<!--      </div>-->
 
     </section>
 
@@ -87,8 +88,7 @@
 
       <!-- Tekst desno (desktop) ili dole (mobile) -->
       <div class="md:w-1/2 w-full flex flex-col justify-center text-center md:text-left">
-        <p class="text-sm font-bold text-gray-900 mb-4">O nama</p>
-        <h2 class="text-4xl font-bold text-gray-900 mb-4">Ponosni na vašu zaštitu</h2>
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">O nama</h2>
         <p class="text-gray-700 text-lg mb-6 leading-relaxed">
           Smart P&S je privatno obezbeđenje,registrovano u Beogradu,a licencirano za obavljanje poslova
           fizičko-tehničkog obezbeđenja i zaštite lica ,imovine i događaja na teritoriji Republike Srbije.
@@ -141,7 +141,30 @@
     </section>
 
 
-    <!--  Hero -->
+    <section class="py-20">
+      <div class="container mx-auto px-4">
+        <h1 class="text-3xl font-bold text-center mb-20">Delatnosti u kojima pružamo usluge obezbeđenja</h1>
+
+        <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          {% for id, service in extended_services.items %}
+          <a href="{% url 'single_service_extended' id %}" class="cursor-pointer">
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+              <div class="p-6">
+                <div class="flex flex-col items-center mb-4">
+                  <p class=" flex justify-center items-center p-4 rounded-full bg-black">
+                    <i class="{{ service.icon }} text-blue-500 text-2xl"></i>
+                  </p>
+                  <h2 class="text-xl font-semibold">{{ service.short_title }}</h2>
+                </div>
+              </div>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <!--  Zasto nas odabrati -->
     <section class="py-30 bg-gray-800 ">
       <div class="max-w-7xl mx-auto flex flex-col gap-10">
         <div class="px-6 flex text-center flex-col justify-center items-center mb-12 gap-5">

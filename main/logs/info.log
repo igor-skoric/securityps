@@ -1218,3 +1218,1257 @@ WARNING 2025-11-17 11:55:58,978 basehttp "GET /.well-known/appspecific/com.chrom
 INFO 2025-11-17 11:57:07,006 basehttp "GET /contact HTTP/1.1" 200 17414
 WARNING 2025-11-17 11:57:07,052 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
 WARNING 2025-11-17 11:57:07,053 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:02:39,154 basehttp "GET /contact HTTP/1.1" 200 17418
+WARNING 2025-11-17 13:02:39,241 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:02:39,242 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+WARNING 2025-11-17 13:02:40,458 log Not Found: /favicon.ico
+WARNING 2025-11-17 13:02:40,460 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-17 13:02:41,072 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-17 13:02:41,885 basehttp "GET /single_service/3 HTTP/1.1" 200 12651
+INFO 2025-11-17 13:02:41,959 basehttp "GET /static/img/private.3df68c30cde0.png HTTP/1.1" 200 193414
+INFO 2025-11-17 13:02:44,803 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-17 13:02:47,076 basehttp "GET /single_service/4 HTTP/1.1" 200 12336
+INFO 2025-11-17 13:02:49,939 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-17 13:02:50,446 basehttp "GET / HTTP/1.1" 200 26546
+INFO 2025-11-17 13:02:50,587 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-17 13:02:50,587 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-17 13:05:21,398 basehttp code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2025-11-17 13:05:21,401 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-11-17 13:05:21,411 basehttp code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06')
+ERROR 2025-11-17 13:05:21,411 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-11-17 13:05:21,417 basehttp code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93**\x00\x00\x00#\x00\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2025-11-17 13:05:21,417 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-11-17 13:05:21,417 basehttp code 400, message Bad request version ('Zt\x83D\x1a\x19ÈØwí\x0eô_\x10ka\x8c3')
+ERROR 2025-11-17 13:05:21,417 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-11-17 13:06:14,140 basehttp "GET / HTTP/1.1" 200 26547
+INFO 2025-11-17 13:06:14,499 basehttp "GET /static/img/security1.jpg HTTP/1.1" 304 0
+INFO 2025-11-17 13:06:14,499 basehttp "GET /static/img/logo-png.png HTTP/1.1" 304 0
+INFO 2025-11-17 13:06:19,914 basehttp "GET / HTTP/1.1" 200 26547
+INFO 2025-11-17 13:06:19,954 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-17 13:06:19,972 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-17 13:06:19,973 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-17 13:06:19,973 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-17 13:06:20,018 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-17 13:06:20,019 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-17 13:06:20,131 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-17 13:06:20,144 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-17 13:06:20,286 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-17 13:06:20,299 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-17 13:06:20,301 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-17 13:06:20,305 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-17 13:06:20,309 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-17 13:06:20,369 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-17 13:06:20,386 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+WARNING 2025-11-17 13:06:20,552 log Not Found: /favicon.ico
+WARNING 2025-11-17 13:06:20,552 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-17 13:06:28,558 autoreload Watching for file changes with StatReloader
+INFO 2025-11-17 13:06:31,790 basehttp "GET / HTTP/1.1" 200 26547
+INFO 2025-11-17 13:06:44,831 basehttp "GET / HTTP/1.1" 200 26547
+INFO 2025-11-17 13:06:44,867 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-17 13:06:44,875 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-17 13:06:44,875 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-17 13:06:44,878 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-17 13:06:44,915 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-17 13:06:44,915 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-17 13:06:44,955 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-17 13:06:45,031 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-17 13:06:45,146 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-17 13:06:45,163 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-17 13:06:45,173 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-17 13:06:45,180 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-17 13:06:45,185 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-17 13:06:45,277 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-17 13:06:45,282 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+WARNING 2025-11-17 13:06:45,423 log Not Found: /favicon.ico
+WARNING 2025-11-17 13:06:45,425 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-11-17 13:06:48,582 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:06:48,584 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:06:52,843 basehttp "GET / HTTP/1.1" 200 26547
+WARNING 2025-11-17 13:06:52,916 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:06:52,917 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:06:52,945 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-17 13:06:52,973 basehttp "GET /static/css/dist/styles.402361b4b33c.css HTTP/1.1" 200 16177
+INFO 2025-11-17 13:06:52,974 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-17 13:06:52,976 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-17 13:06:53,031 basehttp "GET /static/img/icons/viber.68a9ad4125c5.png HTTP/1.1" 200 30434
+INFO 2025-11-17 13:06:53,031 basehttp "GET /static/img/icons/whatsapp.5e9db4746548.png HTTP/1.1" 200 27018
+INFO 2025-11-17 13:06:53,055 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-17 13:06:53,067 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-17 13:06:53,284 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-17 13:06:53,299 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-17 13:06:53,308 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-17 13:06:53,309 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-17 13:06:53,313 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-17 13:06:53,377 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-17 13:06:53,384 basehttp "GET /static/img/logo-png.png HTTP/1.1" 200 935311
+WARNING 2025-11-17 13:06:53,609 log Not Found: /favicon.ico
+WARNING 2025-11-17 13:06:53,609 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-17 13:07:01,245 basehttp "GET / HTTP/1.1" 200 26547
+INFO 2025-11-17 13:08:03,278 basehttp "GET / HTTP/1.1" 200 26573
+INFO 2025-11-17 13:08:03,362 basehttp "GET /static/img/security1.3f466df909d2.jpg HTTP/1.1" 200 680120
+INFO 2025-11-17 13:08:43,090 basehttp "GET / HTTP/1.1" 200 26713
+INFO 2025-11-17 13:08:51,304 basehttp "GET / HTTP/1.1" 200 26723
+INFO 2025-11-17 13:09:01,003 basehttp "GET / HTTP/1.1" 200 26730
+INFO 2025-11-17 13:09:14,280 basehttp "GET / HTTP/1.1" 200 26737
+INFO 2025-11-17 13:09:16,152 basehttp "GET / HTTP/1.1" 200 26737
+INFO 2025-11-17 13:09:32,269 basehttp "GET / HTTP/1.1" 200 26772
+WARNING 2025-11-17 13:09:34,109 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:09:34,110 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:09:51,912 basehttp "GET / HTTP/1.1" 200 26837
+WARNING 2025-11-17 13:09:51,987 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:09:51,988 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:09:58,137 basehttp "GET / HTTP/1.1" 200 26793
+WARNING 2025-11-17 13:09:58,195 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:09:58,196 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:10:17,531 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-17 13:10:17,589 basehttp "GET /static/img/icons/services2.25684660433e.jpg HTTP/1.1" 200 19817
+INFO 2025-11-17 13:10:20,792 basehttp "GET /single_service/7 HTTP/1.1" 200 12320
+INFO 2025-11-17 13:10:20,828 basehttp "GET /static/img/private.3df68c30cde0.png HTTP/1.1" 200 193414
+INFO 2025-11-17 13:10:23,219 basehttp "GET / HTTP/1.1" 200 26793
+INFO 2025-11-17 13:10:46,053 basehttp "GET /services HTTP/1.1" 200 13887
+INFO 2025-11-17 13:10:51,077 basehttp "GET / HTTP/1.1" 200 26793
+INFO 2025-11-17 13:11:39,735 basehttp "GET / HTTP/1.1" 200 26806
+INFO 2025-11-17 13:11:40,667 basehttp "GET / HTTP/1.1" 200 26806
+INFO 2025-11-17 13:11:48,115 basehttp "GET / HTTP/1.1" 200 26806
+INFO 2025-11-17 13:11:55,619 basehttp "GET / HTTP/1.1" 200 26806
+INFO 2025-11-17 13:15:10,947 basehttp "GET / HTTP/1.1" 200 26978
+WARNING 2025-11-17 13:15:15,553 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:15:15,554 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:17:12,059 basehttp "GET /contact HTTP/1.1" 200 17590
+INFO 2025-11-17 13:17:12,235 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-11-17 13:17:12,244 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-11-17 13:17:12,267 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-11-17 13:17:12,270 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+INFO 2025-11-17 13:17:12,285 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+INFO 2025-11-17 13:17:17,328 basehttp "GET / HTTP/1.1" 200 26978
+INFO 2025-11-17 13:17:44,737 basehttp "GET / HTTP/1.1" 200 26793
+INFO 2025-11-17 13:17:54,589 basehttp "GET / HTTP/1.1" 200 26775
+WARNING 2025-11-17 13:17:56,214 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:17:56,215 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:18:17,071 basehttp "GET / HTTP/1.1" 200 26775
+WARNING 2025-11-17 13:18:17,146 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-17 13:18:17,147 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-17 13:18:34,012 basehttp "GET / HTTP/1.1" 200 26775
+INFO 2025-11-17 13:18:47,635 basehttp "GET / HTTP/1.1" 200 26775
+INFO 2025-11-17 13:19:59,510 basehttp "GET / HTTP/1.1" 200 26688
+ERROR 2025-11-17 13:20:39,800 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:20:39,907 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:20:40,072 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:20:40,075 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:20:57,103 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:20:57,103 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:20:57,417 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:20:57,419 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:21:00,391 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:21:00,393 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:21:00,435 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:21:00,439 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:21:32,098 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:21:32,098 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:21:32,416 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:21:32,416 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:21:33,533 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:21:33,533 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:21:33,638 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:21:33,642 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:25:33,632 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:25:33,636 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:25:33,775 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:25:33,778 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:25:40,319 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:25:40,321 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:25:40,612 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:25:40,612 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:27:08,000 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:27:08,003 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2025-11-17 13:27:08,100 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:27:08,103 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2025-11-17 13:27:10,639 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-17 13:27:10,645 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2025-11-20 12:31:51,868 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:33:19,210 basehttp "GET / HTTP/1.1" 200 26688
+INFO 2025-11-20 12:33:19,250 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-20 12:33:19,264 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-20 12:33:19,264 basehttp "GET /static/css/dist/styles.2c670b371256.css HTTP/1.1" 200 15962
+INFO 2025-11-20 12:33:19,264 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-20 12:33:19,343 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+WARNING 2025-11-20 12:33:19,512 log Not Found: /favicon.ico
+WARNING 2025-11-20 12:33:19,513 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-20 12:33:35,193 basehttp "GET /contact HTTP/1.1" 200 17386
+INFO 2025-11-20 12:33:35,308 basehttp "GET /static/img/icons/ic_baseline-phone.e0537d6d592b.png HTTP/1.1" 200 6858
+INFO 2025-11-20 12:33:35,312 basehttp "GET /static/img/icons/connections.9d13e1371084.jpg HTTP/1.1" 200 53053
+INFO 2025-11-20 12:33:35,314 basehttp "GET /static/img/icons/logos_whatsapp-icon.26fcbde1c984.png HTTP/1.1" 200 122530
+INFO 2025-11-20 12:33:35,322 basehttp "GET /static/img/icons/fontisto_email.82a91d308fc2.png HTTP/1.1" 200 9443
+INFO 2025-11-20 12:33:35,324 basehttp "GET /static/img/icons/cib_viber.05ebf597d22f.png HTTP/1.1" 200 18870
+INFO 2025-11-20 12:33:40,258 basehttp "GET /services HTTP/1.1" 200 13855
+INFO 2025-11-20 12:33:40,309 basehttp "GET /static/img/icons/services2.25684660433e.jpg HTTP/1.1" 200 19817
+INFO 2025-11-20 12:33:43,044 basehttp "GET /single_service/10 HTTP/1.1" 200 13698
+INFO 2025-11-20 12:33:43,082 basehttp "GET /static/img/private.3df68c30cde0.png HTTP/1.1" 200 193414
+INFO 2025-11-20 12:33:54,083 basehttp "GET / HTTP/1.1" 200 26688
+INFO 2025-11-20 12:33:58,516 basehttp "GET /single_service/6 HTTP/1.1" 200 12386
+INFO 2025-11-20 12:34:07,557 basehttp "GET / HTTP/1.1" 200 26688
+WARNING 2025-11-20 12:34:21,679 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:34:21,679 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-20 12:35:51,326 basehttp "GET / HTTP/1.1" 200 26705
+WARNING 2025-11-20 12:35:53,624 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:35:53,626 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-20 12:42:11,211 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 12:42:12,415 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:43:11,744 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 12:43:12,811 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:44:52,964 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 12:44:53,399 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:45:01,720 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 12:45:02,188 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:48:43,776 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 12:48:44,269 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:48:51,788 basehttp "GET / HTTP/1.1" 200 26982
+INFO 2025-11-20 12:49:15,061 basehttp "GET / HTTP/1.1" 200 37855
+INFO 2025-11-20 12:49:32,017 basehttp "GET / HTTP/1.1" 200 34429
+INFO 2025-11-20 12:49:44,405 basehttp "GET / HTTP/1.1" 200 34453
+INFO 2025-11-20 12:49:45,544 basehttp "GET / HTTP/1.1" 200 34453
+INFO 2025-11-20 12:49:45,574 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-20 12:49:45,580 basehttp "GET /static/css/dist/styles.2c670b371256.css HTTP/1.1" 200 15962
+INFO 2025-11-20 12:49:45,587 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-20 12:49:45,588 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-20 12:49:45,609 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-20 12:49:45,616 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-20 12:49:45,658 basehttp "GET /static/img/security1.3f466df909d2.jpg HTTP/1.1" 200 680120
+INFO 2025-11-20 12:49:45,782 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-20 12:49:45,785 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-20 12:49:45,788 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+INFO 2025-11-20 12:49:45,794 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-20 12:49:45,795 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+WARNING 2025-11-20 12:49:45,921 log Not Found: /favicon.ico
+WARNING 2025-11-20 12:49:45,921 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-20 12:49:55,523 basehttp "GET / HTTP/1.1" 200 34333
+INFO 2025-11-20 12:50:24,735 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:51:33,908 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:51:38,836 basehttp "GET / HTTP/1.1" 200 34333
+INFO 2025-11-20 12:51:40,091 basehttp "GET / HTTP/1.1" 200 34333
+INFO 2025-11-20 12:51:40,125 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-20 12:51:40,126 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-20 12:51:40,127 basehttp "GET /static/css/dist/styles.2c670b371256.css HTTP/1.1" 200 15962
+INFO 2025-11-20 12:51:40,128 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-20 12:51:40,132 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-20 12:51:40,137 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-20 12:51:40,181 basehttp "GET /static/img/security1.3f466df909d2.jpg HTTP/1.1" 200 680120
+INFO 2025-11-20 12:51:40,304 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-20 12:51:40,305 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-20 12:51:40,308 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-20 12:51:40,311 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-20 12:51:40,319 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+WARNING 2025-11-20 12:51:40,604 log Not Found: /favicon.ico
+WARNING 2025-11-20 12:51:40,604 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-20 12:51:47,546 basehttp "GET / HTTP/1.1" 200 34344
+INFO 2025-11-20 12:51:48,553 basehttp "GET / HTTP/1.1" 200 34344
+INFO 2025-11-20 12:51:48,593 basehttp "GET /static/css/styles.d41d8cd98f00.css HTTP/1.1" 200 0
+INFO 2025-11-20 12:51:48,599 basehttp "GET /static/img/icons/facebook.021ada146ffb.png HTTP/1.1" 200 6350
+INFO 2025-11-20 12:51:48,600 basehttp "GET /static/css/dist/styles.2c670b371256.css HTTP/1.1" 200 15962
+INFO 2025-11-20 12:51:48,602 basehttp "GET /static/img/icons/instagram.5c570427ee23.png HTTP/1.1" 200 60380
+INFO 2025-11-20 12:51:48,620 basehttp "GET /static/js/main.031ed22a2ce0.js HTTP/1.1" 200 2025
+INFO 2025-11-20 12:51:48,624 basehttp "GET /static/img/smart_ps_logo.09c5c658daeb.png HTTP/1.1" 200 657987
+INFO 2025-11-20 12:51:48,659 basehttp "GET /static/img/security1.3f466df909d2.jpg HTTP/1.1" 200 680120
+INFO 2025-11-20 12:51:48,740 basehttp "GET /static/img/icons/flexibility.eb201184b182.png HTTP/1.1" 200 18223
+INFO 2025-11-20 12:51:48,743 basehttp "GET /static/img/icons/certificate.4676ebc098ec.png HTTP/1.1" 200 11000
+INFO 2025-11-20 12:51:48,745 basehttp "GET /static/img/icons/question.06fb4fa6d754.png HTTP/1.1" 200 28185
+INFO 2025-11-20 12:51:48,748 basehttp "GET /static/img/icons/3.8a9f48c77539.png HTTP/1.1" 200 87354
+INFO 2025-11-20 12:51:48,750 basehttp "GET /static/img/icons/4.2849b4d39088.png HTTP/1.1" 200 158672
+WARNING 2025-11-20 12:51:48,902 log Not Found: /favicon.ico
+WARNING 2025-11-20 12:51:48,902 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-20 12:51:56,181 basehttp "GET / HTTP/1.1" 200 34344
+WARNING 2025-11-20 12:51:59,119 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:51:59,120 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-20 12:52:48,102 basehttp "GET / HTTP/1.1" 200 31992
+WARNING 2025-11-20 12:52:48,171 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:52:48,171 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+INFO 2025-11-20 12:53:16,022 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 12:53:16,127 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 12:53:16,771 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 12:53:17,358 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:53:17,405 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:53:17,555 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:53:21,284 basehttp "GET / HTTP/1.1" 200 31883
+WARNING 2025-11-20 12:53:21,381 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:53:21,382 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 12:53:21,682 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2025-11-20 12:53:21,716 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2025-11-20 12:53:21,722 basehttp "GET /static/css/dist/styles.css?v=1763639601 HTTP/1.1" 200 111958
+INFO 2025-11-20 12:53:21,756 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2025-11-20 12:53:21,758 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2025-11-20 12:53:21,789 basehttp "GET /static/js/main.js HTTP/1.1" 200 5133
+INFO 2025-11-20 12:53:21,792 basehttp "GET /static/img/icons/3.png HTTP/1.1" 200 87354
+INFO 2025-11-20 12:53:21,812 basehttp "GET /static/img/icons/certificate.png HTTP/1.1" 200 11000
+INFO 2025-11-20 12:53:21,826 basehttp "GET /static/img/icons/4.png HTTP/1.1" 200 158672
+INFO 2025-11-20 12:53:21,829 basehttp "GET /static/img/icons/flexibility.png HTTP/1.1" 200 18223
+INFO 2025-11-20 12:53:21,832 basehttp "GET /static/img/security1.jpg HTTP/1.1" 200 680120
+INFO 2025-11-20 12:53:21,837 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 200 657987
+INFO 2025-11-20 12:53:21,867 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-11-20 12:53:21,899 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2025-11-20 12:53:36,531 basehttp "GET / HTTP/1.1" 200 31968
+WARNING 2025-11-20 12:53:36,574 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:53:36,574 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 12:53:36,574 basehttp "GET /static/css/dist/styles.css?v=1763639616 HTTP/1.1" 200 111958
+INFO 2025-11-20 12:53:53,336 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 12:53:54,865 basehttp "GET / HTTP/1.1" 200 31968
+WARNING 2025-11-20 12:53:54,925 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:53:54,926 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 12:53:54,952 basehttp "GET /static/css/dist/styles.css?v=1763639634 HTTP/1.1" 200 111894
+INFO 2025-11-20 12:53:56,574 basehttp "GET / HTTP/1.1" 200 31968
+WARNING 2025-11-20 12:53:56,621 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:53:56,621 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 12:53:56,629 basehttp "GET /static/css/dist/styles.css?v=1763639636 HTTP/1.1" 200 111894
+INFO 2025-11-20 12:54:31,810 basehttp "GET / HTTP/1.1" 200 32088
+INFO 2025-11-20 12:54:31,875 basehttp "GET /static/css/dist/styles.css?v=1763639671 HTTP/1.1" 200 111894
+INFO 2025-11-20 12:54:32,882 basehttp "GET / HTTP/1.1" 200 32088
+INFO 2025-11-20 12:54:32,909 basehttp "GET / HTTP/1.1" 200 32088
+INFO 2025-11-20 12:54:32,973 basehttp "GET /static/css/dist/styles.css?v=1763639672 HTTP/1.1" 200 111894
+INFO 2025-11-20 12:54:34,616 basehttp "GET / HTTP/1.1" 200 32088
+INFO 2025-11-20 12:54:34,650 basehttp "GET /static/css/dist/styles.css?v=1763639674 HTTP/1.1" 200 111894
+INFO 2025-11-20 12:54:50,422 basehttp "GET / HTTP/1.1" 200 32076
+INFO 2025-11-20 12:54:50,482 basehttp "GET /static/css/dist/styles.css?v=1763639690 HTTP/1.1" 200 111894
+INFO 2025-11-20 12:56:24,925 basehttp "GET /static/css/dist/styles.css?v=1763639690 HTTP/1.1" 304 0
+WARNING 2025-11-20 12:56:24,952 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 12:56:24,953 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 13:06:47,710 basehttp "GET / HTTP/1.1" 200 32712
+INFO 2025-11-20 13:06:47,795 basehttp "GET /static/css/dist/styles.css?v=1763640407 HTTP/1.1" 200 112006
+INFO 2025-11-20 13:06:57,030 basehttp "GET / HTTP/1.1" 200 32772
+INFO 2025-11-20 13:06:57,130 basehttp "GET /static/css/dist/styles.css?v=1763640417 HTTP/1.1" 200 112006
+INFO 2025-11-20 13:07:07,433 basehttp "GET / HTTP/1.1" 200 33180
+INFO 2025-11-20 13:07:07,485 basehttp "GET /static/css/dist/styles.css?v=1763640427 HTTP/1.1" 200 112006
+INFO 2025-11-20 13:07:12,292 basehttp "GET / HTTP/1.1" 200 33180
+INFO 2025-11-20 13:07:12,330 basehttp "GET /static/css/dist/styles.css?v=1763640432 HTTP/1.1" 200 112006
+INFO 2025-11-20 13:07:19,889 basehttp "GET / HTTP/1.1" 200 33180
+INFO 2025-11-20 13:07:19,957 basehttp "GET /static/css/dist/styles.css?v=1763640439 HTTP/1.1" 200 112006
+INFO 2025-11-20 13:07:22,927 basehttp "GET /static/css/dist/styles.css?v=1763640439 HTTP/1.1" 304 0
+WARNING 2025-11-20 13:07:22,946 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:07:22,947 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 13:07:41,475 basehttp "GET / HTTP/1.1" 200 33348
+WARNING 2025-11-20 13:07:41,529 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:07:41,530 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 13:07:41,554 basehttp "GET /static/css/dist/styles.css?v=1763640461 HTTP/1.1" 200 112070
+INFO 2025-11-20 13:08:02,184 basehttp "GET / HTTP/1.1" 200 33348
+INFO 2025-11-20 13:08:02,257 basehttp "GET /static/css/dist/styles.css?v=1763640482 HTTP/1.1" 200 112006
+INFO 2025-11-20 13:08:02,896 basehttp "GET / HTTP/1.1" 200 33348
+INFO 2025-11-20 13:08:02,936 basehttp "GET /static/css/dist/styles.css?v=1763640482 HTTP/1.1" 304 0
+INFO 2025-11-20 13:08:05,110 basehttp "GET / HTTP/1.1" 200 33348
+INFO 2025-11-20 13:08:05,171 basehttp "GET /static/css/dist/styles.css?v=1763640485 HTTP/1.1" 200 112113
+INFO 2025-11-20 13:08:07,183 basehttp "GET / HTTP/1.1" 200 33348
+INFO 2025-11-20 13:08:07,221 basehttp "GET /static/css/dist/styles.css?v=1763640487 HTTP/1.1" 200 112170
+INFO 2025-11-20 13:08:07,471 basehttp "GET / HTTP/1.1" 200 33348
+INFO 2025-11-20 13:08:07,550 basehttp "GET /static/css/dist/styles.css?v=1763640487 HTTP/1.1" 304 0
+INFO 2025-11-20 13:08:12,545 basehttp "GET / HTTP/1.1" 200 33348
+INFO 2025-11-20 13:08:12,669 basehttp "GET /static/css/dist/styles.css?v=1763640492 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:08:13,986 basehttp "GET /static/css/dist/styles.css?v=1763640492 HTTP/1.1" 304 0
+WARNING 2025-11-20 13:08:14,012 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:08:14,013 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 13:08:18,903 basehttp "GET / HTTP/1.1" 200 33348
+WARNING 2025-11-20 13:08:19,036 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:08:19,038 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 13:08:19,177 basehttp "GET /static/css/dist/styles.css?v=1763640498 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:08:19,973 basehttp "GET / HTTP/1.1" 200 33348
+WARNING 2025-11-20 13:08:20,027 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:08:20,028 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 13:08:20,036 basehttp "GET /static/css/dist/styles.css?v=1763640499 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:09:07,532 basehttp "GET / HTTP/1.1" 200 33384
+WARNING 2025-11-20 13:09:07,597 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:09:07,598 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4126
+INFO 2025-11-20 13:09:07,643 basehttp "GET /static/css/dist/styles.css?v=1763640547 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:09:37,199 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:09:37,325 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:09:38,174 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:09:38,752 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:09:39,122 basehttp "GET / HTTP/1.1" 200 33356
+INFO 2025-11-20 13:09:39,350 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:09:39,415 basehttp "GET /static/css/dist/styles.css?v=1763640579 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:09:48,867 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:09:48,993 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:09:49,379 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:09:49,476 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:09:49,593 basehttp "GET / HTTP/1.1" 200 33366
+INFO 2025-11-20 13:09:49,769 basehttp "GET /static/css/dist/styles.css?v=1763640589 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:10:25,173 basehttp "GET / HTTP/1.1" 200 33366
+INFO 2025-11-20 13:10:25,237 basehttp "GET /static/css/dist/styles.css?v=1763640625 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:10:26,256 basehttp "GET / HTTP/1.1" 200 33366
+INFO 2025-11-20 13:10:26,362 basehttp "GET /static/css/dist/styles.css?v=1763640626 HTTP/1.1" 200 112234
+INFO 2025-11-20 13:10:26,901 basehttp "GET / HTTP/1.1" 200 33366
+INFO 2025-11-20 13:10:26,950 basehttp "GET /static/css/dist/styles.css?v=1763640626 HTTP/1.1" 304 0
+ERROR 2025-11-20 13:18:12,031 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-20 13:18:12,036 basehttp "GET / HTTP/1.1" 400 74369
+ERROR 2025-11-20 13:18:12,383 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-20 13:18:12,385 basehttp "GET /favicon.ico HTTP/1.1" 400 74198
+ERROR 2025-11-20 13:18:17,608 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-20 13:18:17,609 basehttp "GET / HTTP/1.1" 400 74634
+ERROR 2025-11-20 13:18:17,761 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-11-20 13:18:17,761 basehttp "GET /favicon.ico HTTP/1.1" 400 74463
+INFO 2025-11-20 13:27:01,435 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:27:09,724 basehttp "GET / HTTP/1.1" 200 33366
+INFO 2025-11-20 13:27:10,040 basehttp "GET /static/css/dist/styles.css?v=1763641629 HTTP/1.1" 200 111954
+WARNING 2025-11-20 13:27:10,234 log Not Found: /favicon.ico
+WARNING 2025-11-20 13:27:10,235 basehttp "GET /favicon.ico HTTP/1.1" 404 4015
+INFO 2025-11-20 13:27:10,255 basehttp "GET / HTTP/1.1" 200 33366
+INFO 2025-11-20 13:27:10,290 basehttp "GET /static/css/dist/styles.css?v=1763641630 HTTP/1.1" 200 111954
+INFO 2025-11-20 13:27:28,230 basehttp "GET / HTTP/1.1" 200 33369
+INFO 2025-11-20 13:27:28,305 basehttp "GET /static/css/dist/styles.css?v=1763641648 HTTP/1.1" 200 112066
+INFO 2025-11-20 13:27:31,307 basehttp "GET / HTTP/1.1" 200 33369
+INFO 2025-11-20 13:27:31,455 basehttp "GET /static/css/dist/styles.css?v=1763641651 HTTP/1.1" 200 112178
+INFO 2025-11-20 13:27:52,856 basehttp "GET / HTTP/1.1" 200 33369
+INFO 2025-11-20 13:27:52,885 basehttp "GET /static/css/dist/styles.css?v=1763641672 HTTP/1.1" 200 112178
+INFO 2025-11-20 13:27:56,978 basehttp "GET / HTTP/1.1" 200 33380
+INFO 2025-11-20 13:27:57,013 basehttp "GET /static/css/dist/styles.css?v=1763641676 HTTP/1.1" 200 112178
+INFO 2025-11-20 13:28:01,134 basehttp "GET / HTTP/1.1" 200 33402
+INFO 2025-11-20 13:28:01,267 basehttp "GET /static/css/dist/styles.css?v=1763641681 HTTP/1.1" 200 112178
+INFO 2025-11-20 13:28:26,790 basehttp "GET / HTTP/1.1" 200 33370
+INFO 2025-11-20 13:28:26,840 basehttp "GET /static/css/dist/styles.css?v=1763641706 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:28:51,243 basehttp "GET / HTTP/1.1" 200 33766
+INFO 2025-11-20 13:28:51,295 basehttp "GET /static/css/dist/styles.css?v=1763641731 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:28:57,374 basehttp "GET / HTTP/1.1" 200 34042
+INFO 2025-11-20 13:28:57,418 basehttp "GET /static/css/dist/styles.css?v=1763641737 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:28:59,677 basehttp "GET / HTTP/1.1" 200 34042
+INFO 2025-11-20 13:28:59,704 basehttp "GET /static/css/dist/styles.css?v=1763641739 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:29:16,767 basehttp "GET / HTTP/1.1" 200 34370
+INFO 2025-11-20 13:29:16,818 basehttp "GET /static/css/dist/styles.css?v=1763641756 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:29:41,215 basehttp "GET / HTTP/1.1" 200 34370
+INFO 2025-11-20 13:29:41,288 basehttp "GET /static/css/dist/styles.css?v=1763641781 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:30:24,986 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:30:36,846 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:30:38,517 basehttp "GET / HTTP/1.1" 200 34370
+INFO 2025-11-20 13:30:38,692 basehttp "GET /static/css/dist/styles.css?v=1763641838 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:31:03,066 autoreload D:\projects\security\main\website\urls.py changed, reloading.
+INFO 2025-11-20 13:31:04,350 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:31:33,562 autoreload D:\projects\security\main\website\urls.py changed, reloading.
+INFO 2025-11-20 13:31:34,042 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:31:41,231 autoreload D:\projects\security\main\website\urls.py changed, reloading.
+INFO 2025-11-20 13:31:41,700 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:31:51,977 autoreload D:\projects\security\main\website\urls.py changed, reloading.
+INFO 2025-11-20 13:31:53,187 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:31:53,436 basehttp "GET / HTTP/1.1" 200 34370
+INFO 2025-11-20 13:31:53,662 basehttp "GET /static/css/dist/styles.css?v=1763641913 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:31:54,876 basehttp "GET / HTTP/1.1" 200 34370
+INFO 2025-11-20 13:31:54,920 basehttp "GET /static/css/dist/styles.css?v=1763641914 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:32:46,302 basehttp "GET / HTTP/1.1" 200 34529
+INFO 2025-11-20 13:32:46,462 basehttp "GET /static/css/dist/styles.css?v=1763641966 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:32:49,570 basehttp "GET /activities/8 HTTP/1.1" 200 11774
+INFO 2025-11-20 13:32:49,600 basehttp "GET /static/css/dist/styles.css?v=1763641969 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:32:49,680 basehttp "GET /static/img/icons/services2.jpg HTTP/1.1" 200 19817
+INFO 2025-11-20 13:32:49,688 basehttp "GET /static/img/private.png HTTP/1.1" 200 193414
+INFO 2025-11-20 13:32:53,950 basehttp "GET /activities/10 HTTP/1.1" 200 11774
+INFO 2025-11-20 13:32:53,975 basehttp "GET /static/css/dist/styles.css?v=1763641973 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:33:08,021 basehttp "GET /activities/10 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:33:08,091 basehttp "GET /static/css/dist/styles.css?v=1763641988 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:33:41,705 basehttp "GET /activities/7 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:33:41,731 basehttp "GET /static/css/dist/styles.css?v=1763642021 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:33:45,067 basehttp "GET /activities/7 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:33:45,098 basehttp "GET /static/css/dist/styles.css?v=1763642025 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:33:56,042 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:33:56,992 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:33:57,294 basehttp "GET /activities/7 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:33:57,475 basehttp "GET /static/css/dist/styles.css?v=1763642037 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:33:59,062 basehttp "GET /activities/7 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:33:59,094 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2025-11-20 13:33:59,101 basehttp "GET /static/css/dist/styles.css?v=1763642039 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:33:59,124 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2025-11-20 13:33:59,126 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2025-11-20 13:33:59,161 basehttp "GET /static/js/main.js HTTP/1.1" 200 5133
+INFO 2025-11-20 13:33:59,165 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 200 657987
+INFO 2025-11-20 13:33:59,165 basehttp "GET /static/img/icons/services2.jpg HTTP/1.1" 200 19817
+INFO 2025-11-20 13:33:59,181 basehttp "GET /static/img/private.png HTTP/1.1" 200 193414
+INFO 2025-11-20 13:33:59,324 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-11-20 13:33:59,534 log Not Found: /favicon.ico
+WARNING 2025-11-20 13:33:59,535 basehttp "GET /favicon.ico HTTP/1.1" 404 4305
+INFO 2025-11-20 13:34:01,290 basehttp "GET /activities/11 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:34:01,315 basehttp "GET /static/css/dist/styles.css?v=1763642041 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:34:18,418 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:34:18,966 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:34:19,196 basehttp "GET /activities/11 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:34:19,313 basehttp "GET /static/css/dist/styles.css?v=1763642059 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:35:02,243 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-20 13:35:04,604 log Internal Server Error: /activities/11
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 44, in single_service_extended
+    print(service)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-11-20 13:35:04,607 basehttp "GET /activities/11 HTTP/1.1" 500 71167
+ERROR 2025-11-20 13:35:07,050 log Internal Server Error: /activities/11
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 44, in single_service_extended
+    print(service)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-11-20 13:35:07,052 basehttp "GET /activities/11 HTTP/1.1" 500 71426
+INFO 2025-11-20 13:35:07,085 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-11-20 13:35:07,268 log Not Found: /favicon.ico
+WARNING 2025-11-20 13:35:07,269 basehttp "GET /favicon.ico HTTP/1.1" 404 4305
+ERROR 2025-11-20 13:35:24,768 log Internal Server Error: /activities/11
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 44, in single_service_extended
+    print(service)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-11-20 13:35:24,771 basehttp "GET /activities/11 HTTP/1.1" 500 71426
+INFO 2025-11-20 13:35:24,805 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-11-20 13:35:24,979 log Not Found: /favicon.ico
+WARNING 2025-11-20 13:35:24,980 basehttp "GET /favicon.ico HTTP/1.1" 404 4305
+INFO 2025-11-20 13:35:55,849 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:35:55,852 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:35:56,465 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:35:56,467 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:35:56,716 basehttp "GET /activities/11 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:35:56,945 basehttp "GET /static/css/dist/styles.css?v=1763642156 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:36:09,846 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:36:10,431 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:36:10,756 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:36:11,651 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:36:11,896 basehttp "GET /activities/11 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:36:12,125 basehttp "GET /static/css/dist/styles.css?v=1763642171 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:36:13,338 basehttp "GET /activities/11 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:36:13,428 basehttp "GET /static/css/dist/styles.css?v=1763642173 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:36:36,582 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:36:36,821 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:36:37,289 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:36:37,847 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:36:38,298 basehttp - Broken pipe from ('127.0.0.1', 51038)
+INFO 2025-11-20 13:36:38,302 basehttp "GET /activities/11 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:36:38,552 basehttp "GET /static/css/dist/styles.css?v=1763642198 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:36:48,613 basehttp "GET / HTTP/1.1" 200 34529
+INFO 2025-11-20 13:36:48,644 basehttp "GET /static/css/dist/styles.css?v=1763642208 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:36:51,696 basehttp "GET /activities/12 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:36:51,723 basehttp "GET /static/css/dist/styles.css?v=1763642211 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:37:06,476 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:37:07,335 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:37:07,608 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:37:08,024 basehttp - Broken pipe from ('127.0.0.1', 56126)
+INFO 2025-11-20 13:37:08,027 basehttp "GET /activities/12 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:37:08,206 basehttp "GET /static/css/dist/styles.css?v=1763642227 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:37:08,621 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:37:10,399 basehttp "GET /activities/12 HTTP/1.1" 200 11761
+INFO 2025-11-20 13:37:10,445 basehttp "GET /static/css/dist/styles.css?v=1763642230 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:37:38,570 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:37:38,884 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:37:39,021 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:37:39,345 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:37:39,620 basehttp "GET /activities/12 HTTP/1.1" 200 11774
+INFO 2025-11-20 13:37:39,739 basehttp "GET /static/css/dist/styles.css?v=1763642259 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:37:48,846 basehttp "GET /activities/12 HTTP/1.1" 200 11783
+INFO 2025-11-20 13:37:48,908 basehttp "GET /static/css/dist/styles.css?v=1763642268 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:37:50,058 basehttp "GET /activities/12 HTTP/1.1" 200 11783
+INFO 2025-11-20 13:37:50,083 basehttp "GET /static/css/dist/styles.css?v=1763642270 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:37:51,208 basehttp "GET /activities/12 HTTP/1.1" 200 11783
+INFO 2025-11-20 13:37:51,245 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2025-11-20 13:37:51,263 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2025-11-20 13:37:51,264 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2025-11-20 13:37:51,265 basehttp "GET /static/css/dist/styles.css?v=1763642271 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:37:51,279 basehttp "GET /static/js/main.js HTTP/1.1" 200 5133
+INFO 2025-11-20 13:37:51,306 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 200 657987
+INFO 2025-11-20 13:37:51,318 basehttp "GET /static/img/icons/services2.jpg HTTP/1.1" 200 19817
+INFO 2025-11-20 13:37:51,385 basehttp "GET /static/img/private.png HTTP/1.1" 200 193414
+INFO 2025-11-20 13:37:51,395 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-11-20 13:37:51,509 log Not Found: /favicon.ico
+WARNING 2025-11-20 13:37:51,510 basehttp "GET /favicon.ico HTTP/1.1" 404 4305
+INFO 2025-11-20 13:37:53,779 basehttp "GET /static/css/dist/styles.css?v=1763642271 HTTP/1.1" 304 0
+WARNING 2025-11-20 13:37:53,805 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:37:53,806 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:11,624 basehttp "GET /activities/12 HTTP/1.1" 200 18585
+WARNING 2025-11-20 13:38:11,697 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:11,699 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:11,752 basehttp "GET /static/css/dist/styles.css?v=1763642291 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:38:11,965 basehttp "GET /activities/12 HTTP/1.1" 200 18585
+WARNING 2025-11-20 13:38:12,031 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:12,032 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:12,073 basehttp "GET /static/css/dist/styles.css?v=1763642291 HTTP/1.1" 304 0
+INFO 2025-11-20 13:38:17,790 basehttp "GET /activities/12 HTTP/1.1" 200 11783
+WARNING 2025-11-20 13:38:17,842 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:17,843 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:17,878 basehttp "GET /static/css/dist/styles.css?v=1763642297 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:38:18,867 basehttp "GET /activities/12 HTTP/1.1" 200 11783
+WARNING 2025-11-20 13:38:18,925 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:18,928 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:18,933 basehttp "GET /static/css/dist/styles.css?v=1763642298 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:38:31,158 basehttp "GET /activities/12 HTTP/1.1" 200 11783
+WARNING 2025-11-20 13:38:31,260 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:31,261 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:31,355 basehttp "GET /activities/12 HTTP/1.1" 200 11783
+INFO 2025-11-20 13:38:31,357 basehttp "GET /static/css/dist/styles.css?v=1763642311 HTTP/1.1" 200 112024
+WARNING 2025-11-20 13:38:31,518 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:31,519 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:31,530 basehttp "GET /static/css/dist/styles.css?v=1763642311 HTTP/1.1" 304 0
+INFO 2025-11-20 13:38:32,025 basehttp "GET /services HTTP/1.1" 200 13906
+INFO 2025-11-20 13:38:32,075 basehttp "GET /static/css/dist/styles.css?v=1763642312 HTTP/1.1" 200 112024
+WARNING 2025-11-20 13:38:32,348 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:32,348 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:32,871 basehttp "GET /single_service/2 HTTP/1.1" 200 12569
+WARNING 2025-11-20 13:38:32,954 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:38:32,958 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:38:32,959 basehttp "GET /static/css/dist/styles.css?v=1763642312 HTTP/1.1" 304 0
+INFO 2025-11-20 13:38:59,894 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:39:00,213 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:39:00,421 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:39:00,624 basehttp "GET /single_service/2 HTTP/1.1" 200 12569
+WARNING 2025-11-20 13:39:00,664 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:39:00,664 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:39:00,741 basehttp "GET /static/css/dist/styles.css?v=1763642340 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:39:00,749 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:39:01,795 basehttp "GET /single_service/2 HTTP/1.1" 200 12569
+WARNING 2025-11-20 13:39:01,857 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:39:01,858 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:39:01,913 basehttp "GET /static/css/dist/styles.css?v=1763642341 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:39:03,902 basehttp "GET /single_service/2 HTTP/1.1" 200 12547
+INFO 2025-11-20 13:39:03,997 basehttp "GET /static/css/dist/styles.css?v=1763642343 HTTP/1.1" 200 112024
+WARNING 2025-11-20 13:39:04,316 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:39:04,316 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:39:11,041 basehttp "GET / HTTP/1.1" 200 34529
+WARNING 2025-11-20 13:39:11,095 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:39:11,096 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:39:11,103 basehttp "GET /static/css/dist/styles.css?v=1763642351 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:39:13,511 basehttp "GET /activities/11 HTTP/1.1" 200 11783
+WARNING 2025-11-20 13:39:13,596 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:39:13,597 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:39:13,625 basehttp "GET /static/css/dist/styles.css?v=1763642353 HTTP/1.1" 200 112024
+WARNING 2025-11-20 13:39:16,867 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:39:16,868 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:39:20,229 basehttp "GET /single_service/10 HTTP/1.1" 200 13736
+WARNING 2025-11-20 13:39:20,310 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:39:20,311 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:39:20,355 basehttp "GET /static/css/dist/styles.css?v=1763642360 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:40:39,951 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:40:40,023 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:40:40,536 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:40:40,571 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:40:40,700 basehttp "GET /single_service/10 HTTP/1.1" 200 13736
+WARNING 2025-11-20 13:40:40,737 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:40:40,738 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:40:40,819 basehttp "GET /static/css/dist/styles.css?v=1763642440 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:40:41,933 basehttp "GET /single_service/10 HTTP/1.1" 200 13736
+WARNING 2025-11-20 13:40:41,984 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:40:41,985 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:40:42,032 basehttp "GET /static/css/dist/styles.css?v=1763642441 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:40:43,745 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:40:43,876 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-11-20 13:40:44,773 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:40:45,045 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:40:45,528 basehttp "GET /single_service/10 HTTP/1.1" 200 13736
+WARNING 2025-11-20 13:40:45,629 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-11-20 13:40:45,632 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4416
+INFO 2025-11-20 13:40:45,812 basehttp "GET /static/css/dist/styles.css?v=1763642445 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:40:50,156 basehttp "GET /single_service/10 HTTP/1.1" 200 13736
+INFO 2025-11-20 13:40:50,195 basehttp "GET /static/css/dist/styles.css?v=1763642450 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:40:52,731 basehttp "GET / HTTP/1.1" 200 34529
+INFO 2025-11-20 13:40:52,761 basehttp "GET /static/css/dist/styles.css?v=1763642452 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:40:54,897 basehttp "GET /activities/7 HTTP/1.1" 200 12006
+INFO 2025-11-20 13:40:54,929 basehttp "GET /static/css/dist/styles.css?v=1763642454 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:44:55,253 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:44:55,301 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:44:56,053 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:44:56,092 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:44:56,399 basehttp "GET /activities/7 HTTP/1.1" 200 12006
+INFO 2025-11-20 13:44:56,518 basehttp "GET /static/css/dist/styles.css?v=1763642696 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:44:57,448 basehttp "GET /activities/7 HTTP/1.1" 200 12006
+INFO 2025-11-20 13:44:57,512 basehttp "GET /static/css/dist/styles.css?v=1763642697 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:45:02,757 basehttp "GET / HTTP/1.1" 200 34547
+INFO 2025-11-20 13:45:02,786 basehttp "GET /static/css/dist/styles.css?v=1763642702 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:45:22,105 basehttp "GET / HTTP/1.1" 200 34367
+INFO 2025-11-20 13:45:22,162 basehttp "GET /static/css/dist/styles.css?v=1763642722 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:45:41,138 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:45:41,400 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:45:41,708 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:45:41,935 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:45:42,167 basehttp "GET / HTTP/1.1" 200 34367
+INFO 2025-11-20 13:45:42,296 basehttp "GET /static/css/dist/styles.css?v=1763642742 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:45:43,335 basehttp "GET / HTTP/1.1" 200 34367
+INFO 2025-11-20 13:45:43,412 basehttp "GET /static/css/dist/styles.css?v=1763642743 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:45:53,425 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:45:54,021 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:45:54,173 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:45:54,469 basehttp "GET / HTTP/1.1" 200 34367
+INFO 2025-11-20 13:45:54,589 basehttp "GET /static/css/dist/styles.css?v=1763642754 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:45:54,677 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:45:56,640 basehttp "GET / HTTP/1.1" 200 34367
+INFO 2025-11-20 13:45:56,699 basehttp "GET /static/css/dist/styles.css?v=1763642756 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:46:05,687 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:46:05,966 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:46:06,209 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:46:06,407 basehttp "GET / HTTP/1.1" 200 34367
+INFO 2025-11-20 13:46:06,468 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:46:06,513 basehttp "GET /static/css/dist/styles.css?v=1763642766 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:46:08,592 basehttp "GET / HTTP/1.1" 200 34367
+INFO 2025-11-20 13:46:08,664 basehttp "GET /static/css/dist/styles.css?v=1763642768 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:46:58,495 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:46:58,588 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:46:59,165 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:46:59,252 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:46:59,523 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:46:59,662 basehttp "GET /static/css/dist/styles.css?v=1763642819 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:47:01,649 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:01,709 basehttp "GET /static/css/dist/styles.css?v=1763642821 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:47:03,559 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:03,585 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:04,243 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:04,263 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:04,604 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:04,750 basehttp "GET /static/css/dist/styles.css?v=1763642824 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:47:06,671 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:06,775 basehttp "GET /static/css/dist/styles.css?v=1763642826 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:47:15,781 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:16,556 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:16,576 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:16,904 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:17,003 basehttp "GET /static/css/dist/styles.css?v=1763642836 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:47:17,218 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:18,064 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:18,117 basehttp "GET /static/css/dist/styles.css?v=1763642838 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:47:20,115 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:20,179 basehttp "GET /static/css/dist/styles.css?v=1763642840 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:47:27,181 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:27,502 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:27,849 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:28,124 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:28,204 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:28,314 basehttp "GET /static/css/dist/styles.css?v=1763642848 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:47:29,318 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:29,387 basehttp "GET /static/css/dist/styles.css?v=1763642849 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:47:31,342 basehttp "GET / HTTP/1.1" 200 34384
+INFO 2025-11-20 13:47:31,443 basehttp "GET /static/css/dist/styles.css?v=1763642851 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:47:40,436 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:40,547 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:47:41,027 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:41,120 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:47:41,185 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:47:41,293 basehttp "GET /static/css/dist/styles.css?v=1763642861 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:47:43,473 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:47:43,556 basehttp "GET /static/css/dist/styles.css?v=1763642863 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:48:09,963 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:48:10,632 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:48:10,809 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:48:11,009 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:48:11,111 basehttp "GET /static/css/dist/styles.css?v=1763642891 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:48:11,387 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:48:11,998 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:48:14,058 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:48:14,129 basehttp "GET /static/css/dist/styles.css?v=1763642894 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:48:36,408 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:48:37,011 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:48:37,051 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:48:37,197 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:48:37,329 basehttp "GET /static/css/dist/styles.css?v=1763642917 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:48:37,633 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:48:38,483 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:48:38,533 basehttp "GET /static/css/dist/styles.css?v=1763642918 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:48:40,537 basehttp "GET / HTTP/1.1" 200 34399
+INFO 2025-11-20 13:48:40,610 basehttp "GET /static/css/dist/styles.css?v=1763642920 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:48:53,062 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:48:53,681 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:48:53,702 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:48:54,266 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:48:54,463 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:48:54,580 basehttp "GET /static/css/dist/styles.css?v=1763642934 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:48:55,802 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:48:55,863 basehttp "GET /static/css/dist/styles.css?v=1763642935 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:48:57,816 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:48:57,881 basehttp "GET /static/css/dist/styles.css?v=1763642937 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:49:18,132 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:49:18,281 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:49:18,775 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:49:18,915 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:49:19,114 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:49:19,210 basehttp "GET /static/css/dist/styles.css?v=1763642959 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:49:20,171 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:49:20,217 basehttp "GET /static/css/dist/styles.css?v=1763642960 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:49:23,205 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:49:23,264 basehttp "GET /static/css/dist/styles.css?v=1763642963 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:49:34,319 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:49:34,336 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:49:35,064 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:49:35,128 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:49:35,413 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:49:35,525 basehttp "GET /static/css/dist/styles.css?v=1763642975 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:49:37,576 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:49:37,647 basehttp "GET /static/css/dist/styles.css?v=1763642977 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:49:39,640 basehttp "GET / HTTP/1.1" 200 34463
+INFO 2025-11-20 13:49:39,724 basehttp "GET /static/css/dist/styles.css?v=1763642979 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:49:53,563 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:49:53,840 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:49:54,116 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:49:54,393 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:49:54,614 basehttp "GET / HTTP/1.1" 200 34495
+INFO 2025-11-20 13:49:54,727 basehttp "GET /static/css/dist/styles.css?v=1763642994 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:49:55,867 basehttp "GET / HTTP/1.1" 200 34495
+INFO 2025-11-20 13:49:55,938 basehttp "GET /static/css/dist/styles.css?v=1763642995 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:49:58,902 basehttp "GET / HTTP/1.1" 200 34495
+INFO 2025-11-20 13:49:58,994 basehttp "GET /static/css/dist/styles.css?v=1763642998 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:50:01,879 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:50:02,362 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:50:02,444 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:50:02,631 basehttp "GET / HTTP/1.1" 200 34495
+INFO 2025-11-20 13:50:02,733 basehttp "GET /static/css/dist/styles.css?v=1763643002 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:50:03,011 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:50:04,972 basehttp "GET / HTTP/1.1" 200 34495
+INFO 2025-11-20 13:50:05,068 basehttp "GET /static/css/dist/styles.css?v=1763643004 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:50:08,062 basehttp "GET / HTTP/1.1" 200 34495
+INFO 2025-11-20 13:50:08,120 basehttp "GET /static/css/dist/styles.css?v=1763643008 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:50:11,311 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:50:12,023 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:50:12,176 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:50:12,816 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:50:13,120 basehttp "GET / HTTP/1.1" 200 34508
+INFO 2025-11-20 13:50:13,247 basehttp "GET /static/css/dist/styles.css?v=1763643013 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:50:15,382 basehttp "GET / HTTP/1.1" 200 34508
+INFO 2025-11-20 13:50:15,455 basehttp "GET /static/css/dist/styles.css?v=1763643015 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:50:16,311 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:50:16,454 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:50:17,269 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:50:17,286 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:50:17,471 basehttp "GET / HTTP/1.1" 200 34508
+INFO 2025-11-20 13:50:17,651 basehttp "GET /static/css/dist/styles.css?v=1763643017 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:50:19,311 basehttp "GET /activities/2 HTTP/1.1" 200 12298
+INFO 2025-11-20 13:50:19,357 basehttp "GET /static/css/dist/styles.css?v=1763643019 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:50:22,030 basehttp "GET /activities/4 HTTP/1.1" 200 12312
+INFO 2025-11-20 13:50:22,065 basehttp "GET /static/css/dist/styles.css?v=1763643022 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:50:31,505 basehttp "GET / HTTP/1.1" 200 34508
+INFO 2025-11-20 13:50:31,583 basehttp "GET /static/css/dist/styles.css?v=1763643031 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:51:12,354 basehttp "GET /activities/2 HTTP/1.1" 200 12298
+INFO 2025-11-20 13:51:12,380 basehttp "GET /static/css/dist/styles.css?v=1763643072 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:51:17,577 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:51:18,037 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:51:18,915 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:51:19,402 basehttp "GET /activities/2 HTTP/1.1" 200 12298
+INFO 2025-11-20 13:51:19,658 basehttp "GET /static/css/dist/styles.css?v=1763643079 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:51:19,695 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:51:20,855 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:51:20,884 basehttp "GET /static/css/dist/styles.css?v=1763643080 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:51:21,958 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:51:21,990 basehttp "GET /static/css/dist/styles.css?v=1763643081 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:51:23,391 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:51:23,435 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2025-11-20 13:51:23,444 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2025-11-20 13:51:23,445 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2025-11-20 13:51:23,445 basehttp "GET /static/css/dist/styles.css?v=1763643083 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:51:23,454 basehttp "GET /static/js/main.js HTTP/1.1" 200 5133
+INFO 2025-11-20 13:51:23,458 basehttp "GET /static/img/smart_ps_logo.png HTTP/1.1" 200 657987
+INFO 2025-11-20 13:51:23,494 basehttp "GET /static/img/icons/services2.jpg HTTP/1.1" 200 19817
+INFO 2025-11-20 13:51:23,504 basehttp "GET /static/img/private.png HTTP/1.1" 200 193414
+INFO 2025-11-20 13:51:23,588 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+WARNING 2025-11-20 13:51:23,703 log Not Found: /favicon.ico
+WARNING 2025-11-20 13:51:23,705 basehttp "GET /favicon.ico HTTP/1.1" 404 4305
+INFO 2025-11-20 13:51:26,565 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:51:26,639 basehttp "GET /static/css/dist/styles.css?v=1763643086 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:51:32,486 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:51:32,649 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 13:51:33,162 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:51:33,316 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 13:51:33,683 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:51:33,794 basehttp "GET /static/css/dist/styles.css?v=1763643093 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:51:35,790 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:51:35,844 basehttp "GET /static/css/dist/styles.css?v=1763643095 HTTP/1.1" 200 112024
+INFO 2025-11-20 13:51:38,855 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:51:38,934 basehttp "GET /static/css/dist/styles.css?v=1763643098 HTTP/1.1" 200 112239
+INFO 2025-11-20 13:59:51,625 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 13:59:51,686 basehttp "GET /static/css/dist/styles.css?v=1763643591 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:29,373 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:29,433 basehttp "GET /static/css/dist/styles.css?v=1763643629 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:33,450 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:33,509 basehttp "GET /static/css/dist/styles.css?v=1763643633 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:40,609 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:40,665 basehttp "GET /static/css/dist/styles.css?v=1763643640 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:41,648 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:41,684 basehttp "GET /static/css/dist/styles.css?v=1763643641 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:47,764 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:47,827 basehttp "GET /static/css/dist/styles.css?v=1763643647 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:48,785 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:48,828 basehttp "GET /static/css/dist/styles.css?v=1763643648 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:53,888 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:53,952 basehttp "GET /static/css/dist/styles.css?v=1763643653 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:00:54,899 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:00:54,954 basehttp "GET /static/css/dist/styles.css?v=1763643654 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:01:02,053 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:01:02,103 basehttp "GET /static/css/dist/styles.css?v=1763643662 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:01:03,077 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:01:03,107 basehttp "GET /static/css/dist/styles.css?v=1763643663 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:01:07,176 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:01:07,221 basehttp "GET /static/css/dist/styles.css?v=1763643667 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:01:08,203 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:01:08,258 basehttp "GET /static/css/dist/styles.css?v=1763643668 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:08:58,153 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:08:58,223 basehttp "GET /static/css/dist/styles.css?v=1763644138 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:08:59,157 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:08:59,196 basehttp "GET /static/css/dist/styles.css?v=1763644139 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:04,272 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:04,309 basehttp "GET /static/css/dist/styles.css?v=1763644144 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:05,327 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:05,362 basehttp "GET /static/css/dist/styles.css?v=1763644145 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:09,417 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:09,468 basehttp "GET /static/css/dist/styles.css?v=1763644149 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:10,437 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:10,482 basehttp "GET /static/css/dist/styles.css?v=1763644150 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:15,572 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:15,631 basehttp "GET /static/css/dist/styles.css?v=1763644155 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:19,652 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:19,717 basehttp "GET /static/css/dist/styles.css?v=1763644159 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:20,676 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:20,735 basehttp "GET /static/css/dist/styles.css?v=1763644160 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:24,757 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:24,822 basehttp "GET /static/css/dist/styles.css?v=1763644164 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:09:25,777 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:09:25,821 basehttp "GET /static/css/dist/styles.css?v=1763644165 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:12:18,318 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:12:18,749 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:12:19,883 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:12:20,303 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:12:20,714 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:12:20,959 basehttp "GET /static/css/dist/styles.css?v=1763644340 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:12:26,577 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:12:26,626 basehttp "GET /static/css/dist/styles.css?v=1763644346 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:12:30,623 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:12:30,714 basehttp "GET /static/css/dist/styles.css?v=1763644350 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:12:31,565 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:12:31,700 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:12:32,971 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:12:32,978 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:12:37,214 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:12:38,620 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:13:09,790 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:13:10,368 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:13:10,664 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:13:10,780 basehttp "GET /static/css/dist/styles.css?v=1763644390 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:13:13,984 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:13:14,036 basehttp "GET /static/css/dist/styles.css?v=1763644393 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:13:17,049 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:13:17,115 basehttp "GET /static/css/dist/styles.css?v=1763644397 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:13:21,513 basehttp "GET /activities/12 HTTP/1.1" 200 12344
+INFO 2025-11-20 14:13:21,552 basehttp "GET /static/css/dist/styles.css?v=1763644401 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:13:23,607 basehttp "GET /activities/1 HTTP/1.1" 200 12700
+INFO 2025-11-20 14:13:23,641 basehttp "GET /static/css/dist/styles.css?v=1763644403 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:13:55,954 basehttp "GET /activities/1 HTTP/1.1" 200 12703
+INFO 2025-11-20 14:13:55,995 basehttp "GET /static/img/services/1.png HTTP/1.1" 200 2755
+INFO 2025-11-20 14:13:56,014 basehttp "GET /static/css/dist/styles.css?v=1763644435 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:13:56,982 basehttp "GET /activities/1 HTTP/1.1" 200 12703
+INFO 2025-11-20 14:13:57,025 basehttp "GET /static/css/dist/styles.css?v=1763644436 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:14:42,934 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:14:43,595 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:14:43,938 basehttp "GET /activities/1 HTTP/1.1" 200 12703
+INFO 2025-11-20 14:14:44,043 basehttp "GET /static/css/dist/styles.css?v=1763644483 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:14:51,141 basehttp "GET /activities/1 HTTP/1.1" 200 12703
+INFO 2025-11-20 14:14:51,217 basehttp "GET /static/css/dist/styles.css?v=1763644491 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:15:05,346 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-11-20 14:15:06,599 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:15:06,970 basehttp "GET / HTTP/1.1" 200 34508
+INFO 2025-11-20 14:15:07,208 basehttp "GET /static/css/dist/styles.css?v=1763644506 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:15:10,606 basehttp "GET /activities/4 HTTP/1.1" 200 12315
+INFO 2025-11-20 14:15:10,635 basehttp "GET /static/img/services/4.png HTTP/1.1" 200 1729
+INFO 2025-11-20 14:15:10,637 basehttp "GET /static/css/dist/styles.css?v=1763644510 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:15:17,106 basehttp "GET /activities/4 HTTP/1.1" 200 12315
+INFO 2025-11-20 14:15:17,214 basehttp "GET /static/css/dist/styles.css?v=1763644517 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:15:23,565 basehttp "GET / HTTP/1.1" 200 34508
+INFO 2025-11-20 14:15:23,594 basehttp "GET /static/css/dist/styles.css?v=1763644523 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:15:26,853 basehttp "GET /activities/8 HTTP/1.1" 200 12051
+WARNING 2025-11-20 14:15:26,889 basehttp "GET /static/img/services/8.png HTTP/1.1" 404 1981
+INFO 2025-11-20 14:15:26,890 basehttp "GET /static/css/dist/styles.css?v=1763644526 HTTP/1.1" 200 112024
+WARNING 2025-11-20 14:15:26,980 basehttp "GET /static/img/services/8.png HTTP/1.1" 404 1981
+INFO 2025-11-20 14:15:27,524 basehttp "GET /activities/8 HTTP/1.1" 200 12051
+WARNING 2025-11-20 14:15:27,564 basehttp "GET /static/img/services/8.png HTTP/1.1" 404 1981
+INFO 2025-11-20 14:15:27,586 basehttp "GET /static/css/dist/styles.css?v=1763644527 HTTP/1.1" 200 112239
+WARNING 2025-11-20 14:15:27,637 basehttp "GET /static/img/services/8.png HTTP/1.1" 404 1981
+INFO 2025-11-20 14:16:03,689 basehttp "GET /activities/7 HTTP/1.1" 200 12318
+INFO 2025-11-20 14:16:03,733 basehttp "GET /static/css/dist/styles.css?v=1763644563 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:16:03,757 basehttp "GET /static/img/services/7.png HTTP/1.1" 200 6000
+INFO 2025-11-20 14:16:41,305 basehttp "GET /activities/1 HTTP/1.1" 200 12703
+INFO 2025-11-20 14:16:41,339 basehttp "GET /static/img/services/1.png HTTP/1.1" 304 0
+INFO 2025-11-20 14:16:41,340 basehttp "GET /static/css/dist/styles.css?v=1763644601 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:16:47,214 basehttp "GET /activities/2 HTTP/1.1" 200 12301
+INFO 2025-11-20 14:16:47,240 basehttp "GET /static/css/dist/styles.css?v=1763644607 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:16:47,244 basehttp "GET /static/img/services/2.png HTTP/1.1" 200 5816
+INFO 2025-11-20 14:16:51,242 basehttp "GET /activities/3 HTTP/1.1" 200 12228
+INFO 2025-11-20 14:16:51,276 basehttp "GET /static/img/services/3.png HTTP/1.1" 200 1881
+INFO 2025-11-20 14:16:51,278 basehttp "GET /static/css/dist/styles.css?v=1763644611 HTTP/1.1" 200 112239
+INFO 2025-11-20 14:17:06,349 basehttp "GET /activities/3 HTTP/1.1" 200 12228
+INFO 2025-11-20 14:17:06,418 basehttp "GET /static/css/dist/styles.css?v=1763644626 HTTP/1.1" 200 112024
+INFO 2025-11-20 14:17:07,362 basehttp "GET /activities/3 HTTP/1.1" 200 12228
+INFO 2025-11-20 14:17:07,433 basehttp "GET /static/css/dist/styles.css?v=1763644627 HTTP/1.1" 200 112024

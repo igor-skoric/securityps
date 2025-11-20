@@ -63,23 +63,23 @@ mountPage('#app-home', {
             currentIndex: 0,
             slides: [
               {
-                image: "http://127.0.0.1:8000/static/img/security1.jpg",
+                image: "https://127.0.0.1:8000/static/img/security1.jpg",
                 title: "Безбедност више од 35 година",
                 subtitle: "О безбедности причамо само када се наши купци осећају безбедно",
                 link: "#"
               },
-              {
-                image: "http://127.0.0.1:8000/static/img/logo-png.png",
-                title: "Drugi slajd",
-                subtitle: "Opis drugog slajda",
-                link: "#"
-              },
-              {
-                image: "http://127.0.0.1:8000/static/img/logo-png.png",
-                title: "Treći slajd",
-                subtitle: "Opis trećeg slajda",
-                link: "#"
-              }
+//              {
+//                image: "https://127.0.0.1:8000/static/img/logo-png.png",
+//                title: "Drugi slajd",
+//                subtitle: "Opis drugog slajda",
+//                link: "#"
+//              },
+//              {
+//                image: "https://127.0.0.1:8000/static/img/logo-png.png",
+//                title: "Treći slajd",
+//                subtitle: "Opis trećeg slajda",
+//                link: "#"
+//              }
             ]
       };
     },
