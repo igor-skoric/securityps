@@ -94,84 +94,84 @@ SERVICES_EXTENDED = {
         "title": "Apoteke, farmaceutske ustanove i proizvodnja lekova",
         "short_title": "Apoteke i farmacija",
         "icon": "fa-solid fa-pills",
-        "img": static("img/services/1.png"),
+        "img": "img/services/1.png",
         "text": "Apoteke i farmaceutska industrija igraju vitalnu ulogu u našim zajednicama, osiguravajući da ljudi imaju pristup lekovima koji su im potrebni. Međutim, sa sve većom rasprostranjenošću zloupotrebe i krađe lekova na recept, postalo je ključno da apoteke ulažu u mere bezbednosti. Bezbednosni sistemi apoteka su dizajnirani da zaštite ne samo zalihe lekova već i bezbednost apotekarskog osoblja i kupaca. Bezbednost bi trebalo da bude glavni prioritet za sve apoteke i farmaceutsku industriju, bez obzira na njihovu veličinu ili lokaciju. Glavna uloga bezbednosnih sistema je da odvrate i spreče krađu, provale i neovlašćeni pristup. Ulaganjem u ove sisteme, vlasnici i operateri apoteka mogu stvoriti bezbednije okruženje za osoblje i kupce, smanjiti rizik od preusmeravanja lekova, zaštititi svoj ugled i ispuniti regulatorne zahteve."
     },
     2: {
         "title": "Auto saloni",
         "short_title": "Auto saloni",
         "icon": "fa-solid fa-car",
-        "img": static("img/services/2.png"),
+        "img": "img/services/2.png",
         "text": "Auto saloni predstavljaju užurbane centre gde su izložena vredna vozila I oprema. Zaštita Te vredne imovine I sigurnost kupaca I zaposlenih su naši prioriteti.Smart P&S nudi specijalizovana bezbedonosna resenja, prilagodjena jedinstvenim potrebama auto salona promovišući bezbednu i prijatnu atmosferu.Najveći Sigurnosni izazovi prilikom obezbeđivanja auto salona su zaštita vozila,zaštita imovine,zaposlenih i gostiju,kontrola pristupa i obezbeđivanje  tokom posebnih događaja i promocija."
     },
     3: {
         "title": "Obrazovne ustanove, škole, fakulteti",
         "short_title": "Obrazovne ustanove,škole,fakulteti",
         "icon": "fa-solid fa-school",
-        "img": static("img/services/3.png"),
+        "img": "img/services/3.png",
         "text": "Obrazovne institucije igraju vitalnu ulogu u društvu, negujući učenje, lični rast i razvoj zajednice. Obezbeđivanje bezbednosti i sigurnosti učenika, osoblja i objekata je od najveće važnosti. Smart P&S pruža specijalizovana bezbednosna rešenja prilagođena jedinstvenim potrebama obrazovnih institucija, podstičući bezbedno i pogodno okruženje za učenje i rast."
     },
     4: {
         "title": "Muzeji",
         "short_title": "Muzeji",
         "icon": "fa-solid fa-landmark",
-        "img": static("img/services/4.png"),
+        "img": "img/services/4.png",
         "text": "Obezbeđenje  muzeja je specijalizovani oblik zaštite osmišljen da zaštiti vredne artefakte, eksponate i posetioce. Sa bezbrojnim neprocenjivim predmetima izloženim u muzejima , osiguravanje njihove bezbednosti je od najveće važnosti. Koncept bezbednosti muzeja obuhvata i fizičku zaštitu i naprednu tehnologiju kako bi se sprečile krađa, vandalizam i oštećenje artefakata. Pored toga, muzeji moraju da obezbede gostoljubivo i bezbedno okruženje u kojem će posetioci moći da uživaju u njihovim eksponatima."
     },
     5: {
         "title": "Tržni i komercijalni centri",
         "short_title": "Tržni i komercijalni centri",
         "icon": "fa-solid fa-store",
-        "img": static("img/services/5.png"),
+        "img": "img/services/5.png",
         "text": "Tržni centri, uključujući tržne centre i maloprodajne komplekse, predstavljaju užurbana središta komercijalnih aktivnosti gde se preduzeća i kupci okupljaju. Obezbeđivanje bezbednosti kupaca, zaštita imovine i robe i održavanje prijatnog okruženja za kupovinu je od suštinskog značaja. Smart P&S je specijalizovana za pružanje prilagođenih bezbednosnih rešenja dizajniranih da zadovolje jedinstvene potrebe maloprodajnih centara, stvarajući bezbedno i prijatno iskustvo kupovine za sve."
     },
     6: {
         "title": "Hoteli i rizorti",
         "short_title": "Hoteli i rizorti",
         "icon": "fa-solid fa-hotel",
-        "img": static("img/services/6.png"),
+        "img": "img/services/6.png",
         "text": "Smart P&S  pruža kompletan asortiman usluga obezbeđenja hotela. U našem timu imamo najprofesionalnije, visokokvalifikovano, obučeno i licencirano osoblje iz ugostiteljstva i korisničke službe. Održavamo vrhunski kvalitet usluga kroz rigorozne obuke, planirano regrutovanje, vežbe i još mnogo toga. Imamo tim uniformisanih čuvara, službenika obezbeđenja na recepciji, operatera CCTV-a, rukovodilaca smena obezbeđenja i službenika obezbeđenja koji su dostupni posetiocima ili radnicima u hotelu kako bi se sprečile neželjene aktivnosti. Gradimo čvrstu politiku kako bismo osigurali bezbednost ogromnih prostora, uključujući konferencijske sale, hotelske sobe, lobije, hodnike, otvorene prostore, izlaze i ulaze, hodnike, parking mesta i svaki deo hotela."
     },
     7: {
         "title": "Privatne rezidencije i stambeni kompleksi",
         "short_title": "Privatne rezidencije i stambeni kompleksi",
         "icon": "fa-solid fa-home",
-        "img": static("img/services/7.png"),
+        "img": "img/services/7.png",
         "text": "Stambene zajednice, uključujući zatvorene četvrti, stambene komplekse i kondominijume, su mesta koja ljudi nazivaju domom. Obezbeđivanje bezbednosti i blagostanja stanovnika, zaštita imovine i održavanje mirnog životnog okruženja je od najveće važnosti. Smart P&S je specijalizovana za pružanje prilagođenih bezbednosnih rešenja dizajniranih da zadovolje jedinstvene potrebe stambenih zajednica, stvarajući bezbedno i sigurno mesto za život."
     },
     8: {
         "title": "Industrijska postrojenja i fabrike",
         "short_title": "Industrijska postrojenja i fabrike",
         "icon": "fa-solid fa-industry",
-        "img": static("img/services/8.png"),
+        "img": "img/services/8.png",
         "text": "Industrijski objekti sadrže vrednu imovinu i radnu snagu. Smart P&S pruža prilagođena bezbednosna rešenja koja štite zaposlene, mašine i poslovanje, stvarajući sigurno i produktivno radno okruženje."
     },
     9: {
         "title": "Finansijske institucije",
         "short_title": "Banke i finansije",
         "icon": "fa-solid fa-building-columns",
-        "img": static("img/services/9.png"),
+        "img": "img/services/9.png",
         "text": "Finansijske institucije, uključujući banke, kreditne biroe i investicione firme, čuvaju vrednu imovinu i osetljive informacije. Obezbeđivanje sigurnosti klijenata, zaposlenih, imovine i podataka je od najveće važnosti.Smart P&S je specijalizovana za pružanje prilagođenih bezbednosnih rešenja dizajniranih da zadovolje jedinstvene potrebe finansijskih institucija, štiteći njihovo poslovanje i ugled."
     },
     10: {
         "title": "Poslovni prostori i kancelarije",
         "short_title": "Poslovni prostori i kancelarije",
         "icon": "fa-solid fa-building",
-        "img": static("img/services/10.png"),
+        "img": "img/services/10.png",
         "text": "Službenici obezbeđenja poslovnih kompleksa odgovorni su za bezbednost ljudi, imovine i informacija, a to čine kontrolom pristupa, praćenjem nadzornih kamera, obavljanjem patrola i reagovanjem na vanredne situacije. Oni sprečavaju neovlašćeni ulazak, osiguravaju da se poštuju bezbednosni protokoli, pružaju vidljivo odvraćanje od neželjenih aktivnosti i deluju kao prva kontakt osoba tokom vanrednih situacija. Njihove dužnosti uključuju kombinaciju ljudskog prisustva i korišćenja tehnologije, kao što su video nadzor i sistemi kontrole pristupa."
     },
     11: {
         "title": "Magacini i skladišta ",
         "short_title": "Magacini i skladišta ",
         "icon": "fa-solid fa-warehouse",
-        "img": static("img/services/11.png"),
+        "img": "img/services/11.png",
         "text": "Magacini i skladišta su ključne komponente lanca snabdevanja, služeći kao čvorišta za skladištenje i distribuciju robe i materijala. Obezbeđivanje bezbednosti zaposlenih, zaštita vrednih zaliha i održavanje efikasnog poslovanja su neophodni za preduzeća i dobavljače logističkih usluga. Smart P&S je specijalizovan za pružanje prilagođenih bezbednosnih rešenja dizajniranih da zadovolje jedinstvene potrebe magacina i skladišta, stvarajući bezbedno i produktivno okruženje za logistiku i skladištenje."
     },
     12: {
         "title": "Medicinski i zdravstveni centri",
         "short_title": "Medicinski i zdravstveni centri",
         "icon": "fa-solid fa-hospital",
-        "img": static("img/services/12.png"),
+        "img": "img/services/12.png",
         "text": "Medicinski centri, uključujući bolnice, klinike i zdravstvene ustanove, igraju ključnu ulogu u pružanju osnovnih zdravstvenih usluga zajednici. Obezbeđivanje bezbednosti pacijenata, medicinskog osoblja, vredne opreme i osetljivih informacija o pacijentima je od najveće važnosti. Smart P&S je specijalizovan za pružanje prilagođenih bezbednosnih rešenja dizajniranih da zadovolje jedinstvene potrebe medicinskih centara, stvarajući bezbedno i podržavajuće okruženje za zdravstvenu zaštitu."
     },
 }

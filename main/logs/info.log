@@ -2482,3 +2482,17 @@ INFO 2025-11-20 14:17:23,757 autoreload D:\projects\security\main\main\settings.
 INFO 2025-11-20 14:17:24,469 autoreload D:\projects\security\main\main\settings.py changed, reloading.
 INFO 2025-11-20 14:17:25,293 autoreload Watching for file changes with StatReloader
 INFO 2025-11-20 14:17:25,611 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:27:33,956 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 14:27:34,325 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 14:29:15,381 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:29:15,572 basehttp "GET /activities/3 HTTP/1.1" 200 12313
+INFO 2025-11-20 14:29:15,650 basehttp "GET /static/css/dist/styles.ee1b3c42f88b.css HTTP/1.1" 200 16060
+INFO 2025-11-20 14:29:15,872 basehttp "GET /static/js/main.44d3b70445e0.js HTTP/1.1" 200 2041
+INFO 2025-11-20 14:29:15,885 basehttp "GET /static/img/services/3.8937b700d3a7.png HTTP/1.1" 200 1881
+INFO 2025-11-20 14:29:15,898 basehttp "GET /static/img/icons/services2.25684660433e.jpg HTTP/1.1" 200 19817
+WARNING 2025-11-20 14:29:16,083 log Not Found: /favicon.ico
+WARNING 2025-11-20 14:29:16,083 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2025-11-20 14:29:27,145 basehttp "GET /activities/3 HTTP/1.1" 200 12313
+INFO 2025-11-20 14:30:30,140 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-11-20 14:30:30,952 autoreload Watching for file changes with StatReloader
+INFO 2025-11-20 14:30:33,542 basehttp "GET /activities/3 HTTP/1.1" 200 12313
