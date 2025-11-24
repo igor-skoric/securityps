@@ -4,13 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="new update 2">
+    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="new update 4">
+      <change afterPath="$PROJECT_DIR$/main/website/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/website/templates/website/activities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/website/templates/website/contact_success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/services/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/services/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/1.60423c5932ac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/10.0bd9c723b5ea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/11.549bc920cf55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/12.1b39e5a6538f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/2.1ecf45696ed8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/3.8937b700d3a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/4.8ec9cbe9b344.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/5.a4d2547b31b7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/6.5759277c1bff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/7.59d60c2465c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/8.ae6d8537b342.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/9.da5ee1c482ac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/img/services/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/img/services/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/staticfiles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/services_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/services_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/templates/website/single_service_extended.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/single_service_extended.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/single_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/single_service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763644791490</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new update 3">
+      <option name="closed" value="true" />
+      <created>1763645473874</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763645473874</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new update 4">
+      <option name="closed" value="true" />
+      <created>1763646440573</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1763646440573</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +285,8 @@
     <MESSAGE value="commit collect static" />
     <MESSAGE value="new update" />
     <MESSAGE value="new update 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new update 2" />
+    <MESSAGE value="new update 3" />
+    <MESSAGE value="new update 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update 4" />
   </component>
 </project>

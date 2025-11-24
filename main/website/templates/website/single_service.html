@@ -16,7 +16,8 @@
         <div              class="absolute inset-0 transition-all duration-1000 ease-in-out">
 
           <!-- Image -->
-          <img src="{% static 'img/icons/services2.jpg' %}" class="w-full h-full object-cover">
+          <img src="{% static 'img/icons/services2.jpg' %}" class="md:flex hidden w-full h-full object-cover">
+          <img src="{% static 'img/icons/services2_mini.jpg' %}" class="flex md:hidden w-full h-full object-cover">
 
           <!-- Overlay sa tekstom -->
           <div class="absolute inset-0 bg-black/40 flex items-center">

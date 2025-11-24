@@ -147,6 +147,14 @@ LOGGING_DIR = os.path.join(BASE_DIR, "logs")  # Kreiraj folder za logove
 if not os.path.exists(LOGGING_DIR):
     os.makedirs(LOGGING_DIR)
 
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "mail.smartps.rs"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = "office@smartps.rs"
+EMAIL_HOST_PASSWORD = "Menjac-100s"
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
 # LOGOVI
 LOGGING = {
     "version": 1,

@@ -89,10 +89,10 @@ SERVICES = {
 }
 
 
-SERVICES_EXTENDED = {
+ACTIVITIES = {
     1: {
         "title": "Apoteke, farmaceutske ustanove i proizvodnja lekova",
-        "short_title": "Apoteke i farmacija",
+        "short_title": "Apoteke i farmaceutska industrija",
         "icon": "fa-solid fa-pills",
         "img": "img/services/1.png",
         "text": "Apoteke i farmaceutska industrija igraju vitalnu ulogu u našim zajednicama, osiguravajući da ljudi imaju pristup lekovima koji su im potrebni. Međutim, sa sve većom rasprostranjenošću zloupotrebe i krađe lekova na recept, postalo je ključno da apoteke ulažu u mere bezbednosti. Bezbednosni sistemi apoteka su dizajnirani da zaštite ne samo zalihe lekova već i bezbednost apotekarskog osoblja i kupaca. Bezbednost bi trebalo da bude glavni prioritet za sve apoteke i farmaceutsku industriju, bez obzira na njihovu veličinu ili lokaciju. Glavna uloga bezbednosnih sistema je da odvrate i spreče krađu, provale i neovlašćeni pristup. Ulaganjem u ove sisteme, vlasnici i operateri apoteka mogu stvoriti bezbednije okruženje za osoblje i kupce, smanjiti rizik od preusmeravanja lekova, zaštititi svoj ugled i ispuniti regulatorne zahteve."

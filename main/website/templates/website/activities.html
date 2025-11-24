@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
-{% block title %} Naše usluge {% endblock %}
+{% block title %} Delatnosti {% endblock %}
 
 {% load static %}
 
 {% block content %}
 
-<div id="app-services">
+<div>
 
     <!--  Hero -->
     <section id="hero" class="relative w-full overflow-hidden">
@@ -29,7 +29,7 @@
 
               <!-- Tekst (desktop levo, mobile centar) -->
               <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-                <h1 class="text-3xl md:text-5xl font-bold mb-4">Naše usluge</h1>
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">Delatnosti</h1>
                 <p class="mb-6 text-lg md:text-xl"></p>
               </div>
 
@@ -45,20 +45,19 @@
     <!-- Services Grid Section -->
     <section class="py-20 bg-gray-100">
       <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-        {% for id, service in services.items %}
+        {% for id, service in activities.items %}
         <!-- 1 -->
-        <a href="{% url 'single_service' id %}" class="h-full block">
-          <div class="bg-white rounded-2xl shadow-md flex flex-col items-center justify-center
-                      p-7 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 h-full">
+        <a href="{% url 'single_service_extended' id %}" class="h-full block">
+          <div class="bg-white rounded-2xl shadow-md flex flex-col items-center text-center p-7
+                      transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 h-full">
 
-            <div class="flex items-center justify-center w-16 h-16 rounded-full bg-blue-50 mb-5">
+            <div class="flex items-center justify-center w-16 h-16 rounded-full bg-black mb-5">
               <i class="{{ service.icon }} text-3xl text-blue-600"></i>
             </div>
 
             <h3 class="text-lg font-semibold text-gray-900 leading-snug">
               {{ service.short_title }}
             </h3>
-
           </div>
         </a>
 

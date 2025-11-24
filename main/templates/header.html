@@ -40,6 +40,7 @@
       <nav class="hidden md:flex space-x-6 items-center text-white">
         <a href="{% url 'home' %}" class="hover:text-orange-500 transition-colors duration-300">Početna</a>
         <a href="{% url 'services' %}" class="hover:text-orange-500 transition-colors duration-300">Usluge</a>
+        <a href="{% url 'activities' %}" class="hover:text-orange-500 transition-colors duration-300">Delatnosti</a>
         <a href="{% url 'contact' %}" class="hover:text-orange-500 transition-colors duration-300">Kontakt</a>
       </nav>
 
@@ -73,6 +74,7 @@
         <nav class="flex flex-col justify-center items-center space-y-6 text-xl font-medium text-gray-700 mt-10">
           <a href="{% url 'home' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Početna</a>
           <a href="{% url 'services' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Usluge</a>
+          <a href="{% url 'activities' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Delatnosti</a>
           <a href="{% url 'contact' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Kontakt</a>
         </nav>
 
