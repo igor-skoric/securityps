@@ -1,9 +1,9 @@
 from django.shortcuts import render, get_object_or_404
 from .services_data import SERVICES, ACTIVITIES
-from .forms import ContactForm
+from .forms import ContactForm, JobApplicationForm
 from django.core.mail import send_mail
 from django.conf import settings
-
+from django.core.mail import EmailMessage
 
 def test(request):
     context = {}
@@ -45,6 +45,44 @@ def contact(request):
             return render(request, "website/contact_success.html")
 
     return render(request, "website/contact.html", {"form": form})
+
+
+def jobs(request):
+    if request.method == "POST":
+        form = JobApplicationForm(request.POST, request.FILES)
+        if form.is_valid():
+            application = form.save()  # Sačuvaj u bazu
+
+            # Slanje email-a sa fajlom
+            email = EmailMessage(
+                subject=f"Nova prijava: {application.name}",
+                body=(
+                    f"Ime i prezime: {application.name}\n"
+                    f"Email: {application.email}\n"
+                    f"Telefon: {application.phone}\n"
+                    f"Godina rođenja: {application.birth_year}\n"
+                    f"Poruka: {application.message}"
+                ),
+                from_email=settings.DEFAULT_FROM_EMAIL,
+                to=['iskoric@gmail.com'],  # zameni sa pravim email-om
+            )
+
+            # Dodaj CV fajl ako postoji
+            if application.cv:
+                application.cv.open()  # obavezno otvori fajl
+                email.attach(application.cv.name, application.cv.read(), application.cv.file.content_type)
+                application.cv.close()  # zatvori fajl nakon čitanja
+
+            # Pošalji email
+            email.send(fail_silently=False)
+
+            # Render uspeh stranice
+            return render(request, "website/contact_success.html")
+
+    else:
+        form = JobApplicationForm()
+
+    return render(request, "website/jobs.html", {"form": form})
 
 
 def services(request):

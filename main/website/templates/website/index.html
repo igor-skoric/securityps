@@ -8,39 +8,39 @@
 
 <div id="app-home">
     <!--  Hero -->
-    <section id="hero" class="relative w-full overflow-hidden">
+<!--  Hero -->
+<section id="hero" class="relative w-full overflow-hidden">
 
-      <!-- Slides -->
-      <div class="relative w-full h-screen">
-        <div v-for="(slide, index) in slides" :key="index"
-             class="absolute inset-0 transition-all duration-1000 ease-in-out"
-             :class="{
-               'opacity-100 z-10 translate-x-0': index === currentIndex,
-               'opacity-0 z-0 -translate-x-full': index !== currentIndex
-             }">
+  <!-- Slides -->
+  <div class="relative w-full h-screen">
+    <div v-for="(slide, index) in slides" :key="index"
+         class="absolute inset-0 transition-all duration-1000 ease-in-out"
+         :class="{
+           'opacity-100 z-10 translate-x-0': index === currentIndex,
+           'opacity-0 z-0 -translate-x-full': index !== currentIndex
+         }">
 
-          <!-- Image -->
-          <img src="{% static 'img/security1.jpg' %}" class="w-full h-full object-cover">
+      <!-- Image -->
+      <img src="{% static 'img/hero-index.jpg' %}" class="w-full h-full object-cover">
 
-          <!-- Overlay sa tekstom -->
-          <div class="absolute inset-0 bg-black/40 flex items-center">
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black/40">
 
-              <!-- Tekst (desktop levo, mobile centar) -->
-              <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-16 md:px-8">
-                <h1 class="text-yellow-400 text-3xl md:text-5xl font-bold mb-4">Obezbedite svoje poslovanje</h1>
-<!--                <p class="mb-6 text-lg md:text-xl">[[ slide.subtitle ]]</p>-->
-<!--                <a :href="slide.link" class="bg-gray-700 hover:bg-blue-700 px-6 py-3 rounded text-white font-semibold  transition duration-300">-->
-<!--                  Saznaj više-->
-<!--                </a>-->
-              </div>
 
-              <!-- Prazno desno za desktop ili dodatni element -->
-              <div class="md:w-1/2"></div>
-            </div>
-          </div>
+
+        <!-- Donji tekst levo -->
+        <div class="absolute bottom-20 left-10 md:bottom-20 md:left-30 text-orange-400">
+          <p class="text-lg md:text-5xl font-medium">
+            Obezbedite svoje poslovanje
+          </p>
         </div>
+
       </div>
+    </div>
+  </div>
+</section>
+
+
 
       <!-- Buttons -->
 <!--      <button @click="prevSlide" class="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-bg-500 p-3 rounded-full z-20 cursor-pointer">-->
@@ -72,7 +72,7 @@
 <!--              class="w-3 h-3 rounded-full cursor-pointer"></span>-->
 <!--      </div>-->
 
-    </section>
+
 
     <!-- About -->
     <section id="About" class="bg-gray-50 py-30">
@@ -80,7 +80,7 @@
 
       <!-- Slika levo (desktop) ili gore (mobile) -->
       <div class="md:w-1/2 w-full relative">
-        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80"
+        <img src="{% static 'img/about.jpg' %}"
              alt="O nama"
              class="w-full h-full object-cover rounded-2xl shadow-lg">
         <div class="absolute inset-0 bg-black/20 rounded-xl"></div>
@@ -125,16 +125,30 @@
         <p class="text-gray-700 text-lg">Pružamo profesionalne sigurnosne usluge za privatne i poslovne klijente.</p>
       </div>
 
-        <section class="py-20 bg-gray-100">
+    <section class="py-20 bg-gray-100">
           <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {% for id, service in services.items %}
             <!-- 1 -->
-            <a href="{% url 'single_service' id %}" class="h-full">
-              <div class="bg-white rounded-xl shadow-md flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow h-full">
-                <i class=" {{ service.icon }} text-4xl text-blue-600 mb-4"></i>
-                <h3 class="text-lg font-semibold text-gray-800 text-center"> {{ service.short_title }}</h3>
-              </div>
-            </a>
+              {% if id != 9 and id != 12 %}
+              <a href="{% url 'single_service' id %}" class="h-full">
+              {% endif %}
+
+                <div class="bg-white rounded-xl shadow-md flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow h-full">
+
+                  {% if id == 9 or id == 12 %}
+                      <img src="{% static 'img/logo.png' %}" alt="" class="w-16"/>
+                  {% else %}
+                      <i class="{{ service.icon }} text-4xl text-blue-600 mb-4"></i>
+                  {% endif %}
+
+                  <h3 class="text-lg font-semibold text-gray-800 text-center">{{ service.short_title }}</h3>
+                </div>
+
+              {% if id != 9 and id != 12 %}
+              </a>
+              {% endif %}
+
+
             {% endfor %}
           </div>
         </section>
@@ -143,19 +157,24 @@
 
     <section class="py-20">
       <div class="container mx-auto px-4">
-        <h1 class="text-3xl font-bold text-center mb-20">Delatnosti u kojima pružamo usluge obezbeđenja</h1>
+        <h1 class="text-3xl font-bold text-center mb-20">Industrije gde smo zastupljeni</h1>
 
         <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {% for id, service in extended_services.items %}
-          <a href="{% url 'single_service_extended' id %}" class="cursor-pointer">
-            <div class="bg-white rounded-xl shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden">
-              <div class="p-6">
-                <div class="flex flex-col items-center mb-4">
-                  <p class=" flex justify-center items-center p-4 rounded-full bg-black">
-                    <i class="{{ service.icon }} text-blue-500 text-2xl"></i>
+          <a href="{% url 'single_service_extended' id %}" class="cursor-pointer h-full">
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden h-full flex flex-col">
+              <div class="p-6 flex flex-col items-center justify-between h-full">
+
+                <div class="flex flex-col gap-3 items-center">
+                  <p class="flex justify-center items-center p-6 rounded-full bg-orange-50">
+                    <i class="{{ service.icon }} text-blue-500 text-3xl"></i>
                   </p>
-                  <h2 class="text-xl font-semibold">{{ service.short_title }}</h2>
+
+                  <h2 class="text-xl font-semibold text-center">
+                    {{ service.short_title }}
+                  </h2>
                 </div>
+
               </div>
             </div>
           </a>
@@ -163,6 +182,7 @@
         </div>
       </div>
     </section>
+
 
     <!--  Zasto nas odabrati -->
     <section class="py-30 bg-gray-800 ">
@@ -177,8 +197,8 @@
           <!-- Kartica 1 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
             <!-- Ikonica apsolutno pozicionirana -->
-            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
-              <img src="{% static 'img/icons/3.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+             <span class="text-orange-400 text-4xl font-bold">1</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Dobro obučeno profesionalno osoblje</h3>
             <p class="text-gray-700">Naš tim stručnjaka obezbeđuje vrhunsku uslugu i potpunu pouzdanost.</p>
@@ -186,8 +206,8 @@
 
           <!-- Kartica 2 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
-              <img src="{% static 'img/icons/4.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+             <span class="text-orange-400 text-4xl font-bold">2</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Fleksibilna usluga, usluga po meri klijenta</h3>
             <p class="text-gray-700">Prilagođavamo svako rešenje vašim specifičnim potrebama i zahtevima.</p>
@@ -195,8 +215,8 @@
 
           <!-- Kartica 3 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
-              <img src="{% static 'img/icons/certificate.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+             <span class="text-orange-400 text-4xl font-bold">3</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">24/7 dostupnost i brz odgovor</h3>
             <p class="text-gray-700">Uvek smo tu za vas, bez obzira na vreme i dan. Na svaki poziv reagujemo brzo kako biste uvek imali potpunu podršku.</p>
@@ -204,8 +224,8 @@
 
           <!-- Kartica 4 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
-              <img src="{% static 'img/icons/flexibility.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+             <span class="text-orange-400 text-4xl font-bold">4</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Sveobuhvatna bezbednosna rešenja</h3>
             <p class="text-gray-700">Nudimo kompletna rešenja koja štite vaše objekte i imovinu.</p>
@@ -213,8 +233,8 @@
 
           <!-- Kartica 5 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
-              <img src="{% static 'img/icons/flexibility.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+             <span class="text-orange-400 text-4xl font-bold">5</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Besplatna konsultacija i procena pozicija</h3>
             <p class="text-gray-700">Naši stručnjaci besplatno izlaze na teren i daju najbolju ponudu.</p>
@@ -222,8 +242,8 @@
 
           <!-- Kartica 6 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-3 shadow-lg">
-              <img src="{% static 'img/icons/flexibility.png' %}" class="h-12 w-12 text-blue-600 flex-shrink-0" alt=""/>
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+             <span class="text-orange-400 text-4xl font-bold">6</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Konkurentna i pristupačna cena usluge</h3>
             <p class="text-gray-700">Kvalitetna usluga po ceni koja odgovara svakom budžetu.</p>
@@ -234,6 +254,105 @@
       </div>
 
     </section>
+
+
+<section class="max-w-5xl mx-auto py-20 px-4">
+  <h1 class="text-4xl font-bold text-center mb-14 tracking-wide">
+    Najčešća pitanja
+  </h1>
+
+  <div class="space-y-5">
+
+    <!-- 1 -->
+    <details class="group  rounded-xl bg-orange-400 p-6 shadow-lg transition hover:shadow-xl">
+      <summary class="flex justify-between items-center cursor-pointer">
+        <span class="font-semibold text-xl text-white">
+          Kako možemo da stupimo u kontakt sa Smart P&S Security u vezi pružanja usluga fizičko-tehničkog obezbeđenja?
+        </span>
+        <span class="text-2xl text-white transition-transform group-open:rotate-180">⌄</span>
+      </summary>
+      <p class="rounded-md p-4 text-lg mt-4 text-gray-700 bg-orange-50 transition-all duration-300">
+        Možete zatražiti usluge obezbeđenja tako što ćete nas kontaktirati putem naše veb stranice, imejla ili telefona.
+        Naš tim će sarađivati sa vama kako bi procenio vaše potrebe i razvio prilagođeni bezbednosni plan.
+      </p>
+    </details>
+
+    <!-- 2 -->
+    <details class="group border border-gray-300 rounded-xl bg-white p-6 shadow-lg transition hover:shadow-xl">
+      <summary class="flex justify-between items-center cursor-pointer">
+        <span class="font-semibold text-xl text-gray-900">Da li su vaši čuvari obučeni i licencirani?</span>
+        <span class="text-2xl text-orange-400 transition-transform group-open:rotate-180">⌄</span>
+      </summary>
+      <p class="rounded-md p-4 text-lg mt-4 text-gray-700 bg-gray-100 transition-all duration-300">
+        Da, svi naši čuvari su strogo obučeni i licencirani kako bi ispunili državne i industrijske standarde.
+        Dajemo prioritet kontinuiranoj obuci i obrazovanju kako bismo osigurali da su naši čuvari spremni za svaku situaciju.
+      </p>
+    </details>
+
+    <!-- 3 -->
+    <details class="group border border-gray-300 rounded-xl bg-white p-6 shadow-lg transition hover:shadow-xl">
+      <summary class="flex justify-between items-center cursor-pointer">
+        <span class="font-semibold text-xl text-gray-900">Koje industrije opslužuje Smart P&S Security?</span>
+        <span class="text-2xl text-orange-400 transition-transform group-open:rotate-180">⌄</span>
+      </summary>
+      <p class="rounded-md p-4 text-lg mt-4 text-gray-700 bg-gray-100 transition-all duration-300">
+        Smart P&S opslužuje širok spektar industrija, uključujući korporativne zgrade, gradilišta,
+        obrazovne ustanove, zdravstvene ustanove, maloprodaju, proizvodnju i još mnogo toga.
+        Prilagođavamo naše usluge jedinstvenim potrebama svakog sektora.
+      </p>
+    </details>
+
+    <!-- 4 -->
+    <details class="group border border-gray-300 rounded-xl bg-white p-6 shadow-lg transition hover:shadow-xl">
+      <summary class="flex justify-between items-center cursor-pointer">
+        <span class="font-semibold text-xl text-gray-900">Da li pružate usluge obezbeđenja 24/7?</span>
+        <span class="text-2xl text-orange-400 transition-transform group-open:rotate-180">⌄</span>
+      </summary>
+      <p class="rounded-md p-4 text-lg mt-4 text-gray-700 bg-gray-100 transition-all duration-300">
+        Da, nudimo usluge obezbeđenja 24/7 kako bismo osigurali da su vaši prostori zaštićeni 24 sata dnevno,
+        uključujući praznike i vikende.
+      </p>
+    </details>
+
+    <!-- 5 -->
+    <details class="group border border-gray-300 rounded-xl bg-white p-6 shadow-lg transition hover:shadow-xl">
+      <summary class="flex justify-between items-center cursor-pointer">
+        <span class="font-semibold text-xl text-gray-900">Možete li da obezbedite obezbeđenje za posebne događaje i privremene potrebe?</span>
+        <span class="text-2xl text-orange-400 transition-transform group-open:rotate-180">⌄</span>
+      </summary>
+      <p class="rounded-md p-4 text-lg mt-4 text-gray-700 bg-gray-100 transition-all duration-300">
+        Naravno, Smart P&S nudi usluge obezbeđenja događaja za okupljanja, izložbe i posebne prilike.
+        Takođe možemo da zadovoljimo privremene potrebe za obezbeđenjem, kao što su kratkoročni građevinski projekti.
+      </p>
+    </details>
+
+    <!-- 6 -->
+    <details class="group border border-gray-300 rounded-xl bg-white p-6 shadow-lg transition hover:shadow-xl">
+      <summary class="flex justify-between items-center cursor-pointer">
+        <span class="font-semibold text-xl text-gray-900">Kako osiguravate poverljivost klijenata?</span>
+        <span class="text-2xl text-orange-400 transition-transform group-open:rotate-180">⌄</span>
+      </summary>
+      <p class="rounded-md p-4 text-lg mt-4 text-gray-700 bg-gray-100 transition-all duration-300">
+        Ozbiljno shvatamo poverljivost klijenata i imamo stroge protokole za zaštitu osetljivih informacija.
+        Naše obezbeđenje je obučeno da poštuje privatnost i poverljivost.
+      </p>
+    </details>
+
+    <!-- 7 -->
+    <details class="group border border-gray-300 rounded-xl bg-white p-6 shadow-lg transition hover:shadow-xl">
+      <summary class="flex justify-between items-center cursor-pointer">
+        <span class="font-semibold text-xl text-gray-900">Šta izdvaja Smart P&S fizičko obezbeđenje od drugih bezbednosnih kompanija?</span>
+        <span class="text-2xl text-orange-400 transition-transform group-open:rotate-180">⌄</span>
+      </summary>
+      <p class="rounded-md p-4 text-lg mt-4 text-gray-700 bg-gray-100 transition-all duration-300">
+        Naša posvećenost izvrsnosti, visoko obučeno osoblje, prilagodljivost različitim industrijama
+        i posvećenost zadovoljstvu klijenata izdvajaju nas.
+        Fokusirani smo na pružanje prilagođenih bezbednosnih rešenja koja zadovoljavaju vaše jedinstvene potrebe.
+      </p>
+    </details>
+
+  </div>
+</section>
 
     <!--  Hero -->
 <!--    <section class="py-30 bg-gray-50">-->

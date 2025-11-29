@@ -58,13 +58,20 @@ SERVICES = {
         "text": "Smart P&S isporučuje napredna rešenja bezbednosne tehnologije , pomažući preduzećima i objektima da unaprede zaštitu putem naprednih sistema, inteligentnog nadzora i integrisanih strategija bezbednosti. Naš pristup kombinuje tehnologiju, stručnost i analitiku u realnom vremenu kako bismo obezbedili besprekornu, pouzdanu i proaktivnu zaštitu u svakom okruženju. Radimo sa komercijalnim, industrijskim i stambenim klijentima kako bismo implementirali pametna bezbednosna rešenja koja se integrišu sa postojećom infrastrukturom, stvarajući bezbedno i kontrolisano okruženje za zaposlene, posetioce i imovinu."
     },
     9: {
+            "title": "Smart",
+            "short_title": "Smart P&S",
+            "icon": "",
+            "img": "img/smart_ps_logo.png",
+            "text": "awff"
+    },
+    10: {
         "title": "Mobilna patrola",
         "short_title": "Mobilna patrola",
         "icon": "fa-solid fa-shield-halved",
         "img": "https://plus.unsplash.com/premium_photo-1674582744373-c0805c281744?q=80&w=1781&auto=format&fit=crop&ixlib=rb-4.1.0",
         "text": "Mobilna patrolna zaštita se odnosi na mobilne službenike obezbeđenja koji se kreću s mesta na mesto, pregledaju objekte, prijavljuju incidente i reaguju na alarme."
     },
-    10: {
+    11: {
         "title": "Prevencija gubitaka",
         "short_title": "Prevencija gubitaka",
         "icon": "fa-solid fa-ban",
@@ -84,7 +91,15 @@ SERVICES = {
         <li><strong>Operativna efikasnost:</strong> Smanjenje gubitaka kroz efikasne strategije prevencije može unaprediti tokove rada i poboljšati efikasnost. Resursi koji bi inače bili utrošeni na saniranje posledica krađe ili prevare mogu se preusmeriti na produktivnije aktivnosti.</li>
     </ul>
     """
-    }
+    },
+    12: {
+        "title": "Smart",
+        "short_title": "Smart P&S",
+        "icon": "",
+        "img": "img/smart_ps_logo.png",
+        "text": "awff"
+    },
+
 
 }
 

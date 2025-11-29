@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %} Zaposlenje {% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+<div id="app-contact">
+    <!--  Hero -->
+    <section id="hero" class="relative w-full overflow-hidden">
+
+      <!-- Slides -->
+      <div class="relative w-full h-[400px]">
+        <div v-for="(slide, index) in slides" :key="index"
+             class="absolute inset-0 transition-all duration-1000 ease-in-out"
+             :class="{
+               'opacity-100 z-10 translate-x-0': index === currentIndex,
+               'opacity-0 z-0 -translate-x-full': index !== currentIndex
+             }">
+
+          <!-- Image -->
+          <img src="{% static 'img/icons/connections.jpg' %}" class="w-full h-full object-cover">
+
+          <!-- Overlay sa tekstom -->
+          <div class="absolute inset-0 bg-black/40 flex items-center">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+
+              <!-- Tekst (desktop levo, mobile centar) -->
+              <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">Zaposlenje</h1>
+                <p class="mb-6 text-lg md:text-xl"></p>
+              </div>
+
+              <!-- Prazno desno za desktop ili dodatni element -->
+              <div class="md:w-1/2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Form -->
+    <section class="bg-gray-100 py-32">
+      <div class="max-w-6xl mx-auto px-6">
+        <!-- Naslov -->
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Želite posao? </h2>
+          <p class="text-3xl text-gray-600">Aplicirajte kod nas sada.</p>
+        </div>
+
+        <div class="grid grid-cols-1 ">
+          <!-- Kontakt forma -->
+        <form method="post" enctype="multipart/form-data" class="order-2 md:order-1 bg-gray-800 shadow-md rounded-2xl p-8 space-y-6 border-l-5 border-gray-200">
+
+            {% csrf_token %}
+
+            <div class="grid grid-cols-2 gap-5">
+                            <!-- Ime i prezime -->
+                <div>
+                    <label for="{{ form.name.id_for_label }}" class="block text-gray-100 font-semibold mb-2">
+                        Ime i prezime
+                    </label>
+                    {{ form.name }}
+                </div>
+
+                <!-- Email -->
+                <div>
+                    <label for="{{ form.email.id_for_label }}" class="block text-gray-100 font-semibold mb-2">
+                        Email
+                    </label>
+                    {{ form.email }}
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-5">
+                <div>
+                    <label class="block text-gray-100 font-semibold mb-2">
+                        Telefon
+                    </label>
+                    {{ form.phone }}
+                </div>
+
+                <div>
+                    <label class="block text-gray-100 font-semibold mb-2">
+                        Godina rođenja
+                    </label>
+                    {{ form.birth_year }}
+                </div>
+            </div>
+
+            <!-- CV upload -->
+            <div>
+                <label class="block text-gray-100 font-semibold mb-2">
+                    Postavite CV (PDF ili Word)
+                </label>
+                {{ form.cv }}
+            </div>
+
+            <!-- Poruka -->
+            <div>
+                <label for="{{ form.message.id_for_label }}" class="block text-gray-100 font-semibold mb-2">
+                    Zašto želite da konkurišete kod nas?
+                </label>
+                {{ form.message }}
+            </div>
+
+            <!-- Dugme -->
+            <button type="submit"
+                    class="text-gray-100 w-full bg-gray-600 py-3 rounded-xl font-semibold focus:outline-none hover:bg-gray-700 transition cursor-pointer">
+                Pošalji poruku
+            </button>
+        </form>
+
+          <!-- Kontakt informacije -->
+          </div>
+      </div>
+    </section>
+
+
+</div>
+
+{% endblock %}

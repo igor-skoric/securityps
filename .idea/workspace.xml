@@ -4,10 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="contact">
+    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="contact 2">
+      <change afterPath="$PROJECT_DIR$/main/static/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/img/hero-index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/website/templates/website/jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/main/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/coming_soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/coming_soon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/templates/website/contact_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/contact_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/services_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/services_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/single_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/single_service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +87,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\security\main\static\img" />
+      <recent name="D:\projects\security\main\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -222,7 +243,39 @@
       <option name="project" value="LOCAL" />
       <updated>1763980617886</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="contact 2">
+      <option name="closed" value="true" />
+      <created>1763980674957</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763980674957</updated>
+    </task>
+    <task id="LOCAL-00016" summary="contact 2">
+      <option name="closed" value="true" />
+      <created>1763980683738</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1763980683738</updated>
+    </task>
+    <task id="LOCAL-00017" summary="contact 2">
+      <option name="closed" value="true" />
+      <created>1763980708049</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1763980708049</updated>
+    </task>
+    <task id="LOCAL-00018" summary="contact 2">
+      <option name="closed" value="true" />
+      <created>1763980758730</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1763980758730</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +296,7 @@
     <MESSAGE value="new update 3" />
     <MESSAGE value="new update 4" />
     <MESSAGE value="contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact" />
+    <MESSAGE value="contact 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact 2" />
   </component>
 </project>

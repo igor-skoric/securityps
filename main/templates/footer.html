@@ -5,7 +5,7 @@
 
         <!-- Logo + kratak opis -->
         <div class="md:w-1/4">
-          <img src="{% static 'img/smart_ps_logo.png' %}" alt="Logo" class="h-24 mb-3">
+          <img src="{% static 'img/logo.png' %}" alt="Logo" class="h-24 mb-3">
           <p class="text-gray-400">
             <span class="font-bold">
               Obezbedite svoje poslovanje
@@ -40,6 +40,12 @@
                 <i class="fa-solid fa-envelope"></i> kontakt@smartps.rs
               </a>
             </li>
+            <li>
+              <a href="mailto:officesmartps@gmail.com" style="text-decoration: none; color: inherit;">
+                <i class="fa-solid fa-envelope"></i> officesmartps@gmail.com
+              </a>
+            </li>
+
             <!--
             <li>
               <i class="fa-solid fa-location-dot"></i> Ulica Primer 12, Beograd
@@ -55,7 +61,8 @@
           <ul class="space-y-1 text-gray-400">
             <li><a href="{% url 'home' %}" class="hover:text-white">Početna</a></li>
             <li><a href="{% url 'services' %}" class="hover:text-white">Usluge</a></li>
-            <li><a href="{% url 'activities' %}" class="hover:text-white">Delatnosti</a></li>
+            <li><a href="{% url 'activities' %}" class="hover:text-white">Industrije</a></li>
+            <li><a href="{% url 'jobs' %}" class="hover:text-white hidden">Zaposlenje</a></li>
             <li><a href="{% url 'contact' %}" class="hover:text-white">Kontakt</a></li>
           </ul>
         </div>

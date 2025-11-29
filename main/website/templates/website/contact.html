@@ -110,14 +110,14 @@
             <!--Whatsapp-->
             <div class="relative group px-5 py-1 flex items-center space-x-4 cursor-pointer overflow-hidden hover:bg-gray-200">
               <!-- Ikonica -->
-              <div class="bg-blue-50 text-blue-600 p-3 rounded-full">
-                <img src="{% static 'img/icons/logos_whatsapp-icon.png' %}" class="w-10" alt="Whatsapp Icon"/>
+              <div class="bg-blue-50 text-gray-600 py-3 px-5 rounded-full">
+                <i class="fa-solid fa-location-dot text-4xl" ></i>
               </div>
 
               <!-- Tekst -->
               <div>
-                <h4 class="text-lg font-semibold text-gray-800 transition-colors">WhatsApp</h4>
-                <p class="text-gray-600 transition-colors">+381692090716</p>
+                <h4 class="text-lg font-semibold text-gray-800 transition-colors">Adresa</h4>
+                <p class="text-gray-600 transition-colors">Ljubinke Bobić 1</p>
               </div>
 
               <!-- Linija ispod (pseudo-element) -->
@@ -194,16 +194,27 @@
       </div>
     </section>
 
-    <!--  Google maps-->
-    <div class="relative w-full overflow-hidden rounded-lg shadow-lg w-full h-[600px]">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1055.180072585977!2d20.37636798677558!3d44.81387199767476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDQ4JzQ5LjkiTiAyMMKwMjInMzcuNiJF!5e1!3m2!1sen!2srs!4v1760369065023!5m2!1sen!2srs"
-        class="absolute top-0 left-0 border-0 w-full h-[600px]"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
+<!-- Google Maps sa pinom na koordinatama 44.813417, 20.378444 -->
+<div class="relative w-full h-[600px] overflow-hidden">
+                <iframe
+                  src="https://maps.google.com/maps?t=m&amp;output=embed&amp;iwloc=near&amp;z=14&amp;q=44.813417,20.378444"
+                  aria-label=""
+                  class="def_resize trx_addons_resize"
+                  style="width:100%; height:600px; border:0;"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
