@@ -7680,3 +7680,77 @@ INFO 2025-12-04 13:53:18,612 basehttp "GET /single_service/1 HTTP/1.1" 200 16500
 INFO 2025-12-04 13:53:18,690 basehttp "GET /static/css/dist/styles.css?v=1764852798 HTTP/1.1" 200 114241
 INFO 2025-12-04 13:53:21,172 basehttp "GET /single_service/5 HTTP/1.1" 200 16345
 INFO 2025-12-04 13:53:21,285 basehttp "GET /static/css/dist/styles.css?v=1764852801 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:56:41,656 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-12-04 13:56:41,690 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-12-04 13:56:41,856 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-12-04 13:56:43,476 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:56:43,478 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:56:43,478 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-04 13:56:43,861 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:43,863 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:43,976 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:43,977 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,087 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,087 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,197 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,197 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,327 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,328 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,447 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,449 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,558 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,560 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,685 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,686 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,806 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,807 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:44,915 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:44,916 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,026 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,027 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,148 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,149 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,261 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,262 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,381 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,382 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,492 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,492 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,604 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,605 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,726 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,727 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,837 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,838 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:45,946 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:45,947 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:46,287 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:46,288 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:46,628 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:46,629 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:46,942 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:46,943 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:47,264 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:47,265 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:47,572 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:47,573 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:47,885 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:47,886 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:48,196 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:48,197 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:48,517 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:48,519 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:48,835 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:48,836 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:49,145 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:49,146 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:49,471 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:49,472 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:49,784 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:49,785 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:50,102 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:50,103 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:50,417 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:50,417 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2025-12-04 13:56:50,728 log Not Found: /__reload__/events/
+WARNING 2025-12-04 13:56:50,729 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
