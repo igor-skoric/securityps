@@ -6,7 +6,7 @@ class JobApplication(models.Model):
     email = models.EmailField()
     phone = models.CharField(max_length=30)
     birth_year = models.PositiveIntegerField()
-    message = models.TextField()
+    message = models.TextField(blank=True, null=True)
     cv = models.FileField(upload_to='cv_uploads/')
 
     created_at = models.DateTimeField(auto_now_add=True)

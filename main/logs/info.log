@@ -6257,3 +6257,1108 @@ INFO 2025-11-29 13:12:31,547 basehttp "GET /static/img/hero-index.jpg HTTP/1.1" 
 INFO 2025-11-29 13:12:31,549 basehttp "GET /static/img/about.jpg HTTP/1.1" 304 0
 WARNING 2025-11-29 13:12:37,327 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
 WARNING 2025-11-29 13:12:37,328 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:02:15,814 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:06:00,039 basehttp "GET / HTTP/1.1" 200 43894
+INFO 2025-12-01 11:06:00,211 basehttp "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2025-12-01 11:06:00,212 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2025-12-01 11:06:00,284 basehttp "GET /static/img/hero-index.jpg HTTP/1.1" 304 0
+INFO 2025-12-01 11:06:00,292 basehttp "GET /static/img/about.jpg HTTP/1.1" 304 0
+INFO 2025-12-01 11:06:00,308 basehttp "GET /static/css/dist/styles.css?v=1764583559 HTTP/1.1" 200 113861
+WARNING 2025-12-01 11:06:00,629 log Not Found: /favicon.ico
+WARNING 2025-12-01 11:06:00,629 basehttp "GET /favicon.ico HTTP/1.1" 404 5073
+INFO 2025-12-01 11:10:26,824 basehttp "GET / HTTP/1.1" 200 43894
+INFO 2025-12-01 11:10:26,896 basehttp "GET /static/css/dist/styles.css?v=1764583826 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:10:49,996 basehttp "GET / HTTP/1.1" 200 43887
+INFO 2025-12-01 11:10:50,056 basehttp "GET /static/css/dist/styles.css?v=1764583849 HTTP/1.1" 200 113861
+WARNING 2025-12-01 11:10:51,745 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:10:51,746 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:11:17,761 basehttp "GET / HTTP/1.1" 200 43987
+INFO 2025-12-01 11:11:17,860 basehttp "GET /static/css/dist/styles.css?v=1764583877 HTTP/1.1" 200 113861
+WARNING 2025-12-01 11:11:17,927 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:11:17,928 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:11:21,359 basehttp "GET /jobs HTTP/1.1" 200 13874
+WARNING 2025-12-01 11:11:21,493 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:11:21,499 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:11:21,509 basehttp "GET /static/css/dist/styles.css?v=1764583881 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:11:34,473 basehttp "GET /jobs HTTP/1.1" 200 13874
+WARNING 2025-12-01 11:11:34,585 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:11:34,587 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:11:34,603 basehttp "GET /static/css/dist/styles.css?v=1764583894 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:11:43,774 basehttp "GET /jobs HTTP/1.1" 200 13874
+INFO 2025-12-01 11:11:43,866 basehttp "GET /static/css/dist/styles.css?v=1764583903 HTTP/1.1" 200 113861
+WARNING 2025-12-01 11:11:43,928 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:11:43,929 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:11:53,119 basehttp "GET /jobs HTTP/1.1" 200 13889
+WARNING 2025-12-01 11:11:53,233 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:11:53,235 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:11:53,242 basehttp "GET /static/css/dist/styles.css?v=1764583913 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:11:53,614 basehttp "GET /jobs HTTP/1.1" 200 13889
+WARNING 2025-12-01 11:11:53,725 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:11:53,727 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:12:20,883 basehttp "GET /jobs HTTP/1.1" 200 13904
+WARNING 2025-12-01 11:12:20,979 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:12:20,981 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:12:20,986 basehttp "GET /static/css/dist/styles.css?v=1764583940 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:15:36,780 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:15:39,162 basehttp "GET /jobs HTTP/1.1" 200 13904
+INFO 2025-12-01 11:15:39,238 basehttp "GET /static/css/dist/styles.css?v=1764584139 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:19:25,434 autoreload D:\projects\security\main\website\forms.py changed, reloading.
+INFO 2025-12-01 11:19:25,435 autoreload D:\projects\security\main\website\forms.py changed, reloading.
+INFO 2025-12-01 11:19:27,617 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:19:27,617 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:19:28,876 basehttp "GET /jobs HTTP/1.1" 200 14006
+INFO 2025-12-01 11:19:29,134 basehttp "GET /static/css/dist/styles.css?v=1764584368 HTTP/1.1" 200 113786
+ERROR 2025-12-01 11:21:07,136 log Internal Server Error: /jobs
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 73, in jobs
+    email.attach(application.cv.name, application.cv.read(), application.cv.file.content_type)
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'File' object has no attribute 'content_type'
+ERROR 2025-12-01 11:21:07,142 basehttp "POST /jobs HTTP/1.1" 500 96847
+ERROR 2025-12-01 11:22:06,037 log Internal Server Error: /jobs
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 73, in jobs
+    email.attach(application.cv.name, application.cv.read(), application.cv.file.content_type)
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'File' object has no attribute 'content_type'
+ERROR 2025-12-01 11:22:06,042 basehttp "POST /jobs HTTP/1.1" 500 96716
+INFO 2025-12-01 11:23:03,962 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:23:04,761 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:23:06,204 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:23:06,460 autoreload Watching for file changes with StatReloader
+ERROR 2025-12-01 11:23:07,190 log Internal Server Error: /jobs
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 72, in jobs
+    file_mime = mimetypes.guess_type(application.cv.name)[0] or "application/octet-stream"
+                ^^^^^^^^^
+NameError: name 'mimetypes' is not defined. Did you forget to import 'mimetypes'
+ERROR 2025-12-01 11:23:07,213 basehttp "POST /jobs HTTP/1.1" 500 96403
+INFO 2025-12-01 11:23:13,902 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:23:13,933 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:23:14,581 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:23:14,611 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:23:16,199 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:23:16,243 basehttp "GET /static/css/dist/styles.css?v=1764584596 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:23:26,622 basehttp "GET /activities HTTP/1.1" 200 18128
+INFO 2025-12-01 11:23:26,677 basehttp "GET /static/css/dist/styles.css?v=1764584606 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:23:27,092 basehttp "GET /jobs HTTP/1.1" 200 14011
+INFO 2025-12-01 11:23:27,135 basehttp "GET /static/css/dist/styles.css?v=1764584607 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:23:33,174 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:23:33,212 basehttp "GET /static/css/dist/styles.css?v=1764584613 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:24:38,565 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:24:39,092 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:24:39,365 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:24:39,935 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:24:40,553 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:24:40,589 basehttp "GET /static/css/dist/styles.css?v=1764584680 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:25:39,371 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:25:43,037 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:25:43,088 basehttp "GET /static/css/dist/styles.css?v=1764584743 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:25:49,367 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:29,560 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:26:29,622 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:26:29,997 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:26:30,403 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:26:30,679 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:30,679 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:31,111 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:31,355 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:52,385 autoreload D:\projects\security\main\website\models.py changed, reloading.
+INFO 2025-12-01 11:26:52,388 autoreload D:\projects\security\main\website\models.py changed, reloading.
+INFO 2025-12-01 11:26:52,919 autoreload D:\projects\security\main\website\models.py changed, reloading.
+INFO 2025-12-01 11:26:52,930 autoreload D:\projects\security\main\website\models.py changed, reloading.
+INFO 2025-12-01 11:26:53,287 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:53,298 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:53,772 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:26:53,808 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:27:23,707 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:27:37,955 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:27:37,997 basehttp "GET /static/css/dist/styles.css?v=1764584857 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:27:39,256 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:27:39,276 basehttp "GET /static/css/dist/styles.css?v=1764584859 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:28:28,299 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:28:29,022 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:28:30,190 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:28:30,250 basehttp "GET /static/css/dist/styles.css?v=1764584910 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:28:32,612 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:28:32,660 basehttp "GET /static/css/dist/styles.css?v=1764584912 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:28:35,821 basehttp "GET / HTTP/1.1" 200 43987
+INFO 2025-12-01 11:28:35,884 basehttp "GET /static/css/dist/styles.css?v=1764584915 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:28:49,906 basehttp "GET / HTTP/1.1" 200 43987
+INFO 2025-12-01 11:28:49,979 basehttp "GET /static/css/dist/styles.css?v=1764584929 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:28:51,342 basehttp "GET /jobs HTTP/1.1" 200 14002
+INFO 2025-12-01 11:28:51,397 basehttp "GET /static/css/dist/styles.css?v=1764584931 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:28:59,798 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:28:59,840 basehttp "GET /static/css/dist/styles.css?v=1764584939 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:29:39,865 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:29:41,079 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:29:42,247 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:29:42,294 basehttp "GET /static/css/dist/styles.css?v=1764584982 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:29:44,516 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:29:44,581 basehttp "GET /static/css/dist/styles.css?v=1764584984 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:33:24,535 basehttp "GET / HTTP/1.1" 200 43987
+INFO 2025-12-01 11:33:24,577 basehttp "GET /static/css/dist/styles.css?v=1764585204 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:33:40,672 basehttp "GET /jobs HTTP/1.1" 200 14002
+INFO 2025-12-01 11:33:40,758 basehttp "GET /static/css/dist/styles.css?v=1764585220 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:33:50,804 basehttp "POST /jobs HTTP/1.1" 200 10061
+INFO 2025-12-01 11:33:50,849 basehttp "GET /static/css/dist/styles.css?v=1764585230 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:33:53,257 basehttp "GET / HTTP/1.1" 200 43987
+INFO 2025-12-01 11:33:53,304 basehttp "GET /static/css/dist/styles.css?v=1764585233 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:35:54,329 basehttp "GET /contact HTTP/1.1" 200 18569
+INFO 2025-12-01 11:35:54,394 basehttp "GET /static/css/dist/styles.css?v=1764585354 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:36:38,360 basehttp "GET /contact HTTP/1.1" 200 18575
+INFO 2025-12-01 11:36:38,456 basehttp "GET /static/css/dist/styles.css?v=1764585398 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:36:38,701 basehttp "GET /contact HTTP/1.1" 200 18575
+INFO 2025-12-01 11:36:38,793 basehttp "GET /static/css/dist/styles.css?v=1764585398 HTTP/1.1" 304 0
+INFO 2025-12-01 11:36:41,507 basehttp "GET /contact HTTP/1.1" 200 18576
+INFO 2025-12-01 11:36:41,548 basehttp "GET /static/css/dist/styles.css?v=1764585401 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:36:46,703 basehttp "GET /contact HTTP/1.1" 200 18575
+INFO 2025-12-01 11:36:46,771 basehttp "GET /static/css/dist/styles.css?v=1764585406 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:36:49,878 basehttp "GET /contact HTTP/1.1" 200 18576
+INFO 2025-12-01 11:36:49,960 basehttp "GET /static/css/dist/styles.css?v=1764585409 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:37:14,458 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 11:37:14,530 basehttp "GET /static/css/dist/styles.css?v=1764585434 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:38:04,299 autoreload D:\projects\security\main\website\views.py changed, reloading.
+INFO 2025-12-01 11:38:05,849 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 11:38:06,272 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 11:38:06,434 basehttp "GET /static/css/dist/styles.css?v=1764585486 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:38:09,799 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 11:38:09,881 basehttp "GET /static/css/dist/styles.css?v=1764585489 HTTP/1.1" 200 113861
+INFO 2025-12-01 11:39:53,724 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 11:39:53,842 basehttp "GET /static/css/dist/styles.css?v=1764585593 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:39:54,735 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 11:39:54,809 basehttp "GET /static/css/dist/styles.css?v=1764585594 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:39:56,831 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 11:39:56,883 basehttp "GET /static/css/dist/styles.css?v=1764585596 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:40:14,244 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 11:40:14,288 basehttp "GET /static/css/dist/styles.css?v=1764585614 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:40:17,106 basehttp "GET / HTTP/1.1" 200 44137
+INFO 2025-12-01 11:40:17,145 basehttp "GET /static/css/dist/styles.css?v=1764585617 HTTP/1.1" 200 113786
+INFO 2025-12-01 11:40:24,716 basehttp "GET / HTTP/1.1" 200 44147
+INFO 2025-12-01 11:40:24,771 basehttp "GET /static/css/dist/styles.css?v=1764585624 HTTP/1.1" 200 113938
+INFO 2025-12-01 11:40:28,589 basehttp "GET /static/css/dist/styles.css?v=1764585624 HTTP/1.1" 304 0
+WARNING 2025-12-01 11:40:28,611 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:40:28,612 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:40:59,364 basehttp "GET / HTTP/1.1" 200 44029
+WARNING 2025-12-01 11:40:59,699 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:40:59,702 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:40:59,756 basehttp "GET /static/css/dist/styles.css?v=1764585659 HTTP/1.1" 200 113863
+INFO 2025-12-01 11:41:00,496 basehttp "GET / HTTP/1.1" 200 44029
+WARNING 2025-12-01 11:41:00,623 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:41:00,624 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:41:00,651 basehttp "GET /static/css/dist/styles.css?v=1764585660 HTTP/1.1" 200 113863
+INFO 2025-12-01 11:41:15,119 basehttp "GET / HTTP/1.1" 200 44249
+WARNING 2025-12-01 11:41:15,338 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:41:15,341 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:41:15,346 basehttp "GET /static/css/dist/styles.css?v=1764585675 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:42:03,399 basehttp "GET / HTTP/1.1" 200 44785
+WARNING 2025-12-01 11:42:03,499 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:42:03,499 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:42:03,511 basehttp "GET /static/css/dist/styles.css?v=1764585723 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:42:04,513 basehttp "GET / HTTP/1.1" 200 44785
+WARNING 2025-12-01 11:42:04,610 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:42:04,613 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:42:04,634 basehttp "GET /static/css/dist/styles.css?v=1764585724 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:42:44,583 basehttp "GET / HTTP/1.1" 200 44029
+WARNING 2025-12-01 11:42:44,678 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:42:44,681 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:42:44,690 basehttp "GET /static/css/dist/styles.css?v=1764585764 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:42:45,640 basehttp "GET / HTTP/1.1" 200 44029
+INFO 2025-12-01 11:42:45,711 basehttp "GET /static/css/dist/styles.css?v=1764585765 HTTP/1.1" 200 113954
+WARNING 2025-12-01 11:42:45,781 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:42:45,782 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:43:35,784 basehttp "GET / HTTP/1.1" 200 44249
+WARNING 2025-12-01 11:43:35,923 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-12-01 11:43:35,923 basehttp "GET /static/css/dist/styles.css?v=1764585815 HTTP/1.1" 200 113954
+WARNING 2025-12-01 11:43:35,924 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:44:23,561 basehttp "GET / HTTP/1.1" 200 44249
+WARNING 2025-12-01 11:44:23,717 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:44:23,718 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:44:23,721 basehttp "GET /static/css/dist/styles.css?v=1764585863 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:44:59,852 basehttp "GET / HTTP/1.1" 200 44147
+WARNING 2025-12-01 11:44:59,981 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:44:59,982 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:44:59,995 basehttp "GET /static/css/dist/styles.css?v=1764585899 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:45:09,272 basehttp "GET / HTTP/1.1" 200 43987
+INFO 2025-12-01 11:45:09,337 basehttp "GET /static/css/dist/styles.css?v=1764585909 HTTP/1.1" 200 113954
+WARNING 2025-12-01 11:45:09,374 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:45:09,375 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:45:10,335 basehttp "GET / HTTP/1.1" 200 43987
+INFO 2025-12-01 11:45:10,419 basehttp "GET /static/css/dist/styles.css?v=1764585910 HTTP/1.1" 200 113954
+WARNING 2025-12-01 11:45:10,467 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:45:10,468 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:47:07,301 basehttp "GET / HTTP/1.1" 200 43883
+INFO 2025-12-01 11:47:07,396 basehttp "GET /static/css/dist/styles.css?v=1764586027 HTTP/1.1" 200 113954
+WARNING 2025-12-01 11:47:07,456 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:47:07,457 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:47:19,770 basehttp "GET / HTTP/1.1" 200 44219
+WARNING 2025-12-01 11:47:19,836 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:47:19,836 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:47:19,837 basehttp "GET /static/css/dist/styles.css?v=1764586039 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:47:20,886 basehttp "GET / HTTP/1.1" 200 44219
+WARNING 2025-12-01 11:47:21,057 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 11:47:21,062 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 11:47:21,074 basehttp "GET /static/css/dist/styles.css?v=1764586040 HTTP/1.1" 200 113954
+INFO 2025-12-01 11:51:49,997 basehttp "GET / HTTP/1.1" 200 44233
+INFO 2025-12-01 11:51:50,061 basehttp "GET /static/css/dist/styles.css?v=1764586309 HTTP/1.1" 200 114075
+INFO 2025-12-01 11:52:00,553 basehttp "GET / HTTP/1.1" 200 44219
+INFO 2025-12-01 11:52:00,604 basehttp "GET /static/css/dist/styles.css?v=1764586320 HTTP/1.1" 200 114075
+INFO 2025-12-01 11:52:01,600 basehttp "GET / HTTP/1.1" 200 44219
+INFO 2025-12-01 11:52:01,662 basehttp "GET /static/css/dist/styles.css?v=1764586321 HTTP/1.1" 200 114075
+INFO 2025-12-01 11:52:06,781 basehttp "GET / HTTP/1.1" 200 44291
+INFO 2025-12-01 11:52:06,858 basehttp "GET /static/css/dist/styles.css?v=1764586326 HTTP/1.1" 200 114271
+INFO 2025-12-01 11:52:09,876 basehttp "GET / HTTP/1.1" 200 44291
+INFO 2025-12-01 11:52:09,950 basehttp "GET /static/css/dist/styles.css?v=1764586329 HTTP/1.1" 200 114271
+INFO 2025-12-01 11:52:10,948 basehttp "GET / HTTP/1.1" 200 44291
+INFO 2025-12-01 11:52:11,008 basehttp "GET /static/css/dist/styles.css?v=1764586330 HTTP/1.1" 200 114317
+INFO 2025-12-01 11:53:33,026 basehttp "GET / HTTP/1.1" 200 44312
+INFO 2025-12-01 11:53:33,123 basehttp "GET /static/css/dist/styles.css?v=1764586413 HTTP/1.1" 200 114317
+INFO 2025-12-01 11:53:56,566 basehttp "GET / HTTP/1.1" 200 44324
+INFO 2025-12-01 11:53:56,633 basehttp "GET /static/css/dist/styles.css?v=1764586436 HTTP/1.1" 200 114317
+INFO 2025-12-01 11:55:21,593 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:21,685 basehttp "GET /static/css/dist/styles.css?v=1764586521 HTTP/1.1" 200 114513
+INFO 2025-12-01 11:55:36,853 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:36,974 basehttp "GET /static/css/dist/styles.css?v=1764586536 HTTP/1.1" 200 114513
+INFO 2025-12-01 11:55:38,142 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:38,199 basehttp "GET /static/css/dist/styles.css?v=1764586538 HTTP/1.1" 200 114513
+INFO 2025-12-01 11:55:39,559 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:39,622 basehttp "GET /static/css/dist/styles.css?v=1764586539 HTTP/1.1" 200 114508
+INFO 2025-12-01 11:55:40,220 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:40,522 basehttp "GET /static/css/dist/styles.css?v=1764586540 HTTP/1.1" 200 114508
+INFO 2025-12-01 11:55:43,325 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:43,383 basehttp "GET /static/css/dist/styles.css?v=1764586543 HTTP/1.1" 200 114703
+INFO 2025-12-01 11:55:43,676 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:43,757 basehttp "GET /static/css/dist/styles.css?v=1764586543 HTTP/1.1" 304 0
+INFO 2025-12-01 11:55:44,362 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:55:44,438 basehttp "GET /static/css/dist/styles.css?v=1764586544 HTTP/1.1" 200 114703
+INFO 2025-12-01 11:56:38,705 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:56:38,747 basehttp "GET /static/css/dist/styles.css?v=1764586598 HTTP/1.1" 200 114735
+INFO 2025-12-01 11:56:40,168 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:56:40,209 basehttp "GET /static/css/dist/styles.css?v=1764586600 HTTP/1.1" 200 114735
+INFO 2025-12-01 11:56:43,300 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:56:43,362 basehttp "GET /static/css/dist/styles.css?v=1764586603 HTTP/1.1" 200 114735
+INFO 2025-12-01 11:56:49,097 basehttp "GET / HTTP/1.1" 200 44284
+INFO 2025-12-01 11:56:49,158 basehttp "GET /static/css/dist/styles.css?v=1764586609 HTTP/1.1" 200 114688
+INFO 2025-12-01 11:57:12,598 basehttp "GET / HTTP/1.1" 200 44284
+INFO 2025-12-01 11:57:12,685 basehttp "GET /static/css/dist/styles.css?v=1764586632 HTTP/1.1" 200 114876
+INFO 2025-12-01 11:57:34,855 basehttp "GET / HTTP/1.1" 200 44284
+INFO 2025-12-01 11:57:34,919 basehttp "GET /static/css/dist/styles.css?v=1764586654 HTTP/1.1" 200 114801
+INFO 2025-12-01 11:57:44,209 basehttp "GET / HTTP/1.1" 200 44284
+INFO 2025-12-01 11:57:44,270 basehttp "GET /static/css/dist/styles.css?v=1764586664 HTTP/1.1" 200 114917
+INFO 2025-12-01 11:58:00,936 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 11:58:01,007 basehttp "GET /static/css/dist/styles.css?v=1764586680 HTTP/1.1" 200 114917
+INFO 2025-12-01 12:00:18,361 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 12:00:18,412 basehttp "GET /static/css/dist/styles.css?v=1764586818 HTTP/1.1" 200 114917
+INFO 2025-12-01 12:00:58,042 basehttp "GET / HTTP/1.1" 200 44328
+INFO 2025-12-01 12:00:58,096 basehttp "GET /static/css/dist/styles.css?v=1764586858 HTTP/1.1" 200 115029
+INFO 2025-12-01 12:01:05,405 basehttp "GET / HTTP/1.1" 200 44278
+INFO 2025-12-01 12:01:05,494 basehttp "GET /static/css/dist/styles.css?v=1764586865 HTTP/1.1" 200 115029
+INFO 2025-12-01 12:02:03,941 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 12:02:03,987 basehttp "GET /static/css/dist/styles.css?v=1764586923 HTTP/1.1" 200 115029
+INFO 2025-12-01 12:02:05,012 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 12:02:05,061 basehttp "GET /static/css/dist/styles.css?v=1764586924 HTTP/1.1" 200 115104
+INFO 2025-12-01 12:02:16,543 basehttp "GET / HTTP/1.1" 200 44308
+INFO 2025-12-01 12:02:16,623 basehttp "GET /static/css/dist/styles.css?v=1764586936 HTTP/1.1" 200 115161
+INFO 2025-12-01 12:02:55,182 basehttp "GET / HTTP/1.1" 200 44311
+INFO 2025-12-01 12:02:55,348 basehttp "GET /static/css/dist/styles.css?v=1764586975 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:02:56,174 basehttp "GET / HTTP/1.1" 200 44311
+INFO 2025-12-01 12:02:56,222 basehttp "GET /static/css/dist/styles.css?v=1764586976 HTTP/1.1" 200 0
+INFO 2025-12-01 12:02:57,236 basehttp "GET / HTTP/1.1" 200 44311
+INFO 2025-12-01 12:02:57,320 basehttp "GET /static/css/dist/styles.css?v=1764586977 HTTP/1.1" 200 115227
+INFO 2025-12-01 12:03:18,958 basehttp "GET / HTTP/1.1" 200 44326
+INFO 2025-12-01 12:03:19,049 basehttp "GET /static/css/dist/styles.css?v=1764586998 HTTP/1.1" 200 115227
+INFO 2025-12-01 12:03:30,354 basehttp "GET / HTTP/1.1" 200 44314
+INFO 2025-12-01 12:03:30,420 basehttp "GET /static/css/dist/styles.css?v=1764587010 HTTP/1.1" 200 115227
+INFO 2025-12-01 12:03:40,548 basehttp "GET / HTTP/1.1" 200 44326
+INFO 2025-12-01 12:03:40,602 basehttp "GET /static/css/dist/styles.css?v=1764587020 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:03:41,589 basehttp "GET / HTTP/1.1" 200 44326
+INFO 2025-12-01 12:03:41,655 basehttp "GET /static/css/dist/styles.css?v=1764587021 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:06:24,704 basehttp "GET / HTTP/1.1" 200 44494
+INFO 2025-12-01 12:06:24,767 basehttp "GET /static/css/dist/styles.css?v=1764587184 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:06:31,963 basehttp "GET / HTTP/1.1" 200 44398
+INFO 2025-12-01 12:06:32,026 basehttp "GET /static/css/dist/styles.css?v=1764587191 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:06:41,439 basehttp "GET / HTTP/1.1" 200 44398
+INFO 2025-12-01 12:06:41,566 basehttp "GET /static/css/dist/styles.css?v=1764587201 HTTP/1.1" 200 115227
+INFO 2025-12-01 12:06:42,525 basehttp "GET / HTTP/1.1" 200 44398
+INFO 2025-12-01 12:06:42,618 basehttp "GET /static/css/dist/styles.css?v=1764587202 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:06:43,692 basehttp "GET / HTTP/1.1" 200 44398
+INFO 2025-12-01 12:06:43,742 basehttp "GET /static/css/dist/styles.css?v=1764587203 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:06:47,951 basehttp "GET / HTTP/1.1" 200 44398
+INFO 2025-12-01 12:06:48,015 basehttp "GET /static/css/dist/styles.css?v=1764587207 HTTP/1.1" 200 115152
+INFO 2025-12-01 12:06:48,967 basehttp "GET / HTTP/1.1" 200 44398
+INFO 2025-12-01 12:06:49,042 basehttp "GET /static/css/dist/styles.css?v=1764587208 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:10:38,434 basehttp "GET / HTTP/1.1" 200 44338
+INFO 2025-12-01 12:10:38,549 basehttp "GET /static/css/dist/styles.css?v=1764587438 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:10:39,443 basehttp "GET / HTTP/1.1" 200 44338
+INFO 2025-12-01 12:10:39,531 basehttp "GET /static/css/dist/styles.css?v=1764587439 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:13:53,761 basehttp "GET / HTTP/1.1" 200 44338
+INFO 2025-12-01 12:13:53,899 basehttp "GET /static/css/dist/styles.css?v=1764587633 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:13:55,899 basehttp "GET / HTTP/1.1" 200 44338
+INFO 2025-12-01 12:13:55,961 basehttp "GET /static/css/dist/styles.css?v=1764587635 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:13:58,554 basehttp "GET /activities HTTP/1.1" 200 18128
+INFO 2025-12-01 12:13:58,598 basehttp "GET /static/css/dist/styles.css?v=1764587638 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:00,998 basehttp "GET /jobs HTTP/1.1" 200 14002
+INFO 2025-12-01 12:14:01,056 basehttp "GET /static/css/dist/styles.css?v=1764587640 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:02,148 basehttp "GET /contact HTTP/1.1" 200 18745
+INFO 2025-12-01 12:14:02,190 basehttp "GET /static/css/dist/styles.css?v=1764587642 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:03,340 basehttp "GET /services HTTP/1.1" 200 18214
+INFO 2025-12-01 12:14:03,373 basehttp "GET /static/css/dist/styles.css?v=1764587643 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:04,580 basehttp "GET / HTTP/1.1" 200 44338
+INFO 2025-12-01 12:14:04,626 basehttp "GET /static/css/dist/styles.css?v=1764587644 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:07,079 basehttp "GET /services HTTP/1.1" 200 18214
+INFO 2025-12-01 12:14:07,127 basehttp "GET /static/css/dist/styles.css?v=1764587647 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:08,292 basehttp "GET /single_service/1 HTTP/1.1" 200 13298
+INFO 2025-12-01 12:14:08,322 basehttp "GET /static/img/icons/services2_mini.jpg HTTP/1.1" 304 0
+INFO 2025-12-01 12:14:08,324 basehttp "GET /static/css/dist/styles.css?v=1764587648 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:08,362 basehttp "GET /static/img/private.png HTTP/1.1" 200 193414
+INFO 2025-12-01 12:14:25,177 basehttp "GET / HTTP/1.1" 200 44338
+INFO 2025-12-01 12:14:25,237 basehttp "GET /static/css/dist/styles.css?v=1764587665 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:44,707 basehttp "GET /services HTTP/1.1" 200 18214
+INFO 2025-12-01 12:14:44,748 basehttp "GET /static/css/dist/styles.css?v=1764587684 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:14:48,719 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:14:48,760 basehttp "GET /static/css/dist/styles.css?v=1764587688 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:18:26,708 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:18:30,558 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:18:32,086 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:18:32,262 basehttp "GET /static/css/dist/styles.css?v=1764587912 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:18:33,134 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:18:33,181 basehttp "GET /static/css/dist/styles.css?v=1764587913 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:18:38,255 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:18:38,318 basehttp "GET /static/css/dist/styles.css?v=1764587918 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:18:50,462 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:18:54,276 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:18:54,916 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:18:55,087 basehttp "GET /static/css/dist/styles.css?v=1764587934 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:18:57,125 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:18:57,182 basehttp "GET /static/css/dist/styles.css?v=1764587937 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:19:01,200 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:01,236 basehttp "GET /static/css/dist/styles.css?v=1764587941 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:19:07,236 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:19:10,193 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:19:11,351 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:11,478 basehttp "GET /static/css/dist/styles.css?v=1764587951 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:19:13,628 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:13,660 basehttp "GET /static/css/dist/styles.css?v=1764587953 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:19:17,692 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:17,745 basehttp "GET /static/css/dist/styles.css?v=1764587957 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:19:23,761 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:19:27,977 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:19:28,706 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:28,900 basehttp "GET /static/css/dist/styles.css?v=1764587968 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:19:32,259 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:32,302 basehttp "GET /static/css/dist/styles.css?v=1764587972 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:19:36,334 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:36,368 basehttp "GET /static/css/dist/styles.css?v=1764587976 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:19:38,328 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:19:40,777 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:19:41,442 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:43,354 basehttp "GET /static/css/dist/styles.css?v=1764587981 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:19:45,705 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:45,744 basehttp "GET /static/css/dist/styles.css?v=1764587985 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:19:51,820 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:19:51,883 basehttp "GET /static/css/dist/styles.css?v=1764587991 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:20:02,159 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:20:05,041 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:20:06,955 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:07,113 basehttp "GET /static/css/dist/styles.css?v=1764588006 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:20:10,337 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:10,387 basehttp "GET /static/css/dist/styles.css?v=1764588010 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:20:13,310 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:20:15,021 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:20:19,410 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:19,579 basehttp "GET /static/css/dist/styles.css?v=1764588019 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:20:29,173 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:29,213 basehttp "GET /static/css/dist/styles.css?v=1764588029 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:20:38,322 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:20:41,513 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:20:42,120 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:42,342 basehttp "GET /static/css/dist/styles.css?v=1764588042 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:20:47,526 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:20:50,005 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:20:50,462 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:50,619 basehttp "GET /static/css/dist/styles.css?v=1764588050 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:20:54,926 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:54,960 basehttp "GET /static/css/dist/styles.css?v=1764588054 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:20:55,949 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:20:55,986 basehttp "GET /static/css/dist/styles.css?v=1764588055 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:20:56,927 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:21:00,548 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:21:02,200 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:21:02,340 basehttp "GET /static/css/dist/styles.css?v=1764588062 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:21:08,797 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:21:12,601 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:21:13,512 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:21:13,755 basehttp "GET /static/css/dist/styles.css?v=1764588073 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:21:33,073 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-01 12:21:37,999 autoreload Watching for file changes with StatReloader
+INFO 2025-12-01 12:21:38,638 basehttp - Broken pipe from ('127.0.0.1', 61694)
+INFO 2025-12-01 12:21:38,639 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:21:39,082 basehttp "GET /static/css/dist/styles.css?v=1764588098 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:22:10,759 basehttp "GET /single_service/11 HTTP/1.1" 200 14638
+INFO 2025-12-01 12:22:10,830 basehttp "GET /static/css/dist/styles.css?v=1764588130 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:22:47,370 basehttp "GET /single_service/11 HTTP/1.1" 200 14661
+INFO 2025-12-01 12:22:47,399 basehttp "GET /static/css/dist/styles.css?v=1764588167 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:22:48,409 basehttp "GET /single_service/11 HTTP/1.1" 200 14661
+INFO 2025-12-01 12:22:48,466 basehttp "GET /static/css/dist/styles.css?v=1764588168 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:22:50,833 basehttp "GET /single_service/11 HTTP/1.1" 200 14661
+INFO 2025-12-01 12:22:50,900 basehttp "GET /static/css/dist/styles.css?v=1764588170 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:22:52,868 basehttp "GET /services HTTP/1.1" 200 18214
+INFO 2025-12-01 12:22:52,931 basehttp "GET /static/css/dist/styles.css?v=1764588172 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:22:54,199 basehttp "GET /single_service/3 HTTP/1.1" 200 13588
+INFO 2025-12-01 12:22:54,241 basehttp "GET /static/css/dist/styles.css?v=1764588174 HTTP/1.1" 200 115297
+ERROR 2025-12-01 12:23:07,117 log Internal Server Error: /single_service/3
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 111, in single_service
+    return render(request, 'website/single_service.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+ERROR 2025-12-01 12:23:07,123 basehttp "GET /single_service/3 HTTP/1.1" 500 183584
+INFO 2025-12-01 12:23:09,206 basehttp "GET /single_service/3 HTTP/1.1" 200 13589
+INFO 2025-12-01 12:23:09,261 basehttp "GET /static/css/dist/styles.css?v=1764588189 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:23:59,518 basehttp "GET /single_service/3 HTTP/1.1" 200 13815
+INFO 2025-12-01 12:23:59,601 basehttp "GET /static/css/dist/styles.css?v=1764588239 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:24:02,659 basehttp "GET /single_service/3 HTTP/1.1" 200 13816
+INFO 2025-12-01 12:24:02,683 basehttp "GET /static/css/dist/styles.css?v=1764588242 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:24:22,292 basehttp "GET /single_service/3 HTTP/1.1" 200 13816
+INFO 2025-12-01 12:24:22,338 basehttp "GET /static/css/dist/styles.css?v=1764588262 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:24:24,380 basehttp "GET /single_service/3 HTTP/1.1" 200 13885
+INFO 2025-12-01 12:24:24,498 basehttp "GET /static/css/dist/styles.css?v=1764588264 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:24:30,499 basehttp "GET /single_service/3 HTTP/1.1" 200 13885
+INFO 2025-12-01 12:24:30,535 basehttp "GET /static/css/dist/styles.css?v=1764588270 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:24:35,648 basehttp "GET /single_service/3 HTTP/1.1" 200 13884
+INFO 2025-12-01 12:24:35,691 basehttp "GET /static/css/dist/styles.css?v=1764588275 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:24:42,916 basehttp "GET /single_service/3 HTTP/1.1" 200 13884
+INFO 2025-12-01 12:24:42,955 basehttp "GET /static/css/dist/styles.css?v=1764588282 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:24:49,185 basehttp "GET /single_service/3 HTTP/1.1" 200 13884
+INFO 2025-12-01 12:24:49,212 basehttp "GET /static/css/dist/styles.css?v=1764588289 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:25:26,900 basehttp "GET /single_service/3 HTTP/1.1" 200 13969
+INFO 2025-12-01 12:25:26,986 basehttp "GET /static/css/dist/styles.css?v=1764588326 HTTP/1.1" 200 115297
+INFO 2025-12-01 12:25:29,490 basehttp "GET /single_service/3 HTTP/1.1" 200 13969
+INFO 2025-12-01 12:25:29,526 basehttp "GET /static/css/dist/styles.css?v=1764588329 HTTP/1.1" 200 115297
+WARNING 2025-12-01 12:25:31,402 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:25:31,404 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:25:40,696 basehttp "GET /single_service/3 HTTP/1.1" 200 13969
+INFO 2025-12-01 12:25:40,760 basehttp "GET /static/css/dist/styles.css?v=1764588340 HTTP/1.1" 200 115222
+WARNING 2025-12-01 12:25:40,795 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:25:40,796 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:25:44,914 basehttp "GET /single_service/3 HTTP/1.1" 200 13969
+INFO 2025-12-01 12:25:44,987 basehttp "GET /static/css/dist/styles.css?v=1764588344 HTTP/1.1" 200 115297
+WARNING 2025-12-01 12:25:45,063 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:25:45,064 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:26:25,794 basehttp "GET /single_service/3 HTTP/1.1" 200 13890
+INFO 2025-12-01 12:26:25,865 basehttp "GET /static/css/dist/styles.css?v=1764588385 HTTP/1.1" 200 115297
+WARNING 2025-12-01 12:26:26,076 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:26:26,077 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:26:31,731 basehttp "GET /single_service/3 HTTP/1.1" 200 13887
+INFO 2025-12-01 12:26:31,791 basehttp "GET /static/css/dist/styles.css?v=1764588391 HTTP/1.1" 200 115222
+WARNING 2025-12-01 12:26:31,840 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:26:31,842 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:26:35,393 basehttp "GET / HTTP/1.1" 200 44591
+INFO 2025-12-01 12:26:35,437 basehttp "GET /static/css/dist/styles.css?v=1764588395 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:26:37,337 basehttp "GET /static/css/dist/styles.css?v=1764588395 HTTP/1.1" 304 0
+WARNING 2025-12-01 12:26:37,480 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:26:37,494 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:26:45,064 basehttp "GET /services HTTP/1.1" 200 18467
+WARNING 2025-12-01 12:26:45,129 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:26:45,130 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:26:45,139 basehttp "GET /static/css/dist/styles.css?v=1764588405 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:26:52,112 basehttp "GET /single_service/2 HTTP/1.1" 200 13783
+WARNING 2025-12-01 12:26:52,184 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:26:52,186 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:26:52,224 basehttp "GET /static/css/dist/styles.css?v=1764588412 HTTP/1.1" 200 115222
+INFO 2025-12-01 12:26:57,032 basehttp "GET /single_service/2 HTTP/1.1" 200 13783
+WARNING 2025-12-01 12:26:57,123 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-01 12:26:57,125 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-01 12:26:57,159 basehttp "GET /static/css/dist/styles.css?v=1764588417 HTTP/1.1" 200 115297
+ERROR 2025-12-01 21:56:10,885 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:10,907 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73811
+ERROR 2025-12-01 21:56:14,243 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:14,245 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73811
+ERROR 2025-12-01 21:56:15,477 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:15,481 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73811
+ERROR 2025-12-01 21:56:28,323 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:28,325 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74921
+ERROR 2025-12-01 21:56:31,876 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:31,878 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74921
+ERROR 2025-12-01 21:56:32,253 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:32,254 basehttp "OPTIONS /api/app/dispatchers/?page=1&page_size=20 HTTP/1.1" 400 74416
+ERROR 2025-12-01 21:56:35,264 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:35,319 basehttp "GET /media/dispatchers/POST_HRANA_MEDITERANA.jpg HTTP/1.1" 400 74976
+ERROR 2025-12-01 21:56:35,301 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-01 21:56:35,337 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:35,338 basehttp "GET /media/dispatchers/Untitled_design.png HTTP/1.1" 400 74910
+WARNING 2025-12-01 21:56:35,340 basehttp "GET /media/users/unnamed.png HTTP/1.1" 400 74917
+ERROR 2025-12-01 21:56:35,737 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:35,739 basehttp "GET /media/users/unnamed.png HTTP/1.1" 400 74756
+ERROR 2025-12-01 21:56:36,081 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:36,099 basehttp "GET /media/dispatchers/POST_HRANA_MEDITERANA.jpg HTTP/1.1" 400 74976
+ERROR 2025-12-01 21:56:36,120 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:36,124 basehttp "GET /media/dispatchers/Untitled_design.png HTTP/1.1" 400 74910
+ERROR 2025-12-01 21:56:36,596 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:36,599 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74921
+ERROR 2025-12-01 21:56:44,698 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 21:56:44,703 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74961
+ERROR 2025-12-01 22:14:24,286 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:14:24,297 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74961
+ERROR 2025-12-01 22:14:26,738 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:14:26,741 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74961
+ERROR 2025-12-01 22:14:29,687 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:14:29,690 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74961
+ERROR 2025-12-01 22:14:35,736 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:14:35,739 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 75226
+ERROR 2025-12-01 22:15:14,748 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:15:14,753 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74961
+ERROR 2025-12-01 22:15:17,772 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:15:17,774 basehttp "OPTIONS /api/app/dispatchers-search/?page_size=5&page=1&search=&ordering= HTTP/1.1" 400 74961
+ERROR 2025-12-01 22:15:21,824 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:15:21,827 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:15:23,019 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:15:23,021 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:15:25,362 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:15:25,365 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:15:30,586 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:15:30,587 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:15:50,441 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:15:50,447 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:16:39,652 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:16:39,653 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:20:22,030 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:20:22,031 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:21:29,410 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:21:29,417 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:22:57,036 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:22:57,038 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:23:40,056 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:23:40,057 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:23:43,182 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:23:43,185 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+ERROR 2025-12-01 22:24:59,649 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-12-01 22:24:59,654 basehttp "OPTIONS /api/accounts/login/ HTTP/1.1" 400 73837
+INFO 2025-12-01 22:25:25,696 basehttp "GET / HTTP/1.1" 200 44591
+INFO 2025-12-01 22:25:25,718 basehttp "GET / HTTP/1.1" 200 44591
+INFO 2025-12-01 22:25:25,868 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2025-12-01 22:25:25,903 basehttp "GET /static/css/dist/styles.css?v=1764624325 HTTP/1.1" 200 115297
+INFO 2025-12-01 22:25:25,906 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2025-12-01 22:25:25,907 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2025-12-01 22:25:26,014 basehttp "GET /static/js/main.js HTTP/1.1" 200 5133
+INFO 2025-12-01 22:25:26,020 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2025-12-01 22:25:26,049 basehttp "GET /static/img/hero-index.jpg HTTP/1.1" 200 190500
+INFO 2025-12-01 22:25:26,063 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2025-12-01 22:25:26,102 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2025-12-01 22:25:26,156 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-12-01 22:25:26,643 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+WARNING 2025-12-01 22:25:26,705 log Not Found: /favicon.ico
+WARNING 2025-12-01 22:25:26,707 basehttp "GET /favicon.ico HTTP/1.1" 404 5073
+WARNING 2025-12-01 22:25:26,716 log Not Found: /favicon.ico
+WARNING 2025-12-01 22:25:26,716 basehttp "GET /favicon.ico HTTP/1.1" 404 5073
+INFO 2025-12-04 12:10:32,777 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 12:10:35,738 basehttp "GET / HTTP/1.1" 200 44591
+INFO 2025-12-04 12:10:35,998 basehttp "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2025-12-04 12:10:35,998 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2025-12-04 12:10:36,198 basehttp "GET /static/css/dist/styles.css?v=1764846635 HTTP/1.1" 200 115297
+INFO 2025-12-04 12:10:36,225 basehttp "GET /static/img/hero-index.jpg HTTP/1.1" 200 190500
+INFO 2025-12-04 12:10:36,277 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2025-12-04 12:10:36,281 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2025-12-04 12:10:36,302 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2025-12-04 12:10:36,589 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+WARNING 2025-12-04 12:10:36,779 log Not Found: /favicon.ico
+WARNING 2025-12-04 12:10:36,780 basehttp "GET /favicon.ico HTTP/1.1" 404 5073
+INFO 2025-12-04 12:10:48,959 basehttp "GET / HTTP/1.1" 200 44591
+INFO 2025-12-04 12:10:49,004 basehttp "GET /static/css/dist/styles.css?v=1764846648 HTTP/1.1" 200 113959
+INFO 2025-12-04 12:10:50,120 basehttp "GET /services HTTP/1.1" 200 18467
+INFO 2025-12-04 12:10:50,222 basehttp "GET /static/img/icons/services2.jpg HTTP/1.1" 200 19817
+INFO 2025-12-04 12:10:50,223 basehttp "GET /static/css/dist/styles.css?v=1764846650 HTTP/1.1" 200 113959
+INFO 2025-12-04 12:10:51,285 basehttp "GET /activities HTTP/1.1" 200 18381
+INFO 2025-12-04 12:10:51,345 basehttp "GET /static/css/dist/styles.css?v=1764846651 HTTP/1.1" 200 113959
+INFO 2025-12-04 12:10:53,744 basehttp "GET /jobs HTTP/1.1" 200 14255
+INFO 2025-12-04 12:10:53,786 basehttp "GET /static/css/dist/styles.css?v=1764846653 HTTP/1.1" 200 113959
+INFO 2025-12-04 12:10:53,811 basehttp "GET /static/img/icons/connections.jpg HTTP/1.1" 200 53053
+INFO 2025-12-04 12:11:52,900 autoreload D:\projects\security\main\website\forms.py changed, reloading.
+INFO 2025-12-04 12:11:53,879 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 12:11:54,271 basehttp "GET /jobs HTTP/1.1" 200 14153
+INFO 2025-12-04 12:11:54,404 basehttp "GET /static/css/dist/styles.css?v=1764846714 HTTP/1.1" 200 113959

@@ -4,29 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="contact 2">
-      <change afterPath="$PROJECT_DIR$/main/static/img/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/img/hero-index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/website/templates/website/jobs.html" afterDir="false" />
+    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="contact 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/main/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/coming_soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/coming_soon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/services_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/services_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/templates/website/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/activities.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/templates/website/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/jobs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/templates/website/single_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/single_service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/single_service_extended.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/single_service_extended.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763980758730</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="contact 3">
+      <option name="closed" value="true" />
+      <created>1764418413686</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1764418413687</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +298,7 @@
     <MESSAGE value="new update 4" />
     <MESSAGE value="contact" />
     <MESSAGE value="contact 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact 2" />
+    <MESSAGE value="contact 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact 3" />
   </component>
 </project>

@@ -51,12 +51,12 @@
         </div>
 
         <div class="grid grid-cols-1 ">
-          <!-- Kontakt forma -->
+            <!-- Zaposlenje forma -->
         <form method="post" enctype="multipart/form-data" class="order-2 md:order-1 bg-gray-800 shadow-md rounded-2xl p-8 space-y-6 border-l-5 border-gray-200">
 
             {% csrf_token %}
 
-            <div class="grid grid-cols-2 gap-5">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                             <!-- Ime i prezime -->
                 <div>
                     <label for="{{ form.name.id_for_label }}" class="block text-gray-100 font-semibold mb-2">
@@ -73,7 +73,7 @@
                     {{ form.email }}
                 </div>
             </div>
-            <div class="grid grid-cols-2 gap-5">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
                     <label class="block text-gray-100 font-semibold mb-2">
                         Telefon

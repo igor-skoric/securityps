@@ -34,23 +34,23 @@ class JobApplicationForm(forms.ModelForm):
         widgets = {
             "name": forms.TextInput(attrs={
                 "class": "w-full p-3 rounded bg-gray-700 text-white",
-                "placeholder": "Unesite ime i prezime"
+                "placeholder": "Unesite ime i prezime",
             }),
             "email": forms.EmailInput(attrs={
                 "class": "w-full p-3 rounded bg-gray-700 text-white",
-                "placeholder": "Unesite email"
+                "placeholder": "Unesite email",
             }),
             "phone": forms.TextInput(attrs={
                 "class": "w-full p-3 rounded bg-gray-700 text-white",
-                "placeholder": "Unesite broj telefona"
+                "placeholder": "Unesite broj telefona",
             }),
             "birth_year": forms.NumberInput(attrs={
                 "class": "w-full p-3 rounded bg-gray-700 text-white",
-                "placeholder": "Godina rođenja"
+                "placeholder": "Godina rođenja",
             }),
             "message": forms.Textarea(attrs={
                 "class": "w-full p-3 rounded bg-gray-700 text-white h-32",
-                "placeholder": "Zašto želite da radite kod nas?"
+                "placeholder": "Zašto želite da radite kod nas?",
             }),
             "cv": forms.ClearableFileInput(attrs={
                 "class": "w-full p-3 rounded bg-gray-700 text-white cursor-pointer"

@@ -4,6 +4,8 @@ from .forms import ContactForm, JobApplicationForm
 from django.core.mail import send_mail
 from django.conf import settings
 from django.core.mail import EmailMessage
+import mimetypes
+
 
 def test(request):
     context = {}
@@ -38,7 +40,7 @@ def contact(request):
                 subject="Nova poruka sa sajta",
                 message=full_message,
                 from_email=settings.EMAIL_HOST_USER,  # koristi se iz settings.py
-                recipient_list=[settings.EMAIL_HOST_USER],  # stiže na tvoj email
+                recipient_list=['officesmartps@gmail.com', settings.EMAIL_HOST_USER],  # stiže na tvoj email
                 fail_silently=False,
             )
 
@@ -55,7 +57,7 @@ def jobs(request):
 
             # Slanje email-a sa fajlom
             email = EmailMessage(
-                subject=f"Nova prijava: {application.name}",
+                subject=f"ZAPOSLENJE sa sajta:  {application.name}",
                 body=(
                     f"Ime i prezime: {application.name}\n"
                     f"Email: {application.email}\n"
@@ -64,14 +66,19 @@ def jobs(request):
                     f"Poruka: {application.message}"
                 ),
                 from_email=settings.DEFAULT_FROM_EMAIL,
-                to=['iskoric@gmail.com'],  # zameni sa pravim email-om
+                to=[settings.DEFAULT_FROM_EMAIL, 'officesmartps@gmail.com'],  # zameni sa pravim email-om
             )
 
-            # Dodaj CV fajl ako postoji
             if application.cv:
-                application.cv.open()  # obavezno otvori fajl
-                email.attach(application.cv.name, application.cv.read(), application.cv.file.content_type)
-                application.cv.close()  # zatvori fajl nakon čitanja
+                application.cv.open()
+                file_mime = mimetypes.guess_type(application.cv.name)[0] or "application/octet-stream"
+
+                email.attach(
+                    application.cv.name,
+                    application.cv.read(),
+                    file_mime
+                )
+                application.cv.close()
 
             # Pošalji email
             email.send(fail_silently=False)

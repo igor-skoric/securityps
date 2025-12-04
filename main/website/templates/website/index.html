@@ -133,15 +133,15 @@
               <a href="{% url 'single_service' id %}" class="h-full">
               {% endif %}
 
-                <div class="bg-white rounded-xl shadow-md flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow h-full">
-
+              <div class="bg-orange-400  rounded-xl shadow-md flex flex-col items-center justify-center p-6 hover:shadow-xl transition-shadow h-full
+                   {% if id == 9 or id == 12 %}hidden md:flex{% endif %}">
                   {% if id == 9 or id == 12 %}
                       <img src="{% static 'img/logo.png' %}" alt="" class="w-16"/>
                   {% else %}
-                      <i class="{{ service.icon }} text-4xl text-blue-600 mb-4"></i>
+                      <i class="{{ service.icon }} text-4xl text-blue-800 mb-4"></i>
                   {% endif %}
 
-                  <h3 class="text-lg font-semibold text-gray-800 text-center">{{ service.short_title }}</h3>
+                  <h3 class="text-lg font-semibold text-gray-100 text-center">{{ service.short_title }}</h3>
                 </div>
 
               {% if id != 9 and id != 12 %}
@@ -154,14 +154,14 @@
         </section>
     </section>
 
-
+<!--Industrije-->
     <section class="py-20">
       <div class="container mx-auto px-4">
         <h1 class="text-3xl font-bold text-center mb-20">Industrije gde smo zastupljeni</h1>
 
         <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {% for id, service in extended_services.items %}
-          <a href="{% url 'single_service_extended' id %}" class="cursor-pointer h-full">
+          <a href="{% url 'single_service_extended' id %}" class="cursor-pointer h-full ">
             <div class="bg-white rounded-xl shadow hover:shadow-lg transition-shadow duration-300 overflow-hidden h-full flex flex-col">
               <div class="p-6 flex flex-col items-center justify-between h-full">
 
@@ -197,7 +197,7 @@
           <!-- Kartica 1 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
             <!-- Ikonica apsolutno pozicionirana -->
-            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-blue-700 rounded-full py-4 px-6 shadow-lg">
              <span class="text-orange-400 text-4xl font-bold">1</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Dobro obučeno profesionalno osoblje</h3>
@@ -206,7 +206,7 @@
 
           <!-- Kartica 2 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-blue-700 rounded-full py-4 px-6 shadow-lg">
              <span class="text-orange-400 text-4xl font-bold">2</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Fleksibilna usluga, usluga po meri klijenta</h3>
@@ -215,7 +215,7 @@
 
           <!-- Kartica 3 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-blue-700 rounded-full py-4 px-6 shadow-lg">
              <span class="text-orange-400 text-4xl font-bold">3</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">24/7 dostupnost i brz odgovor</h3>
@@ -224,7 +224,7 @@
 
           <!-- Kartica 4 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-blue-700 rounded-full py-4 px-6 shadow-lg">
              <span class="text-orange-400 text-4xl font-bold">4</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Sveobuhvatna bezbednosna rešenja</h3>
@@ -233,7 +233,7 @@
 
           <!-- Kartica 5 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-blue-700 rounded-full py-4 px-6 shadow-lg">
              <span class="text-orange-400 text-4xl font-bold">5</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Besplatna konsultacija i procena pozicija</h3>
@@ -242,7 +242,7 @@
 
           <!-- Kartica 6 -->
           <div class="bg-white p-8 rounded-2xl relative pt-12 flex flex-col items-center text-center">
-            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white rounded-full py-4 px-6 shadow-lg">
+            <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-blue-700 rounded-full py-4 px-6 shadow-lg">
              <span class="text-orange-400 text-4xl font-bold">6</span>
             </div>
             <h3 class="text-xl font-semibold mb-2 mt-4">Konkurentna i pristupačna cena usluge</h3>

@@ -7,10 +7,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %} {% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 
-     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <title>{% block title %}Smart P&S – profesionalno obezbeđenje{% endblock %}</title>
+
+    <meta name="description" content="{% block meta_description %}Smart P&S nudi profesionalne usluge obezbeđenja za sve tipove objekata i događaja. Licencirani službenici za vašu sigurnost.{% endblock %}">
+    <meta name="keywords" content="{% block meta_keywords %}obezbeđenje, sigurnost, zaštita, Smart P&S{% endblock %}">
+
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     {% tailwind_css %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 
