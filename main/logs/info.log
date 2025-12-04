@@ -7636,3 +7636,47 @@ INFO 2025-12-04 13:42:03,751 basehttp "GET /static/css/dist/styles.css?v=1764852
 INFO 2025-12-04 13:42:05,298 autoreload Watching for file changes with StatReloader
 INFO 2025-12-04 13:44:34,020 autoreload D:\projects\security\main\website\context_processors.py changed, reloading.
 INFO 2025-12-04 13:44:36,526 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:44:37,709 basehttp "GET / HTTP/1.1" 200 44593
+INFO 2025-12-04 13:44:37,895 basehttp "GET /static/css/dist/styles.css?v=1764852277 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:44:40,344 basehttp "GET / HTTP/1.1" 200 44856
+INFO 2025-12-04 13:44:40,412 basehttp "GET /static/css/dist/styles.css?v=1764852280 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:44:53,809 basehttp "GET / HTTP/1.1" 200 59312
+INFO 2025-12-04 13:44:53,917 basehttp "GET /static/css/dist/styles.css?v=1764852293 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:45:42,210 basehttp "GET / HTTP/1.1" 200 44592
+INFO 2025-12-04 13:45:42,266 basehttp "GET /static/css/dist/styles.css?v=1764852342 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:46:18,635 basehttp "GET / HTTP/1.1" 200 46942
+INFO 2025-12-04 13:46:18,679 basehttp "GET /static/css/dist/styles.css?v=1764852378 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:46:19,671 basehttp "GET / HTTP/1.1" 200 46942
+INFO 2025-12-04 13:46:19,723 basehttp "GET /static/css/dist/styles.css?v=1764852379 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:46:22,946 basehttp "GET / HTTP/1.1" 200 46942
+INFO 2025-12-04 13:46:23,023 basehttp "GET /static/css/dist/styles.css?v=1764852382 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:46:55,239 basehttp "GET / HTTP/1.1" 200 47452
+INFO 2025-12-04 13:46:55,296 basehttp "GET /static/css/dist/styles.css?v=1764852415 HTTP/1.1" 200 114241
+WARNING 2025-12-04 13:47:13,870 log Not Found: /usluga/9/
+WARNING 2025-12-04 13:47:13,870 basehttp "GET /usluga/9/ HTTP/1.1" 404 5067
+WARNING 2025-12-04 13:47:19,164 log Not Found: /usluga/1/
+WARNING 2025-12-04 13:47:19,166 basehttp "GET /usluga/1/ HTTP/1.1" 404 5067
+INFO 2025-12-04 13:47:22,851 basehttp "GET /services HTTP/1.1" 200 21328
+INFO 2025-12-04 13:47:22,950 basehttp "GET /static/css/dist/styles.css?v=1764852442 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:47:24,666 basehttp "GET /single_service/1 HTTP/1.1" 200 16482
+INFO 2025-12-04 13:47:24,761 basehttp "GET /static/css/dist/styles.css?v=1764852444 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:47:24,771 basehttp "GET /static/img/icons/services2_mini.jpg HTTP/1.1" 200 17199
+INFO 2025-12-04 13:47:24,836 basehttp "GET /static/img/private.png HTTP/1.1" 200 193414
+INFO 2025-12-04 13:47:34,910 basehttp "GET /single_service/1 HTTP/1.1" 200 16578
+INFO 2025-12-04 13:47:35,018 basehttp "GET /static/css/dist/styles.css?v=1764852454 HTTP/1.1" 200 114241
+WARNING 2025-12-04 13:47:38,564 log Not Found: /single_service/1/
+WARNING 2025-12-04 13:47:38,564 basehttp "GET /single_service/1/ HTTP/1.1" 404 5091
+INFO 2025-12-04 13:47:43,955 basehttp "GET /services HTTP/1.1" 200 21424
+INFO 2025-12-04 13:47:44,047 basehttp "GET /static/css/dist/styles.css?v=1764852463 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:47:46,007 basehttp "GET /single_service/2 HTTP/1.1" 200 16740
+INFO 2025-12-04 13:47:46,070 basehttp "GET /static/css/dist/styles.css?v=1764852466 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:47:49,892 basehttp "GET /single_service/2 HTTP/1.1" 200 16728
+INFO 2025-12-04 13:47:50,123 basehttp "GET /static/css/dist/styles.css?v=1764852469 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:48:44,586 basehttp "GET /single_service/2 HTTP/1.1" 200 16723
+INFO 2025-12-04 13:48:44,638 basehttp "GET /static/css/dist/styles.css?v=1764852524 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:53:04,576 basehttp "GET /single_service/2 HTTP/1.1" 200 16662
+INFO 2025-12-04 13:53:04,638 basehttp "GET /static/css/dist/styles.css?v=1764852784 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:53:18,612 basehttp "GET /single_service/1 HTTP/1.1" 200 16500
+INFO 2025-12-04 13:53:18,690 basehttp "GET /static/css/dist/styles.css?v=1764852798 HTTP/1.1" 200 114241
+INFO 2025-12-04 13:53:21,172 basehttp "GET /single_service/5 HTTP/1.1" 200 16345
+INFO 2025-12-04 13:53:21,285 basehttp "GET /static/css/dist/styles.css?v=1764852801 HTTP/1.1" 200 114241
