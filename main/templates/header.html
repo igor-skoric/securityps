@@ -38,12 +38,47 @@
       </a>
 
       <nav class="hidden md:flex space-x-6 items-center text-white">
-        <a href="{% url 'home' %}" class="hover:text-orange-500 transition-colors duration-300">Početna</a>
-        <a href="{% url 'services' %}" class="hover:text-orange-500 transition-colors duration-300">Usluge</a>
-        <a href="{% url 'activities' %}" class="hover:text-orange-500 transition-colors duration-300">Industrije</a>
-        <a href="{% url 'jobs' %}" class="hover:text-orange-500 transition-colors duration-300">Zaposlenje</a>
-        <a href="{% url 'contact' %}" class="hover:text-orange-500 transition-colors duration-300">Kontakt</a>
+
+        <a href="{% url 'home' %}" class="hover:text-orange-500 transition-colors duration-300">
+          Početna
+        </a>
+
+        <!-- Usluge + Dropdown -->
+        <div class="relative group">
+          <a href="{% url 'services' %}"
+             class="hover:text-orange-500 transition-colors duration-300">
+            Usluge
+          </a>
+
+          <!-- Dropdown -->
+          <div class="absolute left-0 hidden group-hover:block bg-white text-gray-800 shadow-lg rounded-md py-2 w-56">
+
+            {% for id, item in services_dropdown.items %}
+            {% if item.text != "" %}
+              <a href="/single_service/{{ id }}"
+                 class="block px-4 py-2 hover:bg-orange-500 hover:text-white transition">
+                {{ item.title }}
+              </a>
+            {% endif %}
+            {% endfor %}
+
+          </div>
+        </div>
+
+        <a href="{% url 'activities' %}" class="hover:text-orange-500 transition-colors duration-300">
+          Industrije
+        </a>
+
+        <a href="{% url 'jobs' %}" class="hover:text-orange-500 transition-colors duration-300">
+          Zaposlenje
+        </a>
+
+        <a href="{% url 'contact' %}" class="hover:text-orange-500 transition-colors duration-300">
+          Kontakt
+        </a>
+
       </nav>
+
 
       <button @click="toggleMenu" class="text-white md:hidden focus:outline-none cursor-pointer">
         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,6 +110,7 @@
         <nav class="flex flex-col justify-center items-center space-y-6 text-xl font-medium text-gray-700 mt-10">
           <a href="{% url 'home' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Početna</a>
           <a href="{% url 'services' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Usluge</a>
+
           <a href="{% url 'activities' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Industrije</a>
           <a href="{% url 'jobs' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Zaposlenje</a>
           <a href="{% url 'contact' %}" @click="toggleMenu" class="hover:text-blue-600 transition">Kontakt</a>

@@ -7362,3 +7362,277 @@ INFO 2025-12-04 12:11:52,900 autoreload D:\projects\security\main\website\forms.
 INFO 2025-12-04 12:11:53,879 autoreload Watching for file changes with StatReloader
 INFO 2025-12-04 12:11:54,271 basehttp "GET /jobs HTTP/1.1" 200 14153
 INFO 2025-12-04 12:11:54,404 basehttp "GET /static/css/dist/styles.css?v=1764846714 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:32:14,247 autoreload D:\projects\security\main\website\services_data.py changed, reloading.
+INFO 2025-12-04 13:32:15,675 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:32:16,182 basehttp "GET /jobs HTTP/1.1" 200 14153
+INFO 2025-12-04 13:32:16,345 basehttp "GET /static/css/dist/styles.css?v=1764851536 HTTP/1.1" 200 113959
+WARNING 2025-12-04 13:32:16,769 log Not Found: /favicon.ico
+WARNING 2025-12-04 13:32:16,771 basehttp "GET /favicon.ico HTTP/1.1" 404 5073
+INFO 2025-12-04 13:35:06,906 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2025-12-04 13:35:07,881 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:35:08,220 basehttp "GET /jobs HTTP/1.1" 200 14153
+INFO 2025-12-04 13:35:08,466 basehttp "GET /static/css/dist/styles.css?v=1764851708 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:35:29,050 basehttp "GET /jobs HTTP/1.1" 200 28873
+INFO 2025-12-04 13:35:29,078 basehttp "GET /static/css/dist/styles.css?v=1764851729 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:35:38,639 basehttp "GET /jobs HTTP/1.1" 200 28873
+INFO 2025-12-04 13:35:38,684 basehttp "GET /static/css/dist/styles.css?v=1764851738 HTTP/1.1" 200 113959
+WARNING 2025-12-04 13:35:42,437 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-12-04 13:35:42,437 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5184
+INFO 2025-12-04 13:35:49,945 basehttp "GET /jobs HTTP/1.1" 200 28873
+INFO 2025-12-04 13:35:50,015 basehttp "GET /static/css/dist/styles.css?v=1764851749 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:35:51,660 basehttp "GET / HTTP/1.1" 200 59311
+INFO 2025-12-04 13:35:51,711 basehttp "GET /static/css/dist/styles.css?v=1764851751 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:37:00,928 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:37:06,435 basehttp "GET / HTTP/1.1" 200 59311
+INFO 2025-12-04 13:37:06,517 basehttp "GET /static/css/dist/styles.css?v=1764851826 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:37:08,292 basehttp "GET /services HTTP/1.1" 200 33187
+INFO 2025-12-04 13:37:08,358 basehttp "GET /static/css/dist/styles.css?v=1764851828 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:37:09,843 basehttp "GET / HTTP/1.1" 200 59311
+INFO 2025-12-04 13:37:10,027 basehttp "GET /static/css/dist/styles.css?v=1764851829 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:37:19,423 basehttp "GET / HTTP/1.1" 200 59301
+INFO 2025-12-04 13:37:19,521 basehttp "GET /static/css/dist/styles.css?v=1764851839 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:37:27,615 basehttp "GET / HTTP/1.1" 200 59301
+INFO 2025-12-04 13:37:27,663 basehttp "GET /static/css/dist/styles.css?v=1764851847 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:38:07,058 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:38:07,104 basehttp "GET /static/css/dist/styles.css?v=1764851887 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:38:08,570 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:38:08,689 basehttp "GET /static/css/dist/styles.css?v=1764851888 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:38:14,736 basehttp "GET / HTTP/1.1" 200 44817
+INFO 2025-12-04 13:38:14,855 basehttp "GET /static/css/dist/styles.css?v=1764851894 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:38:18,895 basehttp "GET / HTTP/1.1" 200 44817
+INFO 2025-12-04 13:38:18,955 basehttp "GET /static/css/dist/styles.css?v=1764851898 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:38:21,840 basehttp "GET / HTTP/1.1" 200 44817
+INFO 2025-12-04 13:38:21,909 basehttp "GET /static/css/dist/styles.css?v=1764851901 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:38:58,237 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:38:58,274 basehttp "GET /static/css/dist/styles.css?v=1764851938 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:38:59,823 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:38:59,932 basehttp "GET /static/css/dist/styles.css?v=1764851939 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:39:06,688 basehttp "GET / HTTP/1.1" 200 59550
+INFO 2025-12-04 13:39:06,744 basehttp "GET /static/css/dist/styles.css?v=1764851946 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:39:29,136 basehttp "GET / HTTP/1.1" 200 59535
+INFO 2025-12-04 13:39:29,337 basehttp "GET /static/css/dist/styles.css?v=1764851969 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:39:39,724 basehttp "GET / HTTP/1.1" 200 44817
+INFO 2025-12-04 13:39:39,877 basehttp "GET /static/css/dist/styles.css?v=1764851979 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:39:59,623 basehttp "GET / HTTP/1.1" 200 44817
+INFO 2025-12-04 13:39:59,656 basehttp "GET /static/css/dist/styles.css?v=1764851999 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:40:01,385 basehttp "GET / HTTP/1.1" 200 44817
+INFO 2025-12-04 13:40:01,459 basehttp "GET /static/css/dist/styles.css?v=1764852001 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:40:05,088 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:40:05,164 basehttp "GET /static/css/dist/styles.css?v=1764852005 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:40:05,654 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:40:22,506 autoreload D:\projects\security\main\website\context_processors.py changed, reloading.
+ERROR 2025-12-04 13:40:23,320 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 20, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\context.py", line 259, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\context_processors.py", line 5, in services_dropdown
+    print(services)
+          ^^^^^^^^
+NameError: name 'services' is not defined
+ERROR 2025-12-04 13:40:23,338 basehttp "GET / HTTP/1.1" 500 129660
+INFO 2025-12-04 13:40:23,943 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:40:31,024 autoreload D:\projects\security\main\website\context_processors.py changed, reloading.
+INFO 2025-12-04 13:40:32,046 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:40:32,431 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:40:32,578 basehttp "GET /static/css/dist/styles.css?v=1764852032 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:40:40,011 basehttp "GET / HTTP/1.1" 200 44832
+INFO 2025-12-04 13:40:40,076 basehttp "GET /static/css/dist/styles.css?v=1764852039 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:40:56,154 autoreload Watching for file changes with StatReloader
+ERROR 2025-12-04 13:41:04,700 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 20, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\context.py", line 259, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\context_processors.py", line 5, in services_dropdown
+    print(SERVICES)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-12-04 13:41:04,726 basehttp "GET / HTTP/1.1" 500 129722
+ERROR 2025-12-04 13:41:30,789 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 20, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\context.py", line 259, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\context_processors.py", line 5, in services_dropdown
+    print(SERVICES)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-12-04 13:41:30,792 basehttp "GET / HTTP/1.1" 500 129591
+ERROR 2025-12-04 13:41:33,182 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 20, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\context.py", line 259, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\context_processors.py", line 5, in services_dropdown
+    print(SERVICES)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-12-04 13:41:33,199 basehttp "GET / HTTP/1.1" 500 129722
+ERROR 2025-12-04 13:41:44,858 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 20, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\context.py", line 259, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\context_processors.py", line 5, in services_dropdown
+    print(SERVICES)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-12-04 13:41:44,869 basehttp "GET / HTTP/1.1" 500 129591
+ERROR 2025-12-04 13:41:45,833 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\views.py", line 20, in home
+    return render(request, 'website/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\template\context.py", line 259, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\main\website\context_processors.py", line 5, in services_dropdown
+    print(SERVICES)
+OSError: [Errno 22] Invalid argument
+ERROR 2025-12-04 13:41:45,840 basehttp "GET / HTTP/1.1" 500 129722
+INFO 2025-12-04 13:42:02,263 autoreload D:\projects\security\main\website\context_processors.py changed, reloading.
+INFO 2025-12-04 13:42:03,003 basehttp "GET / HTTP/1.1" 200 44593
+INFO 2025-12-04 13:42:03,302 basehttp "GET / HTTP/1.1" 200 44593
+INFO 2025-12-04 13:42:03,571 basehttp - Broken pipe from ('127.0.0.1', 49666)
+INFO 2025-12-04 13:42:03,751 basehttp "GET /static/css/dist/styles.css?v=1764852123 HTTP/1.1" 200 113959
+INFO 2025-12-04 13:42:05,298 autoreload Watching for file changes with StatReloader
+INFO 2025-12-04 13:44:34,020 autoreload D:\projects\security\main\website\context_processors.py changed, reloading.
+INFO 2025-12-04 13:44:36,526 autoreload Watching for file changes with StatReloader

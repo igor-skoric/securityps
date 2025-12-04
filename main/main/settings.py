@@ -61,6 +61,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                # Dodato
+                'website.context_processors.services_dropdown',
             ],
         },
     },

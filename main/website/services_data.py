@@ -129,8 +129,6 @@ SERVICES = {
         "img": "img/smart_ps_logo.png",
         "text": ""
     },
-
-
 }
 
 
