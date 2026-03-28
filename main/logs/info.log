@@ -10713,3 +10713,51 @@ INFO 2026-03-28 13:33:04,757 basehttp "GET /static/img/slider/slider1.jpg HTTP/1
 INFO 2026-03-28 13:33:04,799 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 40639
 INFO 2026-03-28 13:33:04,844 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
 INFO 2026-03-28 13:33:05,718 basehttp "GET / HTTP/1.1" 200 47770
+WARNING 2026-03-28 13:33:05,995 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-03-28 13:33:05,997 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-03-28 13:33:06,045 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-03-28 13:33:06,054 basehttp "GET /static/css/dist/styles.css?v=1774701185 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:33:06,059 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-03-28 13:33:06,061 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-03-28 13:33:06,181 basehttp "GET /static/js/main.js HTTP/1.1" 200 5182
+INFO 2026-03-28 13:33:06,184 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-03-28 13:33:06,563 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2026-03-28 13:33:06,585 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-03-28 13:33:06,587 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2026-03-28 13:33:06,912 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 200 42801
+INFO 2026-03-28 13:33:06,913 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 40639
+INFO 2026-03-28 13:33:06,918 basehttp "GET /static/img/slider/slider1.jpg HTTP/1.1" 200 190500
+INFO 2026-03-28 13:33:07,078 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2026-03-28 13:33:22,871 basehttp "GET / HTTP/1.1" 200 47770
+WARNING 2026-03-28 13:33:23,038 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-03-28 13:33:23,039 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-03-28 13:33:23,043 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-03-28 13:33:23,053 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-03-28 13:33:23,055 basehttp "GET /static/css/dist/styles.css?v=1774701202 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:33:23,056 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-03-28 13:33:23,230 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-03-28 13:33:23,232 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-03-28 13:33:23,338 basehttp "GET / HTTP/1.1" 200 47770
+WARNING 2026-03-28 13:33:23,446 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-03-28 13:33:23,447 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-03-28 13:33:23,493 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-03-28 13:33:23,497 basehttp "GET /static/css/dist/styles.css?v=1774701203 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:33:23,501 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-03-28 13:33:23,503 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-03-28 13:33:23,582 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-03-28 13:33:23,584 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-03-28 13:33:23,803 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2026-03-28 13:33:23,819 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-03-28 13:33:23,819 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2026-03-28 13:33:23,960 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 40639
+INFO 2026-03-28 13:33:23,960 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 200 42801
+INFO 2026-03-28 13:33:23,961 basehttp "GET /static/img/slider/slider1.jpg HTTP/1.1" 200 190500
+INFO 2026-03-28 13:33:24,254 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2026-03-28 13:33:56,670 basehttp "GET /static/img/slider/cleaning.jpg HTTP/1.1" 304 0
+INFO 2026-03-28 13:36:16,690 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 304 0
+INFO 2026-03-28 13:36:16,690 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 304 0
+INFO 2026-03-28 13:36:16,980 basehttp "GET /static/css/dist/styles.css?v=1774701203 HTTP/1.1" 304 0
+WARNING 2026-03-28 13:36:17,009 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-03-28 13:36:17,009 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-03-28 13:36:26,045 basehttp "GET /static/img/slider/cleaning.jpg HTTP/1.1" 200 111307
+INFO 2026-03-28 13:36:26,045 basehttp "GET /static/img/slider/slider2.jpg HTTP/1.1" 200 149572
