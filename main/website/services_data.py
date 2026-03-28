@@ -218,3 +218,7 @@ ACTIVITIES = {
         "text": "Medicinski centri, uključujući bolnice, klinike i zdravstvene ustanove, igraju ključnu ulogu u pružanju osnovnih zdravstvenih usluga zajednici. Obezbeđivanje bezbednosti pacijenata, medicinskog osoblja, vredne opreme i osetljivih informacija o pacijentima je od najveće važnosti. Smart P&S je specijalizovan za pružanje prilagođenih bezbednosnih rešenja dizajniranih da zadovolje jedinstvene potrebe medicinskih centara, stvarajući bezbedno i podržavajuće okruženje za zdravstvenu zaštitu."
     },
 }
+
+
+
+CLEANING = {}

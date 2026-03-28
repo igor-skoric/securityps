@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .services_data import SERVICES, ACTIVITIES
+from .services_data import SERVICES, ACTIVITIES, CLEANING
 from .forms import ContactForm, JobApplicationForm
 from django.core.mail import send_mail
 from django.conf import settings
@@ -130,3 +130,10 @@ def activities(request):
         "activities": ACTIVITIES
     }
     return render(request, 'website/activities.html', context)
+
+
+def cleaning(request):
+    context = {
+        "cleaning": CLEANING
+    }
+    return render(request, 'website/cleaning.html', context)

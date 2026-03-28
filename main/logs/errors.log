@@ -3085,3 +3085,225 @@ Traceback (most recent call last):
     print(SERVICES)
 OSError: [Errno 22] Invalid argument
 ERROR 2025-12-04 13:41:45,840 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:213 "GET / HTTP/1.1" 500 129722
+ERROR 2025-12-04 17:28:41,857 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-04 17:28:42,048 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-04 17:28:42,365 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-04 17:28:44,262 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-04 17:28:44,372 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-04 18:09:53,662 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-04 18:09:53,974 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2025-12-04 18:09:54,277 D:\projects\security\.venv\Lib\site-packages\django\utils\log.py:253 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+ERROR 2026-03-27 19:29:17,395 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:17,396 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:17,400 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:17,401 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:17,451 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:17,453 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:20,840 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:20,841 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:20,842 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:20,843 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:20,844 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:20,845 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:26,373 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:26,374 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:26,375 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:26,375 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:26,419 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:26,422 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:27,295 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:27,296 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:27,297 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:27,297 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:27,298 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:27,300 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:46,645 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:46,646 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:46,647 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:46,649 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:46,649 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:46,650 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:50,733 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:50,734 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:50,742 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:50,743 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:50,754 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:50,756 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:53,841 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:53,841 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:53,843 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:53,844 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:54,900 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:54,902 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:54,902 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:29:54,904 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:10,078 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:10,080 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:13,654 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:13,657 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:28,121 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:28,125 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:35,188 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:35,189 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:35,190 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:35,190 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:36,969 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:36,969 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:36,970 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:36,971 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:53,975 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:30:53,976 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:28,659 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:28,661 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:38,625 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:38,628 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:55,449 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:55,449 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:55,450 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:31:55,451 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:29,724 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:29,726 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:33,027 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:33,030 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:40,749 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:40,749 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:47,747 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:47,749 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:50,067 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:50,070 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:50,073 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:50,073 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:51,094 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:51,095 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:51,096 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:51,097 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:52,863 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:52,863 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:52,864 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:52,864 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:53,564 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:53,564 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:53,566 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:53,566 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:54,286 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:54,286 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:54,291 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:54,292 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:58,747 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:58,748 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:58,748 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:58,809 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:59,282 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:32:59,283 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:33:06,745 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:33:06,748 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:34:40,564 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:34:40,565 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:34:40,570 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:34:40,573 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:34:40,583 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-03-27 19:34:40,584 D:\projects\security\.venv\Lib\site-packages\django\core\servers\basehttp.py:193 You're accessing the development server over HTTPS, but it only supports HTTP.

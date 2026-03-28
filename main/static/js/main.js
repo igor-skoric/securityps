@@ -56,53 +56,71 @@ mountPage('#app-footer', {
     }
 });
 
-//Home Page
 mountPage('#app-home', {
-    data() {
-        return {
-            currentIndex: 0,
-            slides: [
-              {
-                image: "https://127.0.0.1:8000/static/img/security1.jpg",
-                title: "Безбедност више од 35 година",
-                subtitle: "О безбедности причамо само када се наши купци осећају безбедно",
-                link: "#"
-              },
-//              {
-//                image: "https://127.0.0.1:8000/static/img/logo-png.png",
-//                title: "Drugi slajd",
-//                subtitle: "Opis drugog slajda",
-//                link: "#"
-//              },
-//              {
-//                image: "https://127.0.0.1:8000/static/img/logo-png.png",
-//                title: "Treći slajd",
-//                subtitle: "Opis trećeg slajda",
-//                link: "#"
-//              }
-            ]
-      };
+  delimiters: ['[[', ']]'],
+  data() {
+    return {
+      currentIndex: 0,
+      autoSlideInterval: null,
+      slideDuration: 5000,
+      slides: [
+        {
+            image: "/static/img/slider/slider1.jpg",
+            mobile: "/static/img/slider/slider1.jpg",
+            title: "Obezbedite svoje poslovanje"
+        },
+        {
+            image: "/static/img/slider/slider2.jpg",
+            mobile: "/static/img/slider/slider2-mobile.jpg"
+        },
+        {
+            image: "/static/img/slider/cleaning.jpg",
+            mobile: "/static/img/slider/cleaning-mobile.jpg",
+        }
+      ]
+    };
+  },
+
+  methods: {
+    nextSlide() {
+      this.currentIndex = (this.currentIndex + 1) % this.slides.length;
     },
-     methods: {
-      nextSlide() {
-        this.currentIndex = (this.currentIndex + 1) % this.slides.length;
-      },
-      prevSlide() {
-        this.currentIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
-      },
-      goToSlide(index) {
-        this.currentIndex = index;
+
+    prevSlide() {
+      this.currentIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
+    },
+
+    goToSlide(index) {
+      this.currentIndex = index;
+    },
+
+    startAuto() {
+      this.stopAuto();
+      this.autoSlideInterval = setInterval(() => {
+        this.nextSlide();
+      }, this.slideDuration);
+    },
+
+    pauseAuto() {
+      this.stopAuto();
+    },
+
+    stopAuto() {
+      if (this.autoSlideInterval) {
+        clearInterval(this.autoSlideInterval);
+        this.autoSlideInterval = null;
       }
-    },
-    mounted() {
-      // Automatski prelazak slajdova svakih 5 sekundi
-//      setInterval(() => {
-//        this.nextSlide();
-//      }, 7000);
     }
+  },
+
+  mounted() {
+    this.startAuto();
+  },
+
+  beforeUnmount() {
+    this.stopAuto();
+  }
 });
-
-
 
 mountPage('#app-single-services', {
   data() {

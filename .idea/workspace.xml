@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="new drop down">
+    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="false">
+      <change afterPath="$PROJECT_DIR$/main/static/img/slider/slider2-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/img/slider/slider2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/website/templates/website/cleaning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/img/hero-index.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/slider/slider1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/css/dist/styles.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/js/main.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/js/main.js.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/staticfiles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/theme/static/css/dist/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/services_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/services_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +84,7 @@
       <recent name="D:\projects\security\main\website" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\security\main\static\img\slider" />
       <recent name="D:\projects\security\main\static\img" />
       <recent name="D:\projects\security\main\static" />
     </key>
@@ -301,7 +322,31 @@
       <option name="project" value="LOCAL" />
       <updated>1764852939557</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="false">
+      <option name="closed" value="true" />
+      <created>1764853022941</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1764853022941</updated>
+    </task>
+    <task id="LOCAL-00026" summary="false">
+      <option name="closed" value="true" />
+      <created>1764853038094</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1764853038094</updated>
+    </task>
+    <task id="LOCAL-00027" summary="false">
+      <option name="closed" value="true" />
+      <created>1764853148399</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1764853148399</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +370,7 @@
     <MESSAGE value="contact 2" />
     <MESSAGE value="contact 3" />
     <MESSAGE value="new drop down" />
-    <option name="LAST_COMMIT_MESSAGE" value="new drop down" />
+    <MESSAGE value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="false" />
   </component>
 </project>
