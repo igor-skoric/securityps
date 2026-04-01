@@ -10837,3 +10837,273 @@ INFO 2026-03-28 13:46:53,331 basehttp "GET /static/img/icons/cib_viber.png HTTP/
 INFO 2026-03-28 13:46:53,332 basehttp "GET /static/img/icons/fontisto_email.png HTTP/1.1" 200 9443
 INFO 2026-03-28 13:46:53,332 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
 INFO 2026-03-28 13:46:53,334 basehttp "GET /static/img/icons/connections.jpg HTTP/1.1" 200 53053
+INFO 2026-03-28 13:47:44,577 basehttp "GET /contact HTTP/1.1" 200 22052
+INFO 2026-03-28 13:47:44,655 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-03-28 13:47:44,659 basehttp "GET /static/css/dist/styles.css?v=1774702064 HTTP/1.1" 200 121426
+WARNING 2026-03-28 13:47:44,693 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-03-28 13:47:44,694 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-03-28 13:47:44,788 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-03-28 13:47:44,790 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-03-28 13:47:44,836 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-03-28 13:47:44,837 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-03-28 13:47:44,979 basehttp "GET /static/img/icons/connections.jpg HTTP/1.1" 200 53053
+INFO 2026-03-28 13:47:44,997 basehttp "GET /static/img/icons/ic_baseline-phone.png HTTP/1.1" 200 6858
+INFO 2026-03-28 13:47:45,013 basehttp "GET /static/img/icons/fontisto_email.png HTTP/1.1" 200 9443
+INFO 2026-03-28 13:47:45,014 basehttp "GET /static/img/icons/cib_viber.png HTTP/1.1" 200 18870
+INFO 2026-03-28 13:47:45,096 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-03-28 13:47:54,141 basehttp "GET /contact HTTP/1.1" 200 22052
+INFO 2026-03-28 13:47:54,243 basehttp "GET /static/css/dist/styles.css?v=1774702074 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:48:24,259 basehttp "GET /contact HTTP/1.1" 200 22292
+INFO 2026-03-28 13:48:24,519 basehttp "GET /static/css/dist/styles.css?v=1774702104 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:48:37,887 basehttp "GET /contact HTTP/1.1" 200 22267
+INFO 2026-03-28 13:48:37,984 basehttp "GET /static/css/dist/styles.css?v=1774702117 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:48:54,523 basehttp "GET /contact HTTP/1.1" 200 22292
+INFO 2026-03-28 13:48:54,610 basehttp "GET /static/css/dist/styles.css?v=1774702134 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:49:28,767 basehttp "GET /contact HTTP/1.1" 200 22293
+INFO 2026-03-28 13:49:28,935 basehttp "GET /static/css/dist/styles.css?v=1774702168 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:49:28,941 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-03-28 13:50:02,029 basehttp "GET /contact HTTP/1.1" 200 22295
+INFO 2026-03-28 13:50:02,154 basehttp "GET /static/css/dist/styles.css?v=1774702201 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:50:05,147 basehttp "GET /contact HTTP/1.1" 200 22296
+INFO 2026-03-28 13:50:05,198 basehttp "GET /static/css/dist/styles.css?v=1774702205 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:50:08,158 basehttp "GET /contact HTTP/1.1" 200 22296
+INFO 2026-03-28 13:50:08,270 basehttp "GET /static/css/dist/styles.css?v=1774702208 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:50:22,808 basehttp "GET /contact HTTP/1.1" 200 22293
+INFO 2026-03-28 13:50:22,928 basehttp "GET /static/css/dist/styles.css?v=1774702222 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:51:11,504 basehttp "GET /contact HTTP/1.1" 200 22293
+INFO 2026-03-28 13:51:11,616 basehttp "GET /static/css/dist/styles.css?v=1774702271 HTTP/1.1" 200 121426
+INFO 2026-03-28 13:51:11,621 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-04-01 21:29:24,974 autoreload Watching for file changes with StatReloader
+INFO 2026-04-01 21:29:28,731 basehttp "GET / HTTP/1.1" 200 47770
+INFO 2026-04-01 21:29:28,738 basehttp "GET / HTTP/1.1" 200 47770
+INFO 2026-04-01 21:29:29,086 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-04-01 21:29:29,140 basehttp "GET /static/css/dist/styles.css?v=1775071768 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:29:29,152 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-04-01 21:29:29,159 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-04-01 21:29:29,164 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-04-01 21:29:29,167 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2026-04-01 21:29:29,169 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2026-04-01 21:29:29,181 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-04-01 21:29:29,184 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-04-01 21:29:29,316 basehttp "GET /static/img/slider/slider1.jpg HTTP/1.1" 200 190500
+INFO 2026-04-01 21:29:29,347 basehttp "GET /static/img/slider/cleaning.jpg HTTP/1.1" 200 111307
+INFO 2026-04-01 21:29:29,349 basehttp "GET /static/img/slider/slider2.jpg HTTP/1.1" 200 149572
+INFO 2026-04-01 21:29:29,350 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+WARNING 2026-04-01 21:29:29,594 log Not Found: /favicon.ico
+WARNING 2026-04-01 21:29:29,594 basehttp "GET /favicon.ico HTTP/1.1" 404 5331
+WARNING 2026-04-01 21:29:29,601 log Not Found: /favicon.ico
+WARNING 2026-04-01 21:29:29,601 basehttp "GET /favicon.ico HTTP/1.1" 404 5331
+INFO 2026-04-01 21:29:58,171 basehttp "GET /cleaning HTTP/1.1" 200 18694
+INFO 2026-04-01 21:29:58,234 basehttp "GET /static/css/dist/styles.css?v=1775071798 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:29:58,332 basehttp "GET /static/img/icons/services2.jpg HTTP/1.1" 200 19817
+INFO 2026-04-01 21:33:23,829 basehttp "GET /cleaning HTTP/1.1" 200 18694
+INFO 2026-04-01 21:33:23,908 basehttp "GET /static/css/dist/styles.css?v=1775072003 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:33:34,010 basehttp "GET /cleaning HTTP/1.1" 200 18694
+INFO 2026-04-01 21:33:34,080 basehttp "GET /static/css/dist/styles.css?v=1775072014 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:34:50,393 basehttp "GET /cleaning HTTP/1.1" 200 18693
+INFO 2026-04-01 21:34:50,582 basehttp "GET /static/css/dist/styles.css?v=1775072090 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:34:50,614 basehttp "GET /static/img/icons/services.jpg HTTP/1.1" 200 43156
+INFO 2026-04-01 21:34:57,511 basehttp "GET /cleaning HTTP/1.1" 200 18689
+INFO 2026-04-01 21:34:57,579 basehttp "GET /static/css/dist/styles.css?v=1775072097 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:34:57,599 basehttp "GET /static/img/cleaning/1.jpg HTTP/1.1" 404 1981
+INFO 2026-04-01 21:35:08,735 basehttp "GET /cleaning HTTP/1.1" 200 18689
+INFO 2026-04-01 21:35:08,802 basehttp "GET /static/css/dist/styles.css?v=1775072108 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:35:08,807 basehttp "GET /static/img/cleaning/2.jpg HTTP/1.1" 404 1981
+INFO 2026-04-01 21:35:11,886 basehttp "GET /cleaning HTTP/1.1" 200 18689
+INFO 2026-04-01 21:35:11,930 basehttp "GET /static/css/dist/styles.css?v=1775072111 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:35:11,948 basehttp "GET /static/img/cleaning/2.jpg HTTP/1.1" 404 1981
+INFO 2026-04-01 21:35:14,980 basehttp "GET /cleaning HTTP/1.1" 200 18689
+INFO 2026-04-01 21:35:15,043 basehttp "GET /static/css/dist/styles.css?v=1775072114 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:35:15,061 basehttp "GET /static/img/cleaning/2.jpg HTTP/1.1" 404 1981
+INFO 2026-04-01 21:35:18,972 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:35:18,983 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:35:19,027 basehttp "GET /static/css/dist/styles.css?v=1775072118 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:35:19,053 basehttp "GET /static/img/cleaning/2.jpeg HTTP/1.1" 200 113242
+INFO 2026-04-01 21:35:28,122 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:35:28,184 basehttp "GET /static/css/dist/styles.css?v=1775072128 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:35:28,203 basehttp "GET /static/img/cleaning/3.jpeg HTTP/1.1" 404 1984
+INFO 2026-04-01 21:35:28,211 basehttp "GET /cleaning HTTP/1.1" 200 18690
+WARNING 2026-04-01 21:35:28,291 basehttp "GET /static/img/cleaning/3.jpeg HTTP/1.1" 404 1984
+INFO 2026-04-01 21:35:36,270 basehttp "GET /cleaning HTTP/1.1" 200 18689
+INFO 2026-04-01 21:35:36,366 basehttp "GET /static/css/dist/styles.css?v=1775072136 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:35:36,382 basehttp "GET /static/img/cleaning/4.jpg HTTP/1.1" 200 315158
+INFO 2026-04-01 21:35:42,406 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:35:42,489 basehttp "GET /static/css/dist/styles.css?v=1775072142 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:35:42,510 basehttp "GET /static/img/cleaning/1.webp HTTP/1.1" 200 648282
+INFO 2026-04-01 21:35:42,587 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:35:54,656 basehttp "GET /cleaning HTTP/1.1" 200 18689
+INFO 2026-04-01 21:35:54,777 basehttp "GET /static/css/dist/styles.css?v=1775072154 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:35:54,819 basehttp "GET /static/img/cleaning/3.png HTTP/1.1" 200 1240366
+INFO 2026-04-01 21:35:59,751 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:35:59,835 basehttp "GET /static/css/dist/styles.css?v=1775072159 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:35:59,841 basehttp "GET /static/img/cleaning/3.webp HTTP/1.1" 404 1984
+INFO 2026-04-01 21:36:01,778 basehttp "GET /cleaning HTTP/1.1" 200 18689
+INFO 2026-04-01 21:36:01,840 basehttp "GET /static/css/dist/styles.css?v=1775072161 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:36:01,860 basehttp "GET /static/img/cleaning/.webp HTTP/1.1" 404 1981
+INFO 2026-04-01 21:36:02,832 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:36:02,978 basehttp "GET /static/css/dist/styles.css?v=1775072162 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:36:03,336 basehttp "GET /cleaning HTTP/1.1" 200 18690
+INFO 2026-04-01 21:36:03,375 basehttp "GET /static/css/dist/styles.css?v=1775072163 HTTP/1.1" 200 121426
+WARNING 2026-04-01 21:36:14,209 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-01 21:36:14,210 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-04-01 21:36:36,910 basehttp "GET /cleaning HTTP/1.1" 200 18690
+WARNING 2026-04-01 21:36:37,028 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-01 21:36:37,028 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-04-01 21:36:37,043 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-04-01 21:36:37,048 basehttp "GET /static/css/dist/styles.css?v=1775072196 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:36:37,135 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-04-01 21:36:37,135 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-04-01 21:36:37,179 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-04-01 21:36:37,181 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+WARNING 2026-04-01 21:36:37,250 basehttp "GET /static/img/cleaning/1.webp HTTP/1.1" 404 1984
+INFO 2026-04-01 21:36:37,263 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-04-01 21:36:37,343 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2026-04-01 21:36:40,983 basehttp "GET /cleaning HTTP/1.1" 200 18693
+WARNING 2026-04-01 21:36:41,090 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-01 21:36:41,092 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-04-01 21:36:41,143 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-04-01 21:36:41,180 basehttp "GET /static/css/dist/styles.css?v=1775072200 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:36:41,192 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-04-01 21:36:41,194 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-04-01 21:36:41,223 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-04-01 21:36:41,226 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-04-01 21:36:41,330 basehttp "GET /static/img/cleaning/hero.webp HTTP/1.1" 200 648282
+INFO 2026-04-01 21:36:41,347 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-04-01 21:36:41,455 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+INFO 2026-04-01 21:36:43,538 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-04-01 21:36:43,539 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-04-01 21:36:43,539 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-04-01 21:36:52,372 basehttp "GET /cleaning HTTP/1.1" 200 18693
+INFO 2026-04-01 21:36:52,434 basehttp "GET /static/css/dist/styles.css?v=1775072212 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:36:53,116 basehttp "GET /jobs HTTP/1.1" 200 17486
+INFO 2026-04-01 21:36:53,162 basehttp "GET /static/css/dist/styles.css?v=1775072213 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:36:53,184 basehttp "GET /static/img/icons/connections.jpg HTTP/1.1" 200 53053
+INFO 2026-04-01 21:36:53,825 basehttp "GET /activities HTTP/1.1" 200 21714
+INFO 2026-04-01 21:36:55,919 basehttp "GET /cleaning HTTP/1.1" 200 18693
+INFO 2026-04-01 21:36:55,996 basehttp "GET /static/css/dist/styles.css?v=1775072215 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:36:59,353 basehttp "GET / HTTP/1.1" 200 47770
+INFO 2026-04-01 21:36:59,426 basehttp "GET /static/css/dist/styles.css?v=1775072219 HTTP/1.1" 200 121426
+INFO 2026-04-01 21:37:51,762 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2026-04-01 21:37:52,540 autoreload Watching for file changes with StatReloader
+WARNING 2026-04-01 21:37:52,744 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:52,745 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:52,849 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:52,850 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:52,960 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:52,961 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,067 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,067 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,176 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,176 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,284 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,285 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,391 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,391 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,499 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,500 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,608 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,608 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,714 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,714 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,825 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,825 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:53,933 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:53,933 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:54,044 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:54,044 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:54,152 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:54,152 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:54,261 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:54,261 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:54,369 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:54,369 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:54,479 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:54,479 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:54,588 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:54,588 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:54,693 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:54,693 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:55,003 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:55,003 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:55,314 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:55,314 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:55,623 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:55,624 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:55,934 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:55,934 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:56,243 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:56,243 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:56,555 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:56,556 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:56,865 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:56,865 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:57,178 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:57,179 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:57,484 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:57,484 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:57,799 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:57,799 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:58,108 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:58,108 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:58,420 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:58,421 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:58,732 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:58,732 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:59,043 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:59,043 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:59,354 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:59,354 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:59,662 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:59,662 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:37:59,973 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:37:59,973 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:00,283 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:00,283 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:00,594 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:00,594 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:00,903 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:00,904 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:01,908 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:01,909 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:02,915 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:02,915 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:03,925 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:03,926 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:04,933 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:04,933 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:05,941 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:05,941 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:06,947 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:06,948 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:07,960 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:07,960 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:08,969 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:08,969 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:09,979 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:09,980 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:10,988 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:10,988 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:11,994 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:11,994 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:13,007 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:13,007 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:14,015 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:14,015 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:15,024 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:15,024 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:16,034 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:16,036 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:17,048 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:17,048 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:18,056 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:18,057 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:19,067 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:19,067 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:20,084 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:20,084 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:21,096 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:21,096 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:24,113 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:24,114 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:27,121 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:27,121 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179

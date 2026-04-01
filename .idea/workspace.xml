@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="commit 28 mart">
+    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="commit 28 mart 2x">
+      <change afterPath="$PROJECT_DIR$/main/static/img/cleaning/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/img/cleaning/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/img/cleaning/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/img/cleaning/hero.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/main/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/templates/website/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/website/templates/website/cleaning.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/cleaning.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,7 @@
       <recent name="D:\projects\security\main\website" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\security\main\static\img\cleaning" />
       <recent name="D:\projects\security\main\static\img\slider" />
       <recent name="D:\projects\security\main\static\img" />
       <recent name="D:\projects\security\main\static" />
@@ -345,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774701466220</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="commit 28 mart 2x">
+      <option name="closed" value="true" />
+      <created>1774702307108</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1774702307108</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +384,7 @@
     <MESSAGE value="new drop down" />
     <MESSAGE value="false" />
     <MESSAGE value="commit 28 mart" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 28 mart" />
+    <MESSAGE value="commit 28 mart 2x" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 28 mart 2x" />
   </component>
 </project>
