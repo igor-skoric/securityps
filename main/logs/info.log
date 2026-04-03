@@ -11109,3 +11109,300 @@ WARNING 2026-04-01 21:38:27,121 log Not Found: /__reload__/events/
 WARNING 2026-04-01 21:38:27,121 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
 WARNING 2026-04-01 21:38:30,140 log Not Found: /__reload__/events/
 WARNING 2026-04-01 21:38:30,141 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:33,153 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:33,153 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:36,178 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:36,179 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:39,197 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:39,198 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:42,204 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:42,205 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:45,215 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:45,216 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:48,256 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:48,257 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:51,276 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:51,277 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:54,295 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:54,295 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:38:57,307 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:38:57,308 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:00,325 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:00,325 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:03,344 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:03,344 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:06,352 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:06,353 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:09,367 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:09,367 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:12,385 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:12,386 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:15,405 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:15,406 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:18,420 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:18,423 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:21,439 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:21,440 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:24,461 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:24,462 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:27,464 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:27,465 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:30,474 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:30,474 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:33,481 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:33,482 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:36,492 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:36,492 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:39,507 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:39,508 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:42,518 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:42,519 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:45,543 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:45,544 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:48,564 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:48,564 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:51,695 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:51,695 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+WARNING 2026-04-01 21:39:54,720 log Not Found: /__reload__/events/
+WARNING 2026-04-01 21:39:54,721 basehttp "GET /__reload__/events/ HTTP/1.1" 404 179
+ERROR 2026-04-01 22:03:01,848 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:03:01,968 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2026-04-01 22:03:02,101 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:03:02,102 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2026-04-01 22:12:52,047 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:12:52,049 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2026-04-01 22:12:52,189 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:12:52,191 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+ERROR 2026-04-01 22:12:53,684 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:12:53,686 basehttp "GET / HTTP/1.1" 400 143
+ERROR 2026-04-01 22:12:53,999 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:12:54,000 basehttp "GET /favicon.ico HTTP/1.1" 400 143
+INFO 2026-04-01 22:13:12,623 autoreload D:\projects\security\main\main\settings.py changed, reloading.
+INFO 2026-04-01 22:13:13,535 autoreload Watching for file changes with StatReloader
+ERROR 2026-04-01 22:13:14,091 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:13:14,092 basehttp "GET / HTTP/1.1" 400 74362
+ERROR 2026-04-01 22:13:14,267 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:13:14,268 basehttp "GET /favicon.ico HTTP/1.1" 400 74054
+ERROR 2026-04-01 22:13:18,149 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:13:18,150 basehttp "GET / HTTP/1.1" 400 74490
+ERROR 2026-04-01 22:13:18,463 log Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\projects\security\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\projects\security\.venv\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2026-04-01 22:13:18,464 basehttp "GET /favicon.ico HTTP/1.1" 400 74319
+INFO 2026-04-01 22:13:31,959 basehttp "GET / HTTP/1.1" 200 47887
+INFO 2026-04-01 22:13:32,427 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-04-01 22:13:32,470 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-04-01 22:13:32,474 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-04-01 22:13:32,476 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-04-01 22:13:32,486 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-04-01 22:13:32,489 basehttp "GET /static/css/dist/styles.css?v=1775074411 HTTP/1.1" 200 121426
+INFO 2026-04-01 22:13:32,494 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2026-04-01 22:13:32,495 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-04-01 22:13:32,495 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2026-04-01 22:13:32,600 basehttp "GET /static/img/slider/cleaning.jpg HTTP/1.1" 200 111307
+INFO 2026-04-01 22:13:32,601 basehttp "GET /static/img/slider/slider2.jpg HTTP/1.1" 200 149572
+INFO 2026-04-01 22:13:32,601 basehttp "GET /static/img/slider/slider1.jpg HTTP/1.1" 200 190500
+INFO 2026-04-01 22:13:32,618 basehttp "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+WARNING 2026-04-01 22:13:32,719 log Not Found: /favicon.ico
+WARNING 2026-04-01 22:13:32,719 basehttp "GET /favicon.ico HTTP/1.1" 404 5331
+INFO 2026-04-01 22:13:34,050 basehttp "GET /cleaning HTTP/1.1" 200 18810
+INFO 2026-04-01 22:13:34,106 basehttp "GET /static/css/dist/styles.css?v=1775074414 HTTP/1.1" 200 121426
+INFO 2026-04-01 22:13:34,133 basehttp "GET /static/img/cleaning/hero.webp HTTP/1.1" 200 648282
+INFO 2026-04-01 22:13:48,940 basehttp "GET /cleaning HTTP/1.1" 200 18810
+INFO 2026-04-01 22:13:48,994 basehttp "GET /static/css/dist/styles.css?v=1775074428 HTTP/1.1" 200 121426
+INFO 2026-04-01 22:15:59,462 basehttp "GET /cleaning HTTP/1.1" 200 18809
+INFO 2026-04-01 22:15:59,558 basehttp "GET /static/css/dist/styles.css?v=1775074559 HTTP/1.1" 200 121426
+WARNING 2026-04-01 22:15:59,766 log Not Found: /favicon.ico
+WARNING 2026-04-01 22:15:59,766 basehttp "GET /favicon.ico HTTP/1.1" 404 5331
+INFO 2026-04-01 22:16:39,598 basehttp "GET /cleaning HTTP/1.1" 200 18823
+INFO 2026-04-01 22:16:39,709 basehttp "GET /static/css/dist/styles.css?v=1775074599 HTTP/1.1" 200 121426
+INFO 2026-04-03 20:09:18,188 autoreload Watching for file changes with StatReloader
+INFO 2026-04-03 20:10:28,446 basehttp "GET / HTTP/1.1" 200 47887
+INFO 2026-04-03 20:10:28,454 basehttp "GET / HTTP/1.1" 200 47887
+INFO 2026-04-03 20:10:28,855 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-04-03 20:10:28,874 basehttp "GET /static/css/dist/styles.css?v=1775239828 HTTP/1.1" 200 121426
+INFO 2026-04-03 20:10:28,898 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2026-04-03 20:10:28,899 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2026-04-03 20:10:28,913 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-04-03 20:10:28,914 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-04-03 20:10:29,085 basehttp "GET /static/img/slider/slider1.jpg HTTP/1.1" 200 190500
+INFO 2026-04-03 20:10:29,100 basehttp "GET /static/img/slider/cleaning.jpg HTTP/1.1" 200 111307
+INFO 2026-04-03 20:10:29,102 basehttp "GET /static/img/slider/slider2.jpg HTTP/1.1" 200 225700
+WARNING 2026-04-03 20:10:29,321 log Not Found: /favicon.ico
+WARNING 2026-04-03 20:10:29,321 basehttp "GET /favicon.ico HTTP/1.1" 404 5331
+WARNING 2026-04-03 20:10:29,329 log Not Found: /favicon.ico
+WARNING 2026-04-03 20:10:29,330 basehttp "GET /favicon.ico HTTP/1.1" 404 5331
+INFO 2026-04-03 20:10:36,833 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 200 36291
+INFO 2026-04-03 20:10:36,833 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 46076
+WARNING 2026-04-03 20:10:36,911 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-03 20:10:36,912 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-04-03 20:10:38,258 basehttp "GET / HTTP/1.1" 200 47887
+WARNING 2026-04-03 20:10:38,312 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-03 20:10:38,313 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-04-03 20:10:38,335 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-04-03 20:10:38,363 basehttp "GET /static/css/dist/styles.css?v=1775239838 HTTP/1.1" 200 121426
+INFO 2026-04-03 20:10:38,372 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-04-03 20:10:38,373 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-04-03 20:10:38,378 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-04-03 20:10:38,394 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-04-03 20:10:38,454 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2026-04-03 20:10:38,461 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-04-03 20:10:38,461 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2026-04-03 20:10:38,500 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 200 36291
+INFO 2026-04-03 20:10:38,501 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 46076
+INFO 2026-04-03 20:10:38,502 basehttp "GET /static/img/slider/slider1.jpg HTTP/1.1" 200 190500
+INFO 2026-04-03 20:10:45,218 basehttp "GET / HTTP/1.1" 200 47887
+WARNING 2026-04-03 20:10:45,301 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-03 20:10:45,302 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
+INFO 2026-04-03 20:10:45,324 basehttp "GET /static/css/styles.css HTTP/1.1" 200 0
+INFO 2026-04-03 20:10:45,327 basehttp "GET /static/css/dist/styles.css?v=1775239845 HTTP/1.1" 200 121426
+INFO 2026-04-03 20:10:45,330 basehttp "GET /static/img/icons/facebook.png HTTP/1.1" 200 6350
+INFO 2026-04-03 20:10:45,331 basehttp "GET /static/img/icons/instagram.png HTTP/1.1" 200 60380
+INFO 2026-04-03 20:10:45,372 basehttp "GET /static/js/main.js HTTP/1.1" 200 5103
+INFO 2026-04-03 20:10:45,373 basehttp "GET /static/img/logo.png HTTP/1.1" 200 176359
+INFO 2026-04-03 20:10:45,452 basehttp "GET /static/img/about.jpg HTTP/1.1" 200 140596
+INFO 2026-04-03 20:10:45,456 basehttp "GET /static/img/icons/question.png HTTP/1.1" 200 28185
+INFO 2026-04-03 20:10:45,459 basehttp "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+INFO 2026-04-03 20:10:45,500 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 200 36291
+INFO 2026-04-03 20:10:45,500 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 46076
+INFO 2026-04-03 20:10:45,501 basehttp "GET /static/img/slider/slider1.jpg HTTP/1.1" 200 190500
+WARNING 2026-04-03 20:10:45,628 log Not Found: /favicon.ico
+WARNING 2026-04-03 20:10:45,628 basehttp "GET /favicon.ico HTTP/1.1" 404 5331
+INFO 2026-04-03 20:13:23,893 basehttp "GET /static/img/slider/cleaning.jpg HTTP/1.1" 200 111307
+INFO 2026-04-03 20:13:23,895 basehttp "GET /static/img/slider/slider2.jpg HTTP/1.1" 200 225700
+INFO 2026-04-03 20:13:24,348 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 200 36291
+INFO 2026-04-03 20:13:24,348 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 46076
+INFO 2026-04-03 20:13:25,163 basehttp "GET /static/img/slider/cleaning.jpg HTTP/1.1" 200 111307
+INFO 2026-04-03 20:13:25,165 basehttp "GET /static/img/slider/slider2.jpg HTTP/1.1" 200 225700
+INFO 2026-04-03 20:13:25,599 basehttp "GET /static/img/slider/slider2-mobile.jpg HTTP/1.1" 200 36291
+INFO 2026-04-03 20:13:25,599 basehttp "GET /static/img/slider/cleaning-mobile.jpg HTTP/1.1" 200 46076
+WARNING 2026-04-03 20:13:38,319 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-03 20:13:38,321 basehttp "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5442
