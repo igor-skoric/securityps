@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="commit 1. april">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/main/logs/info.log" afterDir="false" />
+    <list default="true" id="30a6b980-86fb-42ef-8ccc-35f4f65e7008" name="Changes" comment="commit 4. april">
       <change beforePath="$PROJECT_DIR$/main/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/img/slider/cleaning-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/slider/cleaning-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/img/slider/slider2-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/slider/slider2-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/img/slider/slider2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/slider/slider2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/staticfiles/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/staticfiles/staticfiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/website/templates/website/cleaning.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/website/templates/website/cleaning.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +367,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775072317391</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="commit 4. april">
+      <option name="closed" value="true" />
+      <created>1775240259959</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1775240259960</updated>
+    </task>
+    <task id="LOCAL-00034" summary="commit 4. april">
+      <option name="closed" value="true" />
+      <created>1775240265228</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1775240265229</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,6 +411,7 @@
     <MESSAGE value="commit 28 mart" />
     <MESSAGE value="commit 28 mart 2x" />
     <MESSAGE value="commit 1. april" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 1. april" />
+    <MESSAGE value="commit 4. april" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4. april" />
   </component>
 </project>
