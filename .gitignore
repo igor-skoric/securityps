@@ -2,3 +2,7 @@
 /.venv
 /Procfile.tailwind
 /main/Procfile.tailwind
+__pycache__/
+*.pyc
+.idea/
+main/logs/*.log

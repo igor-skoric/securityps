@@ -40,7 +40,7 @@ def contact(request):
                 subject="Nova poruka sa sajta",
                 message=full_message,
                 from_email=settings.EMAIL_HOST_USER,  # koristi se iz settings.py
-                recipient_list=['officesmartps@gmail.com', settings.EMAIL_HOST_USER],  # stiže na tvoj email
+                recipient_list=[settings.EMAIL_HOST_USER],
                 fail_silently=False,
             )
 
@@ -66,7 +66,7 @@ def jobs(request):
                     f"Poruka: {application.message}"
                 ),
                 from_email=settings.DEFAULT_FROM_EMAIL,
-                to=[settings.DEFAULT_FROM_EMAIL, 'officesmartps@gmail.com'],  # zameni sa pravim email-om
+                to=[settings.DEFAULT_FROM_EMAIL],
             )
 
             if application.cv:
